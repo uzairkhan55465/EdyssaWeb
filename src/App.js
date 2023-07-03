@@ -1,8 +1,11 @@
 import React from 'react'
+import TechnologyFeature from './pages/Technology/TechnologyFeature'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <TechnologyFeature/>
+    </div>
   )
 }
 

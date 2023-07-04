@@ -7,7 +7,7 @@ import "./style.css"
 const PopularServices = () => {
 
     useEffect(() => {
-        Aos.init();
+        Aos.init({disable: 'mobile'});
     }, []);
 
     return (

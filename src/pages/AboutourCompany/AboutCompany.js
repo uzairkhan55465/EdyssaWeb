@@ -6,7 +6,7 @@ import AboutCompanyCard from './AboutCompanyCard';
 
 const Clients = () => {
     useEffect(() => {
-        Aos.init();
+        Aos.init({disable: 'mobile'});
     }, []);
     return (
         <>

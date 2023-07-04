@@ -6,7 +6,7 @@ import Image1 from "../../assets/images/mission-visson.png"
 import Aos from 'aos';
 const MissionVision = () => {
     useEffect(() => {
-        Aos.init();
+        Aos.init({disable: 'mobile'});
     }, []);
     return (
         <div style={{paddingBottom:"40px"}}>

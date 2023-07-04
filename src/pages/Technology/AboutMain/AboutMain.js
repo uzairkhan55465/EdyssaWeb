@@ -5,7 +5,7 @@ import Image1 from "../../../assets/images/hero-two.png"
 import Aos from 'aos'
 const AboutMain = () => {
     useEffect(() => {
-        Aos.init();
+        Aos.init({disable: 'mobile'});
     }, []);
     return (
         <div className='bg-img pt-4'>

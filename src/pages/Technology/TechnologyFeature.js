@@ -11,7 +11,7 @@ import Aos from 'aos';
 const TechnologyFeature = () => {
     library.add(faCoffee, faEllipsisH);
     useEffect(() => {
-        Aos.init();
+        Aos.init({disable: 'mobile'});
     }, []);
     return (
         <div style={{paddingTop:"40px"}}>

@@ -1,0 +1,78 @@
+.technology-heading {
+    font-size: 18px;
+    font-weight: 700;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    color: #01c9f5;
+    text-decoration: underline;
+}
+
+.icon-color {
+    color: #01c9f5;
+}
+
+.card-skills {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 135px !important;
+    height: 145px;
+    background: rgb(255, 255, 255);
+    border-radius: 0.4em;
+    box-shadow: 0.3em 0.3em 0.7em #00000015;
+    transition: border 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border: rgb(250, 250, 250) 0.2em solid;
+}
+
+.card-skills:hover {
+    border: #006fff 0.2em solid;
+}
+
+.btn-skills {
+    background-color: #01c9f5 !important;
+    border: 0px !important;
+    margin-top: 8px;
+
+}
+
+@media (max-width: 576px) {
+
+    /* Small devices */
+    .card-skills {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+
+    /* Medium devices */
+    .card-skills {
+        width: 50%;
+        height: 250px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+
+    /* Large devices */
+    .card-skills {
+        width: 33.33%;
+        height: 300px;
+    }
+}
+
+@media (min-width: 993px) {
+
+    /* Extra-large devices */
+    .card-skills {
+        width: 25%;
+        height: 350px;
+    }
+}

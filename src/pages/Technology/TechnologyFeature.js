@@ -14,7 +14,7 @@ const TechnologyFeature = () => {
         Aos.init();
     }, []);
     return (
-        <div style={{paddingTop:"40px",paddingBottom:"40px"}}>
+        <div style={{paddingTop:"40px"}}>
             <div style={{ display: 'flex', justifyContent: "center" }} data-aos="fade-right" data-aos-duration="1000">
                 <div className='ps-2 pe-2'>
                     <BsThreeDots className='icon-color' />

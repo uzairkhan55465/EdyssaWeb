@@ -11,7 +11,7 @@ const Clients = () => {
     return (
         <>
             <div style={{ paddingTop: "40px" }} data-aos="fade-right" data-aos-duration="1000">
-                <Container>
+                {/* <Container> */}
                     <Col className="text-center mx-auto" lg={10} md={12} sm={12}  >
                         <h2>
                             <span class="card-1-t animate bottom scroll-reveal "> Your Digital Journey with Our
@@ -23,7 +23,7 @@ const Clients = () => {
                         </p>
                     </Col>
                     <AboutCompanyCard />
-                </Container >
+                {/* </Container > */}
             </div>
 
 

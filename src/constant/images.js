@@ -11,7 +11,11 @@ import Logo4 from "./../assets/images/logo4.png"
 import Logo5 from "./../assets/images/logo5.png"
 import Logo6 from "./../assets/images/logo6.png"
 import Logo7 from "./../assets/images/logo7.png"
-
+import Member1 from "./../assets/images/member1.jpg"
+import Member2 from "./../assets/images/member2.jpg"
+import Member3 from "./../assets/images/member3.jpg"
+import Member4 from "./../assets/images/member4.jpg"
+import thick from "./../assets/images/thick.png"
 
 const ExportObject = {
     Image1,
@@ -27,6 +31,8 @@ const ExportObject = {
     Logo5,
     Logo6,
     Logo7,
+    Member1, Member2, Member3, Member4,
+    thick
 }
 
 export default ExportObject

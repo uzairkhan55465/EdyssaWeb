@@ -7,16 +7,24 @@ import Clients from './pages/AboutourCompany/AboutCompany';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import MissionVision from './pages/MissionandVision/MissionVision';
-import PopularServices from './pages/PopularServices/PopularServices';
+import TeamMembers from './pages/TeamMembers/TeamMembers';
+import Foooter from './Components/Header/Footer';
+import WhyChooseUs from './pages/WhyChooseUs/WhyChooseUs';
+import { Container } from 'react-bootstrap';
 const App = () => {
   return (
     <div>
       <Header />
       <AboutMain />
-      <Clients />
-      <TechnologyFeature />
-      <MissionVision />
-      <PopularServices/>
+      <Container>
+        <Clients />
+        <TechnologyFeature />
+        <MissionVision />
+        <TeamMembers />
+        <WhyChooseUs />
+      </Container>
+
+      <Foooter />
     </div>
   )
 }

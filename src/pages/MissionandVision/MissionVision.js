@@ -10,7 +10,7 @@ const MissionVision = () => {
     }, []);
     return (
         <div style={{paddingBottom:"40px"}}>
-            <Container>
+          
                 <div className='d-flex' style={{ paddingTop: "40px" }} data-aos="fade-right" data-aos-duration="1000">
                     <div className='ps-2 pe-2'>
                         <BsThreeDots className='icon-color' />
@@ -35,7 +35,7 @@ const MissionVision = () => {
                         <img src={Image1} alt="tech" class="img-fluid" />
                     </div>
                 </div>
-            </Container>
+      
 
         </div>
     )

@@ -11,7 +11,7 @@ const AboutMain = () => {
         <div className='bg-img pt-4'>
             <div className='container'>
                 <div className='row'>
-                    <div className='col-md-6' data-aos="fade-right" data-aos-duration="1000" style={{
+                    <div data-aos="fade-down" data-aos-duration="1000"  className='col-md-6' style={{
                         display: "flex",
                         flexDirection: "column",
                         justifyContent: "center",
@@ -37,7 +37,7 @@ const AboutMain = () => {
                             <span variant="primary" className="ml-2">Discover More</span>
                         </div>
                     </div>
-                    <div className='col-md-6' data-aos="fade-left" data-aos-duration="1000">
+                    <div data-aos="fade-up" data-aos-duration="1000"  className='col-md-6' >
                         <img src={Image1} alt="hero" className='img-fluid' />
                     </div>
                 </div>

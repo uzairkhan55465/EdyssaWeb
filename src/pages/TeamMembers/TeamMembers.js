@@ -12,8 +12,8 @@ const PopularServices = () => {
 
     return (
         <div>
-            {/* <Container> */}
-                <div data-aos="fade-right" data-aos-duration="1000" style={{
+            <Container>
+                <div data-aos="fade-up" data-aos-duration="1000" style={{
                     paddingTop: "40px", display: "flex",
                     justifyContent: "center"
                 }}>
@@ -25,7 +25,7 @@ const PopularServices = () => {
                         <BsThreeDots className='icon-color' />
                     </div>
                 </div>
-                <div data-aos="fade-left" data-aos-duration="1000" className='d-flex justify-content-center pt-4'>
+                <div data-aos="fade-up" data-aos-duration="1000" className='d-flex justify-content-center pt-4'>
                     <h1>Exclusive Team Member
                     </h1>
                 </div>
@@ -39,7 +39,7 @@ const PopularServices = () => {
                                         <div className="image-wrapper mb-3">
                                             <img
                                                 className="img-fluid"
-                                                src="https://images.pexels.com/photos/555790/pexels-photo-555790.png"
+                                                src={items?.img}
                                                 alt="..."
                                             />
                                         </div>
@@ -72,7 +72,7 @@ const PopularServices = () => {
                 </div>
 
 
-            {/* </Container> */}
+            </Container>
         </div>
     )
 }

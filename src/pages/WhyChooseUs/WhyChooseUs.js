@@ -1,15 +1,19 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./style.css"
 import { BsThreeDots } from 'react-icons/bs';
 import { Container } from 'react-bootstrap';
 import Thick from "../../assets/images/thick.png"
 import { ChooseUs } from '../../constant/ChooseUs';
 import Image1 from "../../assets/images/why-choose-us.png"
+import Aos from 'aos';
 const WhyChooseUs = () => {
+    useEffect(() => {
+        Aos.init({ disable: 'mobile' });
+    }, []);
     return (
         <div>
             {/* <Container> */}
-            <div style={{
+            <div data-aos="fade-down" data-aos-duration="1000" style={{
                 paddingTop: "40px", display: "flex",
                 justifyContent: "start"
             }}>
@@ -19,13 +23,13 @@ const WhyChooseUs = () => {
                 <span className='Mission-heading'>Why Choose Us</span>
             </div>
 
-            <div className='pt-3 pb-3'>
+            <div data-aos="fade-up" data-aos-duration="1000" className='pt-3 pb-3'>
                 <h1>
                     Web design company <br />that you can trust
                 </h1>
             </div>
             <div className='row'>
-                <div className='col-lg-7'>
+                <div data-aos="fade-down" data-aos-duration="1000" className='col-lg-7'>
                     {ChooseUs?.map((items, id) => {
                         return (
                             <div key={items?.id} className='mb-4'>
@@ -53,7 +57,7 @@ const WhyChooseUs = () => {
                         );
                     })}
                 </div>
-                <div className='col-lg-5'>
+                <div data-aos="fade-up" data-aos-duration="1000" className='col-lg-5'>
                     <img src={Image1} alt='show' className='img-fluid' />
                 </div>
             </div>

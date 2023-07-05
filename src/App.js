@@ -11,6 +11,7 @@ import TeamMembers from './pages/TeamMembers/TeamMembers';
 import Foooter from './Components/Header/Footer';
 import WhyChooseUs from './pages/WhyChooseUs/WhyChooseUs';
 import { Container } from 'react-bootstrap';
+import RoadMap from './pages/RoadMap/RoadMap';
 const App = () => {
   return (
     <div>
@@ -22,9 +23,9 @@ const App = () => {
         <MissionVision />
         <TeamMembers />
         <WhyChooseUs />
+        {/* <RoadMap /> */}
       </Container>
-
-      <Foooter />
+      {/* <Foooter /> */}
     </div>
   )
 }

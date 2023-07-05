@@ -6,6 +6,7 @@ import Aos from 'aos'
 const AboutMain = () => {
     useEffect(() => {
         Aos.init({disable: 'mobile'});
+        
     }, []);
     return (
         <div className='bg-img pt-4'>

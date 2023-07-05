@@ -23,9 +23,9 @@ const App = () => {
         <MissionVision />
         <TeamMembers />
         <WhyChooseUs />
-        {/* <RoadMap /> */}
+        <RoadMap />
       </Container>
-      {/* <Foooter /> */}
+      <Foooter />
     </div>
   )
 }

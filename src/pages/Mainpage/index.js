@@ -9,12 +9,12 @@ const Mainpage = () => {
   
     return (
        <>
-       <Navbaar/>
+       {/* <Navbaar/>
       <Bloglistview heading = "Faq & Help" link = "Faq & Help" fontsize="50px"
 
-      /> 
+      />  */}
     
-      {/* <Notfound/> */}
+      <Notfound/>
 
        </>
     )

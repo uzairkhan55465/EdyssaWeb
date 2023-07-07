@@ -8,12 +8,15 @@ import Notfound from '../../Components/Notfound'
 const Mainpage = () => {
 
     return (
-        <>
-            <Navbaar />
-            <Bloglistview heading="Faq & Help" link="Faq & Help" fontSize="50px"
-            />
-            {/* <Notfound/> */}
-        </>
+       <>
+       {/* <Navbaar/>
+      <Bloglistview heading = "Faq & Help" link = "Faq & Help" fontsize="50px"
+
+      />  */}
+    
+      <Notfound/>
+
+       </>
     )
 }
 

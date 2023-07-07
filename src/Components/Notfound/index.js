@@ -41,9 +41,7 @@ const Notfound = () => {
                 <Button variant="primary" className="ml-2" style={{ fontSize: "30px" }}>Go to Home </Button>
                 <h1 style={{ fontFamily: "inherit" }}>Follow us</h1>
 
-
             </Container>
-
 
             <Container
                 style={{

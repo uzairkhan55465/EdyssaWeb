@@ -10,12 +10,17 @@ import MissionVision from './pages/MissionandVision/MissionVision';
 import TeamMembers from './pages/TeamMembers/TeamMembers';
 import Foooter from './Components/Header/Footer';
 import WhyChooseUs from './pages/WhyChooseUs/WhyChooseUs';
-import { Container } from 'react-bootstrap';
+import { Container,} from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbaar from './Components/Navbaar';
+import Bloglistview from './Components/Bloglistview';
+import Mainpage from './pages/Mainpage';
 const App = () => {
   return (
     <div>
-      <Header />
-      <AboutMain />
+     {/* <Header /> */}
+       <Mainpage/>
+      {/* <AboutMain />
       <Container>
         <Clients />
         <TechnologyFeature />
@@ -24,7 +29,7 @@ const App = () => {
         <WhyChooseUs />
       </Container>
 
-      <Foooter />
+      <Foooter /> */}
     </div>
   )
 }

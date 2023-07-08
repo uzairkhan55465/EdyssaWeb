@@ -15,11 +15,25 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbaar from './Components/Navbaar';
 import Bloglistview from './Components/Bloglistview';
 import Mainpage from './pages/Mainpage';
+import { Route, Routes } from 'react-router-dom';
 const App = () => {
   return (
-    <div>
+    <>
+      <Routes>
+        <Route path = '/' element = {<Mainpage/>}>
+        <Route path = 'faq' element = {<Bloglistview heading = "Faq & Help" link = "Faq & Help" fontSize="50px" fontWeight= "500"/> }/>     
+        <Route path = 'price' element = {<Bloglistview heading = "Price List" link = "Price List" fontSize="50px" fontWeight= "500"/> }/>     
+        <Route path = 'blog' element = {<Bloglistview heading = "Blog List View" link = "Blog List View" fontSize="50px" fontWeight= "500"/> }/>     
+       
+        
+        
+        
+        
+        </Route>
+        
+      </Routes>
      {/* <Header /> */}
-       <Mainpage/>
+       {/* <Mainpage/> */}
       {/* <AboutMain />
       <Container>
         <Clients />
@@ -30,7 +44,8 @@ const App = () => {
       </Container>
 
       <Foooter /> */}
-    </div>
+    </>
+  
   )
 }
 

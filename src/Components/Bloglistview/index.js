@@ -21,7 +21,7 @@ const Bloglistview = (props) => {
     >
 
       <div className='d-flex justify-content-center'>
-        <p style={{ fontSize: props.fontSize, fontWeight: props.fontWeight, fontFamily: props.fontFamily }}>{props.heading}</p>
+        <p style={{ fontSize: `${props.fontSize}`, fontWeight: `${props.fontWeight}`, fontFamily: props.fontFamily }}>{props.heading}</p>
 
 
       </div>

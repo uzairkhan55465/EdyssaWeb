@@ -292,3 +292,33 @@ h2, .h2, .count-text {
     content: "\f141";
     font-family: 'Font Awesome 5 Pro';
 }
+@media (max-width: 991px) and (min-width: 320px){
+    .pt-130, .py-130 {
+        padding-top: 27px!important;
+    }
+    .section-title h2 {
+        font-size: 35px!important;
+    }
+    .about-image img{
+        width: 100%!important;
+    }
+    .about-image .years-fo-experience h4 {
+        color: white;
+        line-height: 1.65;
+        font-size: 17px!important;
+    }
+    .about-image .years-fo-experience {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 66%!important;
+        max-width: 400px!important;
+        padding: 5px 20px!important;
+    }
+    
+
+.section-title .sub-title {
+
+    padding-top: 30px!important;
+}
+}

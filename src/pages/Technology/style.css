@@ -11,24 +11,58 @@
     text-decoration: underline;
 }
 
-.icon-color {
-    color: #01c9f5;
+
+.feature-item {
+    text-align: center;
+    margin-bottom: 30px;
 }
-
-.card-skills {
-
+.feature-item .image {
+    height: 150px;
+    padding: 25px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
-    width: 135px !important;
-    height: 145px;
-    background: rgb(255, 255, 255);
-    border-radius: 0.4em;
-    box-shadow: 0.3em 0.3em 0.7em #00000015;
-    transition: border 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    border: rgb(250, 250, 250) 0.2em solid;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-radius: 7px 7px 0 0;
+    border: 1px solid rgba(0, 102, 255, 0.1);
 }
+.feature-item .image img {
+    max-width: 100%;
+    display: inline-block;
+}
+.feature-item:hover .image {
+    border-color: white;
+}
+
+.feature-item:hover .image, .service-item, .team-member:hover:after {
+    -webkit-box-shadow: 10px 0 60px rgba(69, 69, 69, 0.1);
+    box-shadow: 10px 0 60px rgba(69, 69, 69, 0.1);
+}
+.feature-item:hover h5 {
+    background: #0066ff;
+}
+
+.feature-item h5 {
+    color: white;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    margin-bottom: 0;
+    padding: 9px 15px;
+    border-radius: 0 0 7px 7px;
+    background: #01c9f5;
+    font-size: 18px;
+}
+
+
 
 .card-skills:hover {
     border: #006fff 0.2em solid;
@@ -74,5 +108,12 @@
     .card-skills {
         width: 25%;
         height: 350px;
+    }
+}
+@media (max-width: 991px) and (min-width: 320px){
+    .section-title {
+        margin-top: -7px;
+        font-size: 31px!important;
+        text-align: center!important;
     }
 }

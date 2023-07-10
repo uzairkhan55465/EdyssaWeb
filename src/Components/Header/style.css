@@ -165,3 +165,175 @@
 .menu-sidebar button .icon-bar:last-child {
     width: calc(100% - 8px);
 }
+.bgc-dark-blue {
+    background-color: #0e1b38;
+}
+
+.footerBack {
+    background-image: url(../../assets/images/footer/newsletter-bg.png);
+    background-repeat: no-repeat;
+}
+.footer-top-newsletter {
+    -webkit-transform: translateY(-250px);
+    -ms-transform: translateY(-250px);
+    transform: translateY(-250px);
+    background-position: bottom;
+    margin-bottom: -250px;
+    margin-top: 250px;
+}
+.p-80 {
+    padding: 80px;
+}
+.bgc-primary {
+    background-color: #0066ff;
+}
+.footer-top-newsletter form {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 10px;
+    background: white;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 7px;
+    padding-left: 30px;
+}
+.footer-top-newsletter form label {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin: 0;
+    right: auto;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.footer-top-newsletter form input {
+    border: none;
+    border-radius: 0;
+    font-weight: 500;
+    color: #696e7b;
+    padding: 0 0 0 30px;
+    background: transparent;
+}
+.theme-btn.style-two, a.theme-btn.style-two {
+    background: #01c9f5;
+    border: transparent;
+}
+
+.theme-btn, a.theme-btn {
+    z-index: 1;
+    color: white;
+    cursor: pointer;
+    overflow: hidden;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    font-weight: 700;
+    border-radius: 5px;
+    text-align: center;
+    padding: 12px 30px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-transform: capitalize;
+    background: #0066ff;
+}
+.theme-btn.style-two:after, a.theme-btn.style-two:after {
+    background: #0066ff;
+}
+.theme-btn:hover:after, a.theme-btn:hover:after {
+    -webkit-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    transform: scaleX(1);
+    -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+    -o-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+    transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+.theme-btn:after, a.theme-btn:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    -webkit-transition: 0.75s;
+    -o-transition: 0.75s;
+    transition: 0.75s;
+    position: absolute;
+    -webkit-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    -ms-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    background: #01c9f5;
+}
+@media only screen and (min-width: 1400px){
+    .large-gap {
+        margin-left: -50px;
+        margin-right: -50px;
+    }
+}
+.copyright-area {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.pb-15, .py-15 {
+    padding-bottom: 15px;
+}
+.pt-30, .py-30 {
+    padding-top: 30px;
+}
+.copyright-area .footer-menu {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-left: -13px;
+    margin-right: -13px;
+}
+
+.pb-10, .py-10 {
+    padding-bottom: 10px;
+}
+.copyright-area .footer-menu li {
+    font-weight: 500;
+    margin: 0 13px 5px;
+    list-style: none;
+}
+.text-white .copyright-area a {
+    opacity: 0.5;
+}
+.text-white .copyright-area p {
+    opacity: 0.5;
+}
+@media only screen and (min-width: 992px){
+    .footer-top-newsletter .footer-newsletter-image {
+        width: -webkit-max-content;
+        width: -moz-max-content;
+        width: max-content;
+        margin-left: auto;
+    }
+}
+
+.footer-top-newsletter .footer-newsletter-image {
+    margin-bottom: -150px;
+    max-width: 100%;
+}

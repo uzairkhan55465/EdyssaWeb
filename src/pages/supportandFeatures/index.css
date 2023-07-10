@@ -1,0 +1,78 @@
+
+.pb-100, .py-100 {
+    padding-bottom: 100px;
+}
+.pt-130, .py-130 {
+    padding-top: 130px;
+}
+.bgc-lighter {
+    background-color: #f7f9fd;
+}
+.bgs-cover {
+    background-image: url("../../assets/images/features/support-features-bg.png");
+    background-size: cover;
+    background-position: center;
+    height: fit-content;
+    width: 100%;
+}
+.z-1 {
+    z-index: 1;
+}
+.service-item.style-two:hover {
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+}
+
+.service-item:hover {
+    background: #0066ff;
+    -webkit-box-shadow: 10px 0 60px rgba(0, 102, 254, 0.25);
+    box-shadow: 10px 0 60px rgba(0, 102, 254, 0.25);
+}
+.service-item.style-two {
+    padding: 35px 25px;
+}
+.service-item.style-two h5 {
+    margin-bottom: 0;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.service-item h5 {
+    margin-bottom: 15px;
+}
+.service-item.style-two h5 a {
+    text-decoration: none;
+}
+.service-item:hover .icon, .service-item:hover a, .service-item:hover p {
+    color: white;
+}
+.section-title h2 {
+    margin-bottom: 25px;
+    font-weight: 700;
+    color: #293043;
+    font-size: 51px;
+    font-family: "Merriweather", serif;
+}
+
+.service-item {
+    z-index: 1;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    position: relative;
+    padding: 40px 30px;
+    text-align: center;
+    background: white;
+    border-radius: 7px;
+    margin-bottom: 30px;
+}
+.feature-item:hover .image, .service-item, .team-member:hover:after {
+    -webkit-box-shadow: 10px 0 60px rgba(69, 69, 69, 0.1);
+    box-shadow: 10px 0 60px rgba(69, 69, 69, 0.1);
+}
+@media only screen and (min-width: 376px){
+    .support-features-content p {
+        font-size: 18px;
+    }
+}

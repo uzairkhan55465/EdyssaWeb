@@ -13,7 +13,7 @@ const Clients = () => {
         <section className="about-area py-130 rel z-1">
             <div className="container">
                 <div className="row align-items-center">
-                    <div className="col-xl-7 col-lg-6">
+                    <div className="col-xl-7 col-lg-6 col-md-12 col-sm-12 col-xs-12">
                         <div className="about-image rmb-65 wow fadeInUp delay-0-2s">
                             <img src={Image1} alt="About" />
                             <div
@@ -28,7 +28,7 @@ const Clients = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-5 col-lg-6">
+                    <div className="col-xl-5 col-lg-6 col-md-12 col-sm-12 col-xs-12">
                         <div className="about-content wow fadeInUp delay-0-4s">
                             <div className="section-title mb-30">
                                 <span className="sub-title mb-15">

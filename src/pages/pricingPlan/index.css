@@ -1,0 +1,245 @@
+.pb-130, .py-130 {
+    padding-bottom: 130px;
+}
+.pt-130, .py-130 {
+    padding-top: 130px;
+}
+.bgc-dark-blue {
+    background-color: #0e1b38;
+}
+.section-title .sub-title {
+    font-size: 18px;
+    font-weight: 700;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    color: #01c9f5;
+    text-decoration: underline;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1px;
+    color: #e8e8e8;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+}
+.mb-20, .my-20 {
+    margin-bottom: 20px;
+}
+.text-white .pricing-plan-item {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: #0b1630;
+}
+.pricing-plan-item:not(:last-child) {
+    margin-bottom: 30px;
+}
+.pricing-plan-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    overflow: hidden;
+    background: white;
+    position: relative;
+    -webkit-box-shadow: 10px 0 60px rgba(170, 170, 170, 0.2);
+    box-shadow: 10px 0 60px rgba(170, 170, 170, 0.2);
+}
+@media only screen and (min-width: 992px){
+    .pricing-plan-item .price-features {
+        width: 65%;
+    }
+}
+
+.pricing-plan-item .price-features {
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    padding: 40px 50px 35px;
+}
+.pricing-plan-item .price-features h4 {
+    margin-bottom: 20px;
+    line-height: 1.65;
+    font-size: 24px;
+    font-weight: 700;
+
+    font-family: "Merriweather", serif;
+}
+.pricing-plan-item .price-features .list-style-two {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.text-white .pricing-plan-item .list-style-two li {
+    opacity: 0.7;
+}
+
+@media only screen and (min-width: 1200px){
+    .pricing-plan-item .price-features .list-style-two li {
+        font-size: 18px;
+    }
+}
+
+.pricing-plan-item .price-features .list-style-two li {
+    width: 50%;
+}
+.list-style-two li:not(:last-child) {
+    margin-bottom: 10px;
+}
+.list-style-two li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.list-style-two li:before {
+    width: 5px;
+    height: 5px;
+    content: '';
+    -webkit-box-flex: 0;
+    -ms-flex: none;
+    flex: none;
+    margin-top: 13px;
+    margin-right: 15px;
+    border-radius: 50%;
+    background: #01c9f5;
+}
+.pricing-plan-item:hover .price-features .badge {
+    -webkit-transform: translate(-50%, 0) rotate(180deg);
+    -ms-transform: translate(-50%, 0) rotate(180deg);
+    transform: translate(-50%, 0) rotate(180deg);
+}
+
+.pricing-plan-item .price-features .badge {
+    position: absolute;
+    top: 0;
+    left: 65%;
+    color: white;
+    font-size: 18px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    font-weight: 700;
+    border-radius: 0;
+    padding: 40px 16px 30px;
+    text-transform: uppercase;
+    background: #ff8a00;
+    font-family: "Merriweather", serif;
+    -webkit-writing-mode: vertical-rl;
+    -webkit-transform: translate(-50%, -100%) rotate(180deg);
+    -ms-transform: translate(-50%, -100%) rotate(180deg);
+    transform: translate(-50%, -100%) rotate(180deg);
+    -webkit-clip-path: polygon(50% 15px, 100% 0, 100% 100%, 0 100%, 0 0);
+    clip-path: polygon(50% 15px, 100% 0, 100% 100%, 0 100%, 0 0);
+}
+.text-white *, .text-white a, .text-white .count-text, .text-white .footer-newsletter-content .sub-title {
+    color: white;
+}
+.badge {
+    display: inline-block;
+    padding: 0.35em 0.65em;
+    font-size: .75em;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+}
+@media only screen and (min-width: 992px){
+    .price-and-btn {
+        width: 35%;
+        border-left: 1px solid rgba(0, 102, 255, 0.1);
+    }
+}
+
+.price-and-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 45px 50px 50px;
+}
+.price-and-btn .price {
+    font-size: 40px;
+    font-weight: 700;
+    color: #01c9f5;
+    font-family: "Merriweather", serif;
+}
+.price-and-btn .price:before {
+    content: '$';
+}
+.price-and-btn .price:after {
+    color: white;
+    font-size: 18px;
+    content: '/monthly';
+}
+.price-and-btn .save {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.text-white .price-and-btn .save span {
+    color: #ff8a00;
+}
+.text-white .price-and-btn .theme-btn.style-three {
+    color: white;
+}
+.pricing-plan-item:hover .theme-btn {
+    color: white;
+}
+.price-and-btn .theme-btn.style-three {
+    border-color: #0066ff;
+}
+@media only screen and (min-width: 576px){
+    .theme-btn.style-three, a.theme-btn.style-three {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+.theme-btn.style-three, a.theme-btn.style-three {
+    color: #293043;
+    background: transparent;
+    border: 1px solid rgba(0, 102, 255, 0.2);
+}
+.text-white *, .text-white a, .text-white .count-text, .text-white .footer-newsletter-content .sub-title {
+    color: white;
+}
+.theme-btn, a.theme-btn {
+    z-index: 1;
+    color: white;
+    cursor: pointer;
+    overflow: hidden;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    font-weight: 700;
+    border-radius: 5px;
+    text-align: center;
+    padding: 12px 30px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-transform: capitalize;
+    background: #0066ff;
+}

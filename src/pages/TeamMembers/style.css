@@ -14,7 +14,122 @@
 /* body {
     background-color: #f4f4f4;
 } */
+.section-title h2 {
+    margin-bottom: 25px;
+}
+.team-member {
+    padding: 35px;
+    position: relative;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.team-member img {
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+@media only screen and (min-width: 376px){
+    .team-member h5 {
+        font-size: 20px;
+        font-weight: 700;
+        color: #293043;
+        font-family: "Merriweather", serif;
+    }
+}
 
+.team-member h5 {
+    margin-bottom: 3px;
+}
+.team-member .designation {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #0066ff;
+}
+.team-member .social-style-one {
+    opacity: 0;
+    -webkit-transition: 0.25s;
+    -o-transition: 0.25s;
+    transition: 0.25s;
+    visibility: hidden;
+}
+.social-style-one {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+.social-style-one a {
+    width: 40px;
+    height: 40px;
+    background: white;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    border: 1px solid rgba(0, 102, 255, 0.1);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.team-member:hover:after {
+    height: 100%;
+    border-color: white;
+}
+
+.feature-item:hover .image, .service-item, .team-member:hover:after {
+    -webkit-box-shadow: 10px 0 60px rgba(69, 69, 69, 0.1);
+    box-shadow: 10px 0 60px rgba(69, 69, 69, 0.1);
+}
+.team-member:after {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    z-index: -1;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    border-radius: 7px;
+    width: 100%;
+    height: calc(100% - 65px);
+    border: 1px solid rgba(0, 102, 255, 0.1);
+}
+.team-member {
+    padding: 35px;
+    position: relative;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.team-member:hover .social-style-one {
+    opacity: 1;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    visibility: visible;
+    -webkit-transition-delay: 0.5s;
+    -o-transition-delay: 0.5s;
+    transition-delay: 0.5s;
+}
+.team-member .social-style-one {
+    opacity: 0;
+    -webkit-transition: 0.25s;
+    -o-transition: 0.25s;
+    transition: 0.25s;
+    visibility: hidden;
+}
+.team-member:after {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: 0.5s;
+    border-radius: 7px;
+    width: 100%;
+    height: calc(100% - 65px);
+    border: 1px solid rgba(0, 102, 255, 0.1);
+}
 .box {
     border-radius: 150px;
     background: #fff;

@@ -3,11 +3,12 @@ import React, { useEffect } from 'react'
 import { Container } from 'react-bootstrap'
 import { BsThreeDots } from 'react-icons/bs';
 import { TeamsMembers } from "../../constant/TeamMembers"
+import {FaFacebookF,FaTwitter,FaInstagram,FaLinkedinIn} from 'react-icons/fa';
 import "./style.css"
 const PopularServices = () => {
 
     useEffect(() => {
-        Aos.init({disable: 'mobile'});
+        Aos.init({ disable: 'mobile' });
     }, []);
 
     return (
@@ -25,47 +26,34 @@ const PopularServices = () => {
                         <BsThreeDots className='icon-color' />
                     </div>
                 </div>
-                <div data-aos="fade-up" data-aos-duration="1000" className='d-flex justify-content-center pt-4'>
-                    <h1>Exclusive Team Member
-                    </h1>
+                <div data-aos="fade-up" data-aos-duration="1000" className='d-flex justify-content-center pt-4 section-title'>
+                    <h2>Exclusive Team Member
+                    </h2>
                 </div>
 
-                <div data-aos="fade-down" data-aos-duration="1000" className="d-flex">
+                <div data-aos="fade-down" data-aos-duration="1000" className="d-flex justify-content-center">
                     <div>
                         <div className="row">
                             {TeamsMembers?.map((items, id) => (
-                                <div className="col-sm-6 col-lg-3" key={id}>
-                                    <div className="box shadow-sm p-4">
-                                        <div className="image-wrapper mb-3">
-                                            <img
-                                                className="img-fluid"
-                                                src={items?.img}
-                                                alt="..."
-                                            />
+                                <div className="col-xl-3 col-lg-4 col-md-6" key={id}>
+                                    <div className="team-member wow fadeInUp delay-0-2s">
+                                        <div className="image">
+                                            <img src={items?.img} alt="Member" />
                                         </div>
-                                        <div className="box-desc">
-                                            <h5>Jon Doe</h5>
-                                            <p>{items?.role}</p>
+                                        <div className="content d-flex flex-column align-items-center">
+                                            <h5>
+                                                {items?.name}
+                                            </h5>
+                                            <span className="designation ">{items?.role}</span>
+
+                                            <div class="social-style-one"><a href="#"><FaFacebookF/></a><a href="#"><FaTwitter/></a><a href="#"><FaLinkedinIn/></a><a href="#"><FaInstagram/></a></div>
+                                           
                                         </div>
-                                        <ul className="social">
-                                            <li>
-                                                <a href="#">
-                                                    <i className="fab fa-facebook-f"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i className="fab fa-instagram"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i className="fab fa-pinterest-p"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
                                     </div>
                                 </div>
+
+
+
                             ))}
                         </div>
                     </div>

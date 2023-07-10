@@ -4,16 +4,18 @@ body {
     font-weight: 400;
     line-height: 32px;
     font-size: 16px;
- 
+
 }
-.bg-img{
+
+.bg-img {
     background-image: url("../../../assets//images/bg.webp");
     height: 90vh;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    padding-top: 40px!important;
+    padding-top: 40px !important;
 }
+
 .bgc-dark-blue {
     background-color: #0e1b38;
 }
@@ -21,28 +23,37 @@ body {
 .z-1 {
     z-index: 1;
 }
+
 .rel {
     position: relative;
 }
+
 .hero-content {
     z-index: 2;
     max-width: 640px;
     position: relative;
 }
+
 .delay-0-2s {
     -webkit-animation-delay: 0.2s;
     animation-delay: 0.2s;
 }
-.mb-120, .my-120 {
+
+.mb-120,
+.my-120 {
     margin-bottom: 120px;
 }
-.mt-120, .my-120 {
+
+.mt-120,
+.my-120 {
     margin-top: 50px;
 }
+
 .fadeInLeft {
     -webkit-animation-name: fadeInLeft;
     animation-name: fadeInLeft;
 }
+
 .hero-content:before {
     position: absolute;
     content: '';
@@ -57,11 +68,13 @@ body {
     -webkit-animation: rotated_circle 30s infinite;
     animation: rotated_circle 30s infinite;
 }
-@media only screen and (min-width: 768px){
-.hero-content .sub-title {
-    font-size: 18px;
+
+@media only screen and (min-width: 768px) {
+    .hero-content .sub-title {
+        font-size: 18px;
+    }
 }
-}
+
 .hero-content .sub-title {
     font-weight: 500;
     line-height: 1.5;
@@ -71,16 +84,19 @@ body {
     background: #0066ff;
     border-left: 3px solid white;
 }
+
 .hero-content h1 {
     line-height: 1.16;
     font-size: 70px;
 }
+
 .hero-content p {
     margin-top: 25px;
     padding-left: 30px;
     border-left: 3px solid #01c9f5;
 }
-.hero-btns {
+
+    {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -90,6 +106,7 @@ body {
     -ms-flex-align: center;
     align-items: center;
 }
+
 .video-play-text {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -108,6 +125,7 @@ a {
     transition: 0.5s;
     text-decoration: none;
 }
+
 .video-play-text i {
     color: white;
     font-size: 14px;
@@ -119,30 +137,27 @@ a {
     border-radius: 50%;
     text-align: center;
 }
+
 .video-play-text span {
     font-weight: 700;
     text-decoration: underline;
     color: white;
 }
-@media only screen and (min-width: 1400px){
-    .hero-images {
-        margin-right: -28%;
-    }
-}
-img {
-    max-width: 100%;
-    display: inline-block;
-}
+
+
+
 .hero-images {
     z-index: 1;
     position: relative;
     margin-left: -38%;
 }
+
 .delay-0-2s {
     -webkit-animation-delay: 0.2s;
     animation-delay: 0.2s;
 }
-.play{
+
+.play {
     color: white;
     font-size: 8px;
     margin-right: 15px;
@@ -154,15 +169,19 @@ img {
     text-align: center;
 
 }
-.play-icon{
+
+.play-icon {
     font-size: 16px;
 }
-.topback{
+
+.topback {
     padding-top: 50px;
 }
-.head-web{
+
+.head-web {
     font-size: 85px;
 }
+
 .wave-shapes {
     position: absolute;
     z-index: -1;
@@ -171,6 +190,7 @@ img {
     width: calc(100% + 100px);
     height: 100%;
 }
+
 .wave-shapes .shape {
     position: absolute;
     bottom: 0;
@@ -179,7 +199,79 @@ img {
     -webkit-animation: leftRightOne 6s infinite;
     animation: leftRightOne 6s infinite;
 }
+
 .wave-shapes .shape.two {
     -webkit-animation-delay: 3s;
     animation-delay: 3s;
+}
+
+@media (max-width: 767px) and (min-width: 320px) {
+    .hero-content h1 {
+        font-size: 37px !important;
+    }
+
+    .hero-images {
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero-images img {
+        width: 400px !important;
+    }
+
+    .mb-120,
+    .my-120 {
+        margin-bottom: 52px !important;
+    }
+
+    .theme-btn,
+    a.theme-btn {
+        font-size: 14px !important;
+        padding: 12px 13px !important;
+
+    }
+}
+
+@media (max-width: 1456px) and (min-width: 1200px) {
+    .navbar-brand img {
+        width: 130px !important;
+    }
+    .lisSpacing {
+        margin: 0px 73px 0px 67px!important;
+    }
+    .theme-btn, a.theme-btn {
+        font-size: 15px!important;
+        padding: 12px 5px!important;
+    
+    }
+    .hero-images img {
+        width: 600px !important;
+    }
+}
+@media (max-width: 1199px) and (min-width: 992px) {
+    .navbar-brand img {
+        width: 110px !important;
+    }
+    .lisSpacing {
+        margin: 0px 33px 0px 37px!important;
+    }
+    .theme-btn, a.theme-btn {
+        font-size: 10px!important;
+        padding: 12px 4px!important;
+        margin: 0px!important;
+    
+    }
+    .hero-images img {
+        width: 550px !important;
+    }
+    .headLis {
+        font-size: 16px!important;
+        margin: 0px 15px 0px 0px!important;
+    }
+    .hero-content h1 {
+        font-size: 50px!important;
+    }
+    .play{
+        margin-left: 20px!important;
+    }
 }

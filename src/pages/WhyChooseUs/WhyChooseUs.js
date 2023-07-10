@@ -12,36 +12,37 @@ const WhyChooseUs = () => {
     }, []);
     return (
         <div>
-            {/* <Container> */}
+            <Container>
             <div data-aos="fade-down" data-aos-duration="1000" style={{
                 paddingTop: "40px", display: "flex",
                 justifyContent: "start"
             }}>
-                <div className='ps-2 pe-2'>
+                <div className='ps-2 pe-2 pt-5'>
                     <BsThreeDots className='icon-color' />
                 </div>
-                <span className='Mission-heading'>Why Choose Us</span>
+                <span className='Mission-heading pt-5'>Why Choose Us</span>
             </div>
 
             <div data-aos="fade-up" data-aos-duration="1000" className='pt-3 pb-3'>
-                <h1>
+                <h1 className='design'>
                     Web design company <br />that you can trust
                 </h1>
             </div>
             <div className='row'>
-                <div data-aos="fade-down" data-aos-duration="1000" className='col-lg-7'>
+                <div data-aos="fade-down" data-aos-duration="1000" className='col-lg-6'>
                     {ChooseUs?.map((items, id) => {
                         return (
                             <div key={items?.id} className='mb-4'>
                                 <div className='d-flex'>
-                                    <div>
+                                    <div className='tick mt-2'>
                                         <img src={items?.img} alt='thick' />
                                     </div>
+
                                     <div className='ps-2'>
                                         <div>
                                             <span className='chosse-us-text'>{items?.heading}</span>
                                         </div>
-                                        <div>
+                                        <div className='col-lg-10'>
                                             <p className='chosee-us-p'>
                                                 {items?.para.split('\n').map((line, index) => (
                                                     <React.Fragment key={index}>
@@ -57,15 +58,16 @@ const WhyChooseUs = () => {
                         );
                     })}
                 </div>
-                <div data-aos="fade-up" data-aos-duration="1000" className='col-lg-5'>
-                    <img src={Image1} alt='show' className='img-fluid' />
+                <div data-aos="fade-up" data-aos-duration="1000" className='col-lg-6'>
+                    <div class="circle-shapes"><span class="shape one wow slideInDown delay-0-2s" ></span><span class="shape two wow slideInDown delay-0-4s" ></span><span class="shape three wow slideInDown delay-0-6s"></span><span class="shape four wow slideInDown delay-0-8s"></span></div>
+                    <img src={Image1} alt='show' className='img-fluid chooseImg' />
                 </div>
             </div>
 
 
 
 
-            {/* </Container> */}
+            </Container>
 
         </div>
     )

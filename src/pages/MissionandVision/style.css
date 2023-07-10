@@ -19,3 +19,95 @@
     font-size: 16px;
     font-family: "Roboto", sans-serif;
 }
+@media only screen and (min-width: 576px){}
+.theme-btn.style-three, a.theme-btn.style-three {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.theme-btn.style-three, a.theme-btn.style-three {
+    color: #293043;
+    background: transparent;
+    border: 1px solid rgba(0, 102, 255, 0.2);
+}
+.theme-btn, a.theme-btn {
+    z-index: 1;
+    color: white;
+    cursor: pointer;
+    overflow: hidden;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    font-weight: 700;
+    border-radius: 5px;
+    text-align: center;
+    padding: 12px 30px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-transform: capitalize;
+    background: #0066ff;
+}
+a {
+    color: #696e7b;
+    cursor: pointer;
+    outline: none;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    text-decoration: none;
+}
+.wave-shapes {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: -100px;
+    width: calc(100% + 100px);
+    height: 100%;
+}
+.wave-shapes .shape {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    -webkit-animation: leftRightOne 6s infinite;
+    animation: leftRightOne 6s infinite;
+}
+.wave-shapes .shape img {
+    max-width: 100%;
+    display: inline-block;
+}
+.wave-shapes .shape img, svg {
+    vertical-align: middle;
+}
+.wave-shapes .shape.two {
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+}
+.wave-shapes .shape {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    -webkit-animation: leftRightOne 6s infinite;
+    animation: leftRightOne 6s infinite;
+}
+@media (max-width: 991px) and (min-width: 320px){
+    .paddings{
+        padding-top: 5px!important;
+        padding-bottom: 10px!important;
+    }
+    .smallcenter{
+        display: flex;
+        justify-content: center;
+    }
+    .text-style{
+        text-align: center;
+    }
+}

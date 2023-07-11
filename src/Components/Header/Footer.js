@@ -1,47 +1,103 @@
 
 import React from 'react'
-import {FaAngleDoubleRight } from 'react-icons/fa';
+import { FaAngleDoubleRight } from 'react-icons/fa';
 import Newspaper from "../../assets/images/footer/footer-newsletter.png"
 import Footer1 from "../../assets/images/shapes/footer1.png"
 import Footer2 from "../../assets/images/shapes/footer2.png"
 import './style.css'
+import Footer from "../../assets/images/foot.webp"
+import { Container, Col } from 'react-bootstrap';
 
 const Foooter = () => {
     return (
-        <footer class="main-footer bgc-dark-blue text-white rel z-1 ">
-            <div class="container">
-                <div class="footer-top-newsletter bgc-primary p-80 footerBack" >
-                    <div class="row justify-content-between align-items-center">
-                        <div class="col-xl-6 col-lg-7">
-                            <div class="footer-newsletter-content rmb-55 wow fadeInLeft delay-0-2s" >
-                                <div class="section-title mb-30">
-                                    <span class="sub-title mb-15">Our Newsletter</span>
-                                    <h2 className='text-white'>Subscribe Our Newsletter to Get More Updates</h2>
-                                    <p>Consectetur adipiscing eiusmod tempor incididunt labore et dolores magna aliquae suspendisse ultrices gravid commodo viverra</p>
-                                </div><form action="#"><div class="form-group rel mb-0 w-100">
-                                    <label for="email"><i class="far fa-envelope"></i></label><input type="email" id="email" placeholder="Email Address" /></div>
-                                    <button class="theme-btn style-two">Subscribe <FaAngleDoubleRight className='ms-2'/></button>
-                                    
-                                </form></div></div>
-                        <div class="col-lg-5"><div class="footer-newsletter-image wow fadeInRight delay-0-2s" >
-                            <img src={Newspaper} alt="Newsletter" /></div>
+        <Container fluid className='px-0'>
+            <div className='footerBackColor'>
+                <Col lg={9} md={10} sm={10} xs={11} className='mx-auto'>
+                    <div className='d-flex'>
+                        <div className='footer-width'>
+                            <p>Categories</p>
+                            <ul>
+                                <li>Graphics &amp; Design</li>
+                                <li>Digital Marketing</li>
+                                <li>Writing &amp; Translation</li>
+                                <li>Video &amp; Animation</li>
+                                <li>Mobile App</li>
+                                <li>Programming &amp; Tech</li>
+                                <li>Data</li>
+                                <li>Business</li>
+                                <li>Lifestyle</li>
+                                <li>Sitemap</li>
+                            </ul>
                         </div>
-                    </div></div>
-                <div class="row large-gap justify-content-center">
-                    <div class="col-xl-7 col-lg-8">
-                        <div class="footer-cta text-center my-100 wow fadeInUp delay-0-2s">
-                            <div class="section-title"><h2 className='text-white mt-5 pt-4'>Let’s Design Your New Website</h2><p>Do you want to have a website that stands out and impresses your clients? Then we are ready to help! Click the button below to contact us and discuss your ideas.</p></div>
-                            <div className='mb-5 pb-5 mt-4'>
-                            <a class="theme-btn mt-15" href="/contact">Get a Quote <FaAngleDoubleRight className='ms-2'/></a>
-                            </div>
-                            </div></div></div>
-                <div class="copyright-area text-center pt-30 pb-15"><ul class="footer-menu pb-10"><li><a href="#">About</a></li>
-                    <li><a href="#">Our Services</a></li><li><a href="#">How We Work</a></li><li><a href="#">Experience</a></li>
-                    <li><a href="#">Why Choose Us</a></li><li><a href="#">Partners</a></li><li><a href="#">Support</a></li>
-                    <li><a href="#">Testimonials</a></li><li><a href="#">Pricing</a></li><li><a href="#">FAQ</a></li>
-                    <li><a href="#">Contacts</a></li></ul><p>© Copyright 2022 Oxence. All right reserved</p></div></div>
-            <div class="wave-shapes"><img class="shape one" src={Footer1} alt="Wave Shape" />
-                <img class="shape two" src={Footer2} alt="Wave Shape" /></div></footer>
+                        <div className='footer-width'>
+                            <p>About</p>
+                            <ul>
+                                <li>Careers</li>
+                                <li>Press &amp; News</li>
+                                <li>Partnerships</li>
+                                <li>Privacy Policy</li>
+                                <li>Terms of Service</li>
+                                <li>Intellectual Property Claims</li>
+                                <li>Investor Relations</li>
+                            </ul>
+                        </div>
+                        <div className='footer-width'>
+                            <p>Support</p>
+                            <ul>
+                                <li>Help &amp; Support</li>
+                                <li>Trust &amp; Safety</li>
+                                <li>General Questions</li>
+                                <li>Buying on Edyssa</li>
+                            </ul>
+                        </div>
+                        <div className='footer-width'>
+                            <p>Community</p>
+                            <ul>
+                                <li>Events</li>
+                                <li>Blog</li>
+                                <li>Forum</li>
+                                <li>Community Standards</li>
+                                <li>Podcast</li>
+                                <li>Affiliates</li>
+                                <li>Invite a Friend</li>
+                                <li>Become a Seller</li>
+                            </ul>
+                        </div>
+                        <div className='footer-width'>
+                            <p>More From Edyssa</p>
+                            <ul>
+                                <li>Edyssa Pro</li>
+                                <li>Edyssa Studios</li>
+                                <li>Edyssa Logo Maker</li>
+                                <li>Edyssa Guides</li>
+                                <li>Get Inspired</li>
+                                <li>Edyssa Select</li>
+                                <li>Clear Voice</li>
+                                <li>Edyssa Workspace</li>
+                                <li>Learn</li>
+                                <li>Working Not Working</li>
+                            </ul>
+                        </div>
+                    </div>
+                </Col>
+            </div>
+            <div className='footerdown'>
+                <Col lg={9} md={10} sm={10} xs={11} className='mx-auto'>
+                    <div className='footerMenu py-1'>
+                        <div className='d-flex ps-4 ms-2 pt-3'>
+                            <p className='pe-2 text-white'>Privacy Policy</p>
+                            <p className='text-white'>Terms & Conditions</p>
+                        </div>
+                        <div>
+                            <p className='pt-3 text-white'>Copyright 2022 © Edyssa. All Rights Reserved.</p>
+                        </div>
+                        <div className='pt-2'>
+                            <img src={ Footer} alt='' className='footerImg'/>
+                        </div>
+                    </div>
+                </Col>
+            </div>
+        </Container>
     )
 }
 

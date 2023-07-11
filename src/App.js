@@ -20,11 +20,11 @@ const App = () => {
   return (
     <div>
       <Header />
-      {/* <AboutMain /> */}
-      {/* <Clients /> */}
-      {/* <TechnologyFeature /> */}
+      <AboutMain /> 
+      <Clients /> 
+       <TechnologyFeature />
       <MissionVision />
-      {/* <PopularServices />
+      <PopularServices />
       <Projects />
       <CompanyStatistics />
       <WhyChooseUs />
@@ -32,7 +32,7 @@ const App = () => {
       <TeamMembers />
       <PricingPlan />
       <ClientsFeedback />
-      <Foooter /> */}
+      <Foooter />
     </div>
   )
 }

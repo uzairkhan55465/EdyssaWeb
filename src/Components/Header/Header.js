@@ -1,61 +1,112 @@
 import React, { useState } from 'react';
-import { Navbar, Nav, Button, Dropdown } from 'react-bootstrap';
-import Image1 from "../../assets/images/logo1.png"
-import { FaSearch, FaBars,FaAngleDoubleRight } from 'react-icons/fa';
-
+import Logo from "../../assets/images/logo-orange.webp"
+import "./style.css"
+import { AiOutlinePlus} from 'react-icons/ai'
+import {HiMailOpen} from 'react-icons/hi'
 const Header = () => {
-    const [showMenu, setShowMenu] = useState(false);
+    // const [menu1,setMenu1] =useState(false)
+    // const [menu2,setMenu2] =useState(false)
+    // const [menu3,setMenu3] =useState(false)
+    // const [menu4,setMenu4] =useState(false)
 
-    const toggleMenu = () => {
-        setShowMenu(!showMenu);
-    }
+//    const handleMouseEnter=(menunumber)=>{
+// switch (menunumber) {
+//     case 1:
+//         setMenu1()
+// }
+
+//    }
 
     return (
-        <Navbar
-            collapseOnSelect
-            expand="lg"
-            bg="white"
-            variant="light"
-            style={{ boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)', padding:"21px 32px" }}
-            className='header-upper'
-        >
-            
-            <Navbar.Brand href="#home">
-                <img src={Image1} alt="image1" />
-            </Navbar.Brand>
-            <Navbar.Toggle aria-controls="responsive-navbar-nav" onClick={toggleMenu}>
-                <FaBars />
-            </Navbar.Toggle>
-            <Navbar.Collapse id="responsive-navbar-nav" className={showMenu ? 'show' : ''}>
-                <Nav className="lisSpacing">
-                    <Nav.Link href="#home" className='headLis'>Home</Nav.Link>
-                    <Nav.Link href="#services" className='headLis'>Services</Nav.Link>
-                    <Dropdown as={Nav.Item}>
-                        <Dropdown.Toggle as={Nav.Link} id="project-dropdown" className='headLis'>
-                            Project
-                        </Dropdown.Toggle>
-                        <Dropdown.Menu>
-                            <Dropdown.Item href="#project1" >Project 1</Dropdown.Item>
-                            <Dropdown.Item href="#project2">Project 2</Dropdown.Item>
-                            <Dropdown.Item href="#project3">Project 3</Dropdown.Item>
-                        </Dropdown.Menu>
-                    </Dropdown>
-                    <Nav.Link href="#pages" className='headLis'>Pages</Nav.Link>
-                    <Nav.Link href="#shop" className='headLis'>Shop</Nav.Link>
-                    <Nav.Link href="#blog" className='headLis'>Blog</Nav.Link>
-                    <Nav.Link href="#contact" className='headLis'>Contact</Nav.Link>
-                    <Nav.Link href="#search">
-                        <FaSearch />
-                    </Nav.Link>
-                </Nav>
-                <Nav className="ml-auto d-flex justify-content-end w-100">
-                    <a className="ml-2 theme-btn">Download Now <FaAngleDoubleRight className='mt-1 ms-2'/> </a>
+        <div id="header-sticky" class="tp-it-header__main p-relative">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-3 col-3">
+                        <div class="logo">
+                            <a href="index.html"><img src={Logo} alt="logo" /></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 d-none d-xl-block">
+                        <ul className="menu d-flex justify-content-around">
+                            <li className="menu-item" >
+                                <a href="#">Home</a>
+                                 <AiOutlinePlus style={{color:"red",fontWeight:"100"}}/>
+                                {/* <div className="dropdown" style={{ backgroundColor: '#070707' }}>
+                                  
+                                </div> */}
+                            </li>
+                            <li className="menu-item">
+                                <a href="#">About</a>
+                                
+                                {/* <div className="dropdown" style={{ backgroundColor: '#070707' }}>
+                                 
+                                    sadasdasdas
+                                </div> */}
+                            </li>
+                            <li className="menu-item">
+                                <a href="#">Shop</a>
+                                <AiOutlinePlus style={{color:"red"}}/>
+                                {/* <div className="dropdown" style={{ backgroundColor: '#070707' }}>
+                              
+                                    sadasdasd
+                                </div> */}
+                            </li>
+                            <li className="menu-item">
+                                <a href="#">Pages</a>
+                                <AiOutlinePlus style={{color:"red"}}/>
+                                {/* <div className="dropdown" style={{ backgroundColor: '#070707' }}>
+                                   
+                                    sadasdasd
+                                </div> */}
+                            </li>
+                            <li className="menu-item">
+                                <a href="#">Blog</a>
+                                <AiOutlinePlus style={{color:"red"}}/>
+                                {/* <div className="dropdown" style={{ backgroundColor: '#070707' }}>
+                                   
+                                   
+                                    sadasdasd
+                                </div> */}
+                            </li>
+                         
+                            {/* Repeat the same pattern for other menu items */}
+                        </ul>
+                        <ul className='text-center'>
+                        <li className="menu-item">
+                         
+                         <a href="#">Contact</a>
                     
-                    <div class="menu-sidebar"><button><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div>
-                   
-                </Nav>
-            </Navbar.Collapse>
-        </Navbar>
+                        
+                     </li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-3 d-none d-xl-block">
+                        <div class="d-flex justify-content-end">
+                            <div class="tp-it-header__main-cta">
+                                <p className='mb-0'><span style={{fontWeight:"300",fontSize:"1rem"}}><HiMailOpen style={{color:'red',fontSize:"20px"}}  /> SUPPORT EMAIL</span></p>
+                                <p> <a href="mailto:info@gencio.com" style={{fontWeight:"600",fontSize:"1.3rem"}}>INFO@GENCIO.COM</a></p>
+                               
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-9 d-xl-none">
+                        <div class="tp-header-search-nav d-flex justify-content-end">
+                            <div class="tp-header-search p-relative">
+                                <form action="#">
+                                    <input type="text" placeholder="Keyword..." />
+                                    <button type="submit"><i class="fal fa-search"></i></button>
+                                </form>
+                            </div>
+                            <div class="tp-header-nav">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     );
 };
 

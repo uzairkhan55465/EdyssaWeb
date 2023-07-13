@@ -18,21 +18,24 @@ import { Container } from 'react-bootstrap';
 import PricingPlan from './pages/pricingPlan';
 import ClientsFeedback from './pages/clientsFeedback';
 import ConactUsPages from './pages/ContactUs';
-import AboutPages from './pages/About';
-import HomePageRoutes from './HomePageRoutes';
-const App = () => {
-  return (
-    <>
-      <Header />
-      <Routes>
-        <Route path='/' element={<HomePageRoutes />} />
-        <Route path='/about' element={<AboutPages />} />
-        <Route path='/contactus' element={<ConactUsPages />} />
-      </Routes>
-      <Foooter />
-    </>
+const HomePageRoutes = () => {
+    return (
+        <div>
+            <AboutMain />
+            <Clients />
+            <TechnologyFeature />
+            <MissionVision />
+            <PopularServices />
+            <Projects />
+            <CompanyStatistics />
+            <WhyChooseUs />
+            <Support />
+            <TeamMembers />
+            <PricingPlan />
+            <ClientsFeedback />
 
-  )
+        </div>
+    )
 }
 
-export default App
+export default HomePageRoutes

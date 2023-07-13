@@ -1,0 +1,28 @@
+.inputBody{
+    background-color: #3745c2;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inputField {
+    height: 50px;
+    background: #4654e0;
+    width: 356px;
+    padding-left: 14px;
+    padding-right: 52px;
+}
+.inputField:focus{
+    outline: none;
+    color: white;
+}
+.inputField::placeholder{
+    color: #c0bcfd;
+    font-size: 18px;
+    font-weight: 500;
+}
+.inputicon {
+    top: 7px;
+    position: absolute;
+    left: -40px;
+}

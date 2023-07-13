@@ -19,6 +19,7 @@ import PricingPlan from './pages/pricingPlan';
 import ClientsFeedback from './pages/clientsFeedback';
 import ConactUsPages from './pages/ContactUs';
 import AboutPages from './pages/About';
+import SearchBar from './Components/searchBar';
 const App = () => {
   return (
     <div>
@@ -37,7 +38,8 @@ const App = () => {
       {/* <ClientsFeedback /> */}
       {/* <Foooter /> */}
       {/* <ConactUsPages/> */}
-      <AboutPages/>
+      <SearchBar/>
+      {/* <AboutPages/> */}
     </div>
   )
 }

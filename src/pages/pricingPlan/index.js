@@ -9,7 +9,7 @@ const PricingPlan=()=>{
           <div className="row justify-content-center">
             <div className="col-xl-8 col-lg-10">
               <div className="section-title text-center mb-55 wow fadeInUp delay-0-2s ">
-                <span className="sub-title mb-20">Pricing Plan</span>
+                <span className="Mission-heading mb-20">Pricing Plan</span>
                 <h2 className="text-white">Best Pricing Package</h2>
               </div>
             </div>

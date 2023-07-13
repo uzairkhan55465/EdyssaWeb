@@ -35,7 +35,7 @@ const PopularServices = () => {
                     <div>
                         <div className="row">
                             {TeamsMembers?.map((items, id) => (
-                                <div className="col-xl-3 col-lg-4 col-md-6" key={id}>
+                                <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6" key={id}>
                                     <div className="team-member wow fadeInUp delay-0-2s">
                                         <div className="image">
                                             <img src={items?.img} alt="Member" />

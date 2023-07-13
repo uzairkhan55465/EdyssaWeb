@@ -113,7 +113,10 @@
 @media (max-width: 991px) and (min-width: 320px){
     .section-title {
         margin-top: -7px;
-        font-size: 31px!important;
+        font-size: 29px!important;
         text-align: center!important;
+    }
+    .Mission-heading {
+        font-size: 17px!important;
     }
 }

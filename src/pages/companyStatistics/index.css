@@ -131,3 +131,16 @@ h2, .h2, .count-text {
     text-transform: capitalize;
     background: #0066ff;
 }
+@media (max-width: 991px) and (min-width: 320px){
+    .whiteHead{
+        font-size: 29px;
+    }
+    .count-text {
+        font-size: 39px!important;
+    }
+    .counter-cta h4 {
+        line-height: 1.65;
+        font-size: 18px!important;
+        margin: 10px 0px!important;
+    }
+}

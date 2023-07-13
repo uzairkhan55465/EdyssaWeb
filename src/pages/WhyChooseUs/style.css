@@ -90,3 +90,21 @@ width: 58px;
     left: 27%;
     top: 27%;
 }
+@media (max-width: 991px) and (min-width: 320px){
+    .design {
+        font-size: 29px!important;
+    }
+    .tick img {
+        width: 36px!important;
+    }
+    .chosse-us-text {
+        font-size: 21px !important;
+    }
+    .chosee-us-p {
+        font-size: 15px !important;
+    }
+    .chooseImg {
+        margin-top: 0px!important;
+    }
+}
+

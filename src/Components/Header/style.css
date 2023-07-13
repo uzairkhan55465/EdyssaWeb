@@ -683,7 +683,7 @@ nav ul li:hover .dropdown-menu ul li a {
 
 .menu-item a {
     color: #032b5f;
-    padding: 38px 0;
+    padding: 28px 0;
     display: inline-block;
     font-size: 17px;
     font-weight: 700;
@@ -693,9 +693,15 @@ nav ul li:hover .dropdown-menu ul li a {
 .menu-item svg {
     color: #fff;
     margin-left: 5px;
-    vertical-align: middle;
-}
 
+}
+.contact-info-item.style-two .content .title{
+    font-size: 14px;
+    font-weight: 500;
+}
+.contact-info-item.style-two .content .text{
+    font-size: 22px;
+}
 .menu-item .dropdowntwo ul li a {
     padding: 3px 0px !important;
     color: white;

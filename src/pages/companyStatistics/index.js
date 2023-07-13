@@ -20,7 +20,7 @@ const CompanyStatistics=()=>{
                     </div>
                 </div>
                 <div className='text-center  mb-15 pt-2'>
-                <h2>
+                <h2 className="whiteHead">
                   {`We're`} the best web development <br/>agency much more
                   achievement
                 </h2>

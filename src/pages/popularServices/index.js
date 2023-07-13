@@ -20,7 +20,7 @@ const PopularServices = () => {
                 </div>
                 <div className="row justify-content-center mt-5 pt-2">
                     {ServicesCards?.map((cards) =>
-                        <div className="col-xl-3 col-lg-4 col-md-6">
+                        <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 ">
                             <div className="service-item wow fadeInUp delay-0-2s">
                                 <div className="icon">
                                     <i className="fab fa-react" />

@@ -17,8 +17,8 @@ const ClientsFeedback=()=>{
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-6 col-lg-8">
-              <div className="section-title text-center mb-40 wow fadeInUp delay-0-2s">
-                <span className="sub-title mb-20">Clents Feedback</span>
+              <div className="section-title text-center mb-40 wow fadeInUp delay-0-2s cardBottom">
+                <span className="Mission-heading mb-20">Clients Feedback</span>
                 <h2>3,000+ Positive reviews by our satisfied clients</h2>
               </div>
             </div>

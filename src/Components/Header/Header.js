@@ -72,8 +72,8 @@ switch (menunumber) {
                                  {
                                     menu1 && ( <div className="dropdowntwo dropdown_menu dropdown_menu--animated dropdown_menu-7" style={{ backgroundColor: '#070707' }}>
                                   <ul>
-                                    <li><a href="index.html">Main Home</a></li>
-                                    <li><a href="index-2.html">It Solutions</a></li>
+                                    <li><AiOutlineMinus style={{color:"red",fontWeight:"100"}}/><a href="index.html">Main Home</a></li>
+                                    <li><AiOutlineMinus style={{color:"red",fontWeight:"100"}}/><a href="index-2.html">It Solutions</a></li>
                                     <li><a href="index-3.html">Digital Agency</a></li>
                                     <li><a href="index-4.html">Home Saas</a></li>
                                     <li><a href="index-5.html">Photography</a></li>

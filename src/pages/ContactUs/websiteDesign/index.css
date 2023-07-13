@@ -1,0 +1,17 @@
+.pb-50, .py-50 {
+    padding-bottom: 50px;
+}
+
+.pt-80, .py-80 {
+    padding-top: 80px;
+}
+.bgc-black {
+    background-color: #070c13;
+}
+.mb-25, .my-25 {
+    margin-bottom: 25px;
+}
+
+.section-title {
+    margin-top: -7px;
+}

@@ -12,7 +12,7 @@ const WhyChooseUs = () => {
     }, []);
     return (
         <div>
-            <Container>
+            <Container >
             <div data-aos="fade-down" data-aos-duration="1000" style={{
                 paddingTop: "40px", display: "flex",
                 justifyContent: "start"
@@ -29,7 +29,7 @@ const WhyChooseUs = () => {
                 </h1>
             </div>
             <div className='row'>
-                <div data-aos="fade-down" data-aos-duration="1000" className='col-lg-6'>
+                <div data-aos="fade-down" data-aos-duration="1000" className='col-lg-6 col-md-6 col-sm-12'>
                     {ChooseUs?.map((items, id) => {
                         return (
                             <div key={items?.id} className='mb-4'>
@@ -58,7 +58,7 @@ const WhyChooseUs = () => {
                         );
                     })}
                 </div>
-                <div data-aos="fade-up" data-aos-duration="1000" className='col-lg-6'>
+                <div data-aos="fade-up" data-aos-duration="1000" className='col-lg-6 col-md-6 col-sm-12'>
                     <div class="circle-shapes"><span class="shape one wow slideInDown delay-0-2s" ></span><span class="shape two wow slideInDown delay-0-4s" ></span><span class="shape three wow slideInDown delay-0-6s"></span><span class="shape four wow slideInDown delay-0-8s"></span></div>
                     <img src={Image1} alt='show' className='img-fluid chooseImg' />
                 </div>

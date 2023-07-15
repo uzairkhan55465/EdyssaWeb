@@ -1,0 +1,73 @@
+.pb-115, .py-115 {
+    padding-bottom: 115px;
+}
+.mb-25, .my-25 {
+    margin-bottom: 25px;
+}
+.faq-search-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 10px;
+    background: white;
+    border-radius: 5px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-shadow: 10px 0 30px rgba(153, 153, 153, 0.2);
+    box-shadow: 10px 0 30px rgba(153, 153, 153, 0.2);
+}
+.mb-20, .my-20 {
+    margin-bottom: 20px;
+}
+.faq-search-form label {
+    margin: 0 20px;
+}
+label {
+    cursor: pointer;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: #696e7b;
+}
+label {
+    display: inline-block;
+}
+.faq-search-form input {
+    padding: 0;
+    border: none;
+}
+
+input, select, textarea, .nice-select, .form-control {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    padding: 18px 30px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 102, 255, 0.1);
+}
+.faq-search-form button {
+    width: 45px;
+    height: 45px;
+    -webkit-box-flex: 0;
+    -ms-flex: none;
+    flex: none;
+    color: white;
+    border-radius: 5px;
+    border: transparent;
+    background: #0066ff;
+}
+[type=button], [type=reset], [type=submit], button {
+    -webkit-appearance: button;
+}
+button, select {
+    text-transform: none;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+.inputfocus:focus{
+    outline: transparent;
+}

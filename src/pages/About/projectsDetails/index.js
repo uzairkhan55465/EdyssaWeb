@@ -35,7 +35,7 @@ const ProjetsDetails = () => {
                         ><ul class="list-style-three mt-3"><li>An abundance of resources</li><li>Add advanced features</li><li>Support that Helps</li>
                             <li>Edit your mobile view</li><li>State of the art security</li><li>Optimize search engines</li></ul></div>
                         </div></div></div></section>
-            <TeamMembers />
+
         </>
 
     );

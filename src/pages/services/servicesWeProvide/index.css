@@ -1,0 +1,74 @@
+.pb-100, .py-100 {
+    padding-bottom: 100px;
+}
+.pt-130, .py-130 {
+    padding-top: 130px;
+}
+.bgc-black {
+    background-color: #070c13;
+}
+.mb-60, .my-60 {
+    margin-bottom: 60px;
+}
+.service-item-four {
+    padding: 40px;
+    background: white;
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 30px;
+    height: 478px;
+}
+.service-item-four .image {
+    width: 100%;
+    padding-top: 5%;
+    position: relative;
+    margin-bottom: 25px;
+}
+.service-item-four h5 {
+    line-height: 1.6;
+    margin-bottom: 22px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #293043;
+    font-family: "Merriweather", serif;
+}
+@media only screen and (min-width: 576px){
+    .theme-btn.style-three, a.theme-btn.style-three {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+.theme-btn.style-three, a.theme-btn.style-three {
+    color: #293043;
+    background: transparent;
+    border: 1px solid rgba(0, 102, 255, 0.2);
+}
+.service-item-four .theme-btn {
+    width: 100%;
+}
+.theme-btn, a.theme-btn {
+    z-index: 1;
+    color: white;
+    cursor: pointer;
+    overflow: hidden;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    font-weight: 700;
+    border-radius: 5px;
+    text-align: center;
+    padding: 12px 30px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-transform: capitalize;
+    background: #0066ff;
+}

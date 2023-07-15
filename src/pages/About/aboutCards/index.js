@@ -22,7 +22,8 @@ const AboutCards = () => {
 
             <ClientsFeedback />
             <WebsiteDesign />
-            <ContactFooter />
+            
+            {/* <ContactFooter /> */}
         </>
 
     )

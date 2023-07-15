@@ -1,0 +1,77 @@
+.pb-100, .py-100 {
+    padding-bottom: 100px;
+}
+
+.pt-115, .py-115 {
+    padding-top: 115px;
+}
+.mb-60, .my-60 {
+    margin-bottom: 60px;
+}
+.service-item-five {
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    padding: 40px 50px;
+    border-radius: 7px;
+    margin-bottom: 30px;
+    border: 1px solid rgba(0, 102, 255, 0.1);
+}
+.service-item-five .icon {
+    margin-bottom: 30px;
+}
+.service-item-five h4 {
+    margin-bottom: 15px;
+    line-height: 1.65;
+    font-size: 24px;
+    font-weight: 700;
+    color: #293043;
+    font-family: "Merriweather", serif;
+}
+.service-item-five .theme-btn.style-three-service {
+    border: none;
+    margin-top: 5px;
+    background: #f0f3f9;
+}
+.service-item-five:hover {
+    border-color: white;
+    -webkit-box-shadow: 10px 0 60px rgba(153, 153, 153, 0.2);
+    box-shadow: 10px 0 60px rgba(153, 153, 153, 0.2);
+}
+.theme-btn.style-three-service:hover, a.theme-btn.style-three-service:hover {
+    color: white;
+}
+.theme-btn.style-three-service, a.theme-btn.style-three-service {
+    color: #293043;
+    background: transparent;
+    border: 1px solid rgba(0, 102, 255, 0.2);
+}
+.theme-btn, a.theme-btn {
+    z-index: 1;
+    color: white;
+    cursor: pointer;
+    overflow: hidden;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    font-weight: 700;
+    border-radius: 5px;
+    text-align: center;
+    padding: 12px 30px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-transform: capitalize;
+    background: #0066ff;
+}
+a:hover, a:focus, a:visited {
+    text-decoration: none;
+    outline: none;
+}

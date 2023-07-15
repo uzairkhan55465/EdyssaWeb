@@ -1,0 +1,32 @@
+.pb-130, .py-130 {
+    padding-bottom: 130px;
+}
+
+.pt-130, .py-130 {
+    padding-top: 130px;
+}
+.statistics-five-content {
+    max-width: 535px;
+}
+.mb-25, .my-25 {
+    margin-bottom: 25px;
+}
+.section-title .sub-title.style-two {
+    color: #0066ff;
+    text-decoration: none;
+}
+.section-title .sub-title {
+    font-size: 18px;
+    font-weight: 700;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    color: #01c9f5;
+    text-decoration: underline;
+}
+.mb-15, .my-15 {
+    margin-bottom: 15px;
+}

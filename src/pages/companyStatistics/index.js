@@ -11,13 +11,10 @@ const CompanyStatistics=()=>{
           <div className="row justify-content-center">
             <div className="col-xl-8 col-lg-10">
             <div className="section-title text-center mb-55 d-flex justify-content-center">
-                    <div className='ps-2 pe-2'>
-                        <BsThreeDots className='icon-color' />
-                    </div>
+                   
+                   
                     <span className='Mission-heading'>Company Statistics</span>
-                    <div className='ps-2 pe-2'>
-                        <BsThreeDots style={{color:"#01c9f5"}} />
-                    </div>
+                  
                 </div>
                 <div className='text-center  mb-15 pt-2'>
                 <h2 className="whiteHead">

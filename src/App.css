@@ -60,3 +60,31 @@
 
 
 }
+i[class*=" flaticon-"]:before, i[class^=flaticon-]:before {
+  font-family: flaticon!important;
+  font-style: normal;
+  font-weight: 400!important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.flaticon-data-transfer:before {
+  content: "\f119";
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+user agent stylesheet
+i {
+  font-style: italic;
+}
+.service-item .icon {
+  font-size: 65px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  margin-bottom: 25px;
+  color: #0066ff;
+}

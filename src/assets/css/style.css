@@ -263,9 +263,9 @@ html {
     .section-title .sub-title:after, .section-title .sub-title:before {
       float: left;
       line-height: 0;
-      font-size: 40px;
+      font-size: 18px;
       font-weight: 300;
-      content: "\f141";
+      content: "\2022";
       font-family: 'Font Awesome 5 Pro'; }
     .section-title .sub-title:before {
       margin-right: 20px; }
@@ -275,9 +275,9 @@ html {
     .section-title .sub-title.style-two {
       color: #0066ff;
       text-decoration: none; }
-      .section-title .sub-title.style-two:before {
+      /* .section-title .sub-title.style-two:before {
         content: url(../images/shapes/section-subtitle-line.png);
-        margin: -15px 15px 0 -25px; }
+        margin: -15px 15px 0 -25px; } */
       .section-title .sub-title.style-two:after {
         display: none; }
   .section-title h2 {
@@ -8288,3 +8288,4 @@ h4.comment-title {
     background: transparent; }
   .dark-version.home-one .main-footer {
     background: #1e1e22; }
+ 

@@ -1,0 +1,130 @@
+.pb-130, .py-130 {
+    padding-bottom: 130px;
+}
+
+.pt-110, .py-110 {
+    padding-top: 110px;
+}
+@media only screen and (min-width: 1400px){
+    .project-three-active {
+        padding-left: 55px;
+        padding-right: 55px;
+    }
+}
+.project-item .project-over {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 100%;
+    -webkit-transition: 0.75s;
+    -o-transition: 0.75s;
+    transition: 0.75s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.details-btn {
+    font-size: 22px;
+    width: 70px;
+    height: 70px;
+    background: white;
+    line-height: 70px;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    color: #0066ff;
+}
+.project-item.style-three .project-over:after {
+    opacity: 0.5;
+    background: #070c13;
+}
+
+.project-item .project-over:after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    mix-blend-mode: multiply;
+    background: #0066ff;
+}
+.slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+.project-item:hover .project-over {
+    bottom: 0;
+    -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+    -o-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+    transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+.project-item .project-over {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 100%;
+    -webkit-transition: 0.75s;
+    -o-transition: 0.75s;
+    transition: 0.75s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.project-item.style-three .project-over:after {
+    opacity: 0.5;
+    background: #070c13;
+}
+.project-item .project-over:after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    mix-blend-mode: multiply;
+    background: #0066ff;
+}
+.project-item.style-three:hover .project-content {
+    opacity: 1;
+    bottom: -30px;
+    -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+    -o-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+    transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+.project-three-active .project-item .project-content {
+    -webkit-box-shadow: 5px 0 15px rgba(195, 195, 195, 0.35);
+    box-shadow: 5px 0 15px rgba(195, 195, 195, 0.35);
+}

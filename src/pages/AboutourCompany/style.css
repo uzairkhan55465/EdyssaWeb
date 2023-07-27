@@ -287,21 +287,45 @@ h2, .h2, .count-text {
 .section-title .sub-title:before {
     float: left;
     line-height: 0;
-    font-size: 40px;
+    font-size: 18px;
     font-weight: 300;
-    content: "\f141";
+    content: "\2022 \2022 \2022 ";
     font-family: 'Font Awesome 5 Pro';
 }
-@media (max-width: 991px) and (min-width: 320px){
-    .pt-130, .py-130 {
-        padding-top: 27px!important;
+@media (max-width: 1199px) and (min-width: 992px){
+.about-image img{
+    width: 100%;
+}
+.about-image .years-fo-experience {
+    top: -155px!important;
+}
+.section-title h2 {
+    font-size: 44px!important;
+}
+.pb-130, .py-130 {
+    padding-bottom: 70px!important;
+}
+.mt-15, .my-15 {
+    margin-top: 0px!important;
+}
+}
+
+@media (max-width: 991px) and (min-width: 768px){
+    .about-image .years-fo-experience h4 {
+        color: white;
+        line-height: 1.65;
+        font-size: 17px!important;
     }
-    .section-title h2 {
-        font-size: 35px!important;
+    .about-image .years-fo-experience {
+        position: absolute;
+        right: 0;
+        top: 50px!important;
+        width: 66%!important;
+        max-width: 400px!important;
+        padding: 5px 20px!important;
     }
-    .about-image img{
-        width: 100%!important;
-    }
+}
+@media (max-width: 767px) and (min-width: 320px){
     .about-image .years-fo-experience h4 {
         color: white;
         line-height: 1.65;
@@ -315,10 +339,45 @@ h2, .h2, .count-text {
         max-width: 400px!important;
         padding: 5px 20px!important;
     }
-    
+}
+@media (max-width: 991px) and (min-width: 320px){
+    .pt-130, .py-130 {
+        padding-top: 27px!important;
+    }
+    .section-title h2 {
+        font-size: 32px!important;
+        margin-bottom: 0px!important;
+    }
+    .about-image img{
+        width: 100%!important;
+    }
 
+    .mb-15{
+
+    }
+    .pb-130, .py-130 {
+        padding-bottom: 30px!important;
+    }
 .section-title .sub-title {
 
     padding-top: 30px!important;
 }
+}
+.technology-heading:before {
+    float: left;
+    line-height: 0;
+    font-size: 18px;
+    font-weight: 300;
+    content: "\2022 \2022 \2022 ";
+    font-family: 'Font Awesome 5 Pro';
+    margin-right: 5px;
+}
+.Mission-heading:before {
+    float: left;
+    line-height: 0;
+    font-size: 18px;
+    font-weight: 300;
+    content: "\2022 \2022 \2022 ";
+    font-family: 'Font Awesome 5 Pro';
+    margin-right: 5px;
 }

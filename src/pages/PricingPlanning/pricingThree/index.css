@@ -1,0 +1,12 @@
+.pb-25, .py-25 {
+    padding-bottom: 55px;
+}
+.price-and-btn .theme-btn.style-three {
+    border-color: #0066ff;
+}
+@media only screen and (min-width: 576px){
+    .theme-btn.style-three, a.theme-btn.style-three {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}

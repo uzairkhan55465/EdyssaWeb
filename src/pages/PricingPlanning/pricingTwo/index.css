@@ -1,0 +1,60 @@
+.pb-165, .py-165 {
+    padding-bottom: 165px;
+}
+.pt-65, .py-65 {
+    padding-top: 65px;
+}
+.mb-30, .my-30 {
+    margin-bottom: 30px;
+}
+.section-title {
+    margin-top: -7px;
+}
+.pricing-plan-three.style-two:hover {
+    color: white;
+    background: #0066ff;
+    background-image: url(../../../assets/images/shapes/price-plan-bg.png);
+}
+.pricing-plan-three.style-two {
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+.pricing-plan-three {
+    position: relative;
+    margin-bottom: 30px;
+    padding: 40px 45px;
+    background: white;
+    overflow: hidden;
+    -webkit-box-shadow: 10px 0 60px rgba(170, 170, 170, 0.2);
+    box-shadow: 10px 0 60px rgba(170, 170, 170, 0.2);
+}
+.pricing-plan-three.style-two:hover h4, .pricing-plan-three.style-two:hover .price, .pricing-plan-three.style-two:hover .save span, .pricing-plan-three.style-two:hover .price:after, .pricing-plan-three.style-two:hover .theme-btn.style-three {
+    color: white;
+}
+.pricing-plan-three.style-two:hover .price-and-btn .save {
+color: white;
+}
+.pricing-plan-three.style-two:hover .price-and-btn .theme-btn.style-three {
+    border-color: #52cecc;
+    background-color: #52cecc ;
+}
+.pricing-plan-three.style-two:hover .theme-btn:after, a.theme-btn:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    -webkit-transition: 0.75s;
+    -o-transition: 0.75s;
+    transition: 0.75s;
+    position: absolute;
+    -webkit-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    -ms-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    background: #01c9f5;
+}

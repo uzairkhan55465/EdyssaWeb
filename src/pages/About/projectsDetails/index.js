@@ -26,7 +26,7 @@ const ProjetsDetails = () => {
             <section class="video-area bgc-black pt-250 mb-5">
                 <div class="container">
                     <div class="row medium-gap align-items-end pt-80"><div class="col-lg-6">
-                        <div class="video-part rmb-65 wow fadeInRight delay-0-2s" ><img src={VideoImg} alt="Video" />
+                        <div class="video-part rmb-65 wow fadeInRight delay-0-2s" ><img src={VideoImg} alt="Video" style={{width:"100%"}}/>
                             <a href="https://www.youtube.com/watch?v=9Y7ma241N8k" class="mfp-iframe video-play" tabindex="-1">
                                 <i class="fas fa-play"></i></a></div>
                     </div><div class="col-lg-6"><div class="video-content text-white pb-95 rpb-115 wow fadeInLeft delay-0-2s pt-3" >

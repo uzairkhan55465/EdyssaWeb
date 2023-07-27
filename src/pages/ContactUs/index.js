@@ -10,7 +10,7 @@ const ConactUsPages = () => {
             <ContactUsForm/>
             <ContactCards/>
             <WebsiteDesign/>
-            <ContactFooter/>
+            {/* <ContactFooter/> */}
         </div>
     )
 }

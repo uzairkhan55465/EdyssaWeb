@@ -17,9 +17,7 @@ const WhyChooseUs = () => {
                 paddingTop: "40px", display: "flex",
                 justifyContent: "start"
             }}>
-                <div className='ps-2 pe-2 pt-5'>
-                    <BsThreeDots className='icon-color' />
-                </div>
+              
                 <span className='Mission-heading pt-5'>Why Choose Us</span>
             </div>
 

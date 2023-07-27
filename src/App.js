@@ -9,6 +9,10 @@ import AboutPages from './pages/About';
 import FaqsPages from './pages/Faqs';
 import HomePageRoutes from './HomePageRoutes';
 import ServicesPages from './pages/services';
+import BlogsPages from './pages/blogGridView/index';
+import PricingPages from './pages/PricingPlanning';
+import ProjectDetailsPages from './pages/projectDetails';
+
 const App = () => {
   return (
     <>
@@ -19,6 +23,10 @@ const App = () => {
         <Route path='/contactus' element={<ConactUsPages />} />
         <Route path='/faqs' element={<FaqsPages />} />
         <Route path='/services' element={<ServicesPages />} />
+        <Route path='/blogs' element={<BlogsPages />} />
+        <Route path='/pricing' element={<PricingPages />} />
+        <Route path='/project-details' element={<ProjectDetailsPages />} />
+        
       </Routes>
       <Foooter />
     </>

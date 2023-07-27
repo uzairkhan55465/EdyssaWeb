@@ -1,0 +1,104 @@
+.mb-55, .my-55 {
+    margin-bottom: 55px;
+}
+.pb-25, .py-25 {
+    padding-bottom: 25px;
+}
+.mb-15, .my-15 {
+    margin-bottom: 15px;
+}
+@media only screen and (min-width: 376px){
+    .project-details-area h5 {
+        font-size: 22px;
+    }
+    .sub-title-two {
+        font-size: 18px;
+    }
+    .project-details-area h5 {
+        font-size: 22px;
+    }
+}
+.mb-15, .my-15 {
+    margin-bottom: 15px;
+}
+
+.mt-55, .my-55 {
+    margin-top: 55px;
+}
+.mt-50, .my-50 {
+    margin-top: 50px;
+}
+.next-prev-project {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.pb-65, .py-65 {
+    padding-bottom: 65px;
+}
+.pt-65, .py-65 {
+    padding-top: 65px;
+}
+.next-prev-project .prev-project, .next-prev-project .next-project {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.next-prev-project .show-all {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 30px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+
+}
+.next-prev-project .prev-project, .next-prev-project .next-project {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.next-prev-project .prev-project .image, .next-prev-project .prev-project .content, .next-prev-project .next-project .image, .next-prev-project .next-project .content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.next-prev-project .prev-project .image, .next-prev-project .prev-project .content, .next-prev-project .next-project .image, .next-prev-project .next-project .content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.next-prev-project .prev-project .category, .next-prev-project .next-project .category {
+    display: block;
+    margin-bottom: 8px;
+    color: #696e7b;
+}
+.next-prev-project .read-more {
+    color: #0066ff;
+}
+
+
+
+@media (max-width: 991px) and (min-width: 320px){
+    .next-prev-project {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+}

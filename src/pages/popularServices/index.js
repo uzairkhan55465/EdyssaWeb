@@ -7,16 +7,12 @@ const PopularServices = () => {
         <section className="services-area pt-130 pb-100 rel z-1">
             <div className="container">
                 <div className="section-title text-center mb-55 d-flex justify-content-center">
-                    <div className='ps-2 pe-2'>
-                        <BsThreeDots className='icon-color' />
-                    </div>
+                    
                     <span className='Mission-heading'>Our Popular Services</span>
-                    <div className='ps-2 pe-2'>
-                        <BsThreeDots className='icon-color' />
-                    </div>
+                  
                 </div>
-                <div className='text-center  mb-15 pt-2'>
-                    <h2 className='sub-title'>Amazing Web Design Service</h2>
+                <div className='text-center  mb-15 pt-2 section-title'>
+                    <h2 >Amazing Web Design Service</h2>
                 </div>
                 <div className="row justify-content-center mt-5 pt-2">
                     {ServicesCards?.map((cards) =>

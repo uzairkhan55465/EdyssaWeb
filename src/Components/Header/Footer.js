@@ -6,15 +6,18 @@ import Footer1 from "../../assets/images/shapes/footer1.png"
 import Footer2 from "../../assets/images/shapes/footer2.png"
 import './style.css'
 import Footer from "../../assets/images/foot.webp"
-import { Container, Col } from 'react-bootstrap';
+import { Container, Col,Row } from 'react-bootstrap';
 
 const Foooter = () => {
     return (
         <Container fluid className='px-0'>
             <div className='footerBackColor'>
-                <Col lg={9} md={10} sm={10} xs={11} className='mx-auto'>
-                    <div className='d-flex'>
-                        <div className='footer-width'>
+                <Col lg={10} md={10} sm={10} xs={11} className='mx-auto'>
+                    <div className='row'>
+
+                        <Col lg="8 mobile-col">
+                            <Row>
+                                <Col lg="4" sm="4" xs="6"> <div className='footer-width'>
                             <p>Categories</p>
                             <ul>
                                 <li>Graphics &amp; Design</li>
@@ -28,7 +31,8 @@ const Foooter = () => {
                                 <li>Lifestyle</li>
                                 <li>Sitemap</li>
                             </ul>
-                        </div>
+                        </div></Col>
+                        <Col lg="4 " sm="4" xs="6">
                         <div className='footer-width'>
                             <p>About</p>
                             <ul>
@@ -41,6 +45,9 @@ const Foooter = () => {
                                 <li>Investor Relations</li>
                             </ul>
                         </div>
+                        </Col>
+
+                        <Col lg="4 " sm="4" xs="6">
                         <div className='footer-width'>
                             <p>Support</p>
                             <ul>
@@ -50,7 +57,16 @@ const Foooter = () => {
                                 <li>Buying on Edyssa</li>
                             </ul>
                         </div>
-                        <div className='footer-width'>
+                        </Col>
+
+                       
+                            </Row>
+                          
+                        </Col>
+                       
+                        <Col lg="4 ">
+                            <Row>
+                                <Col lg="6 " sm="6" xs="6"><div className='footer-width'>
                             <p>Community</p>
                             <ul>
                                 <li>Events</li>
@@ -62,8 +78,8 @@ const Foooter = () => {
                                 <li>Invite a Friend</li>
                                 <li>Become a Seller</li>
                             </ul>
-                        </div>
-                        <div className='footer-width'>
+                        </div></Col>
+                                <Col lg="6 " sm="6" xs="6"> <div className='footer-width'>
                             <p>More From Edyssa</p>
                             <ul>
                                 <li>Edyssa Pro</li>
@@ -77,10 +93,19 @@ const Foooter = () => {
                                 <li>Learn</li>
                                 <li>Working Not Working</li>
                             </ul>
-                        </div>
+                        </div></Col>
+                            </Row>
+                        </Col>
+
+
+                      
+                        
+                       
                     </div>
                 </Col>
             </div>
+
+
             <div className='footerdown'>
                 <Col lg={9} md={10} sm={10} xs={11} className='mx-auto'>
                     <div className='footerMenu py-1'>

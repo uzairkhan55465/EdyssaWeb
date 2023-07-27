@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Logo from "../../assets/images/logo-orange.webp"
 import "./style.css"
 import { AiOutlinePlus, AiOutlineMinus } from 'react-icons/ai'
+import { GiHamburgerMenu } from "react-icons/gi"
 import { HiMailOpen } from 'react-icons/hi'
 import { useNavigate } from 'react-router-dom';
 const Header = () => {
@@ -10,7 +11,15 @@ const Header = () => {
     const [menu2, setMenu2] = useState(false)
     const [menu3, setMenu3] = useState(false)
     const [menu4, setMenu4] = useState(false)
+    const [open, setOpen] = useState(false)
 
+    const OpenHandler=()=>{
+        if(open===false){
+            setOpen(true)
+        }else{
+            setOpen(false)
+        }
+    }
     const handleMouseEnter = (menunumber) => {
 
         switch (menunumber) {
@@ -56,12 +65,12 @@ const Header = () => {
         <div id="header-sticky" class="tp-it-header__main p-relative">
             <div class="container-fluid">
                 <div class="row align-items-center">
-                    <div class="col-lg-3 col-3">
+                    <div class="col-lg-3 col-md-2 col-3">
                         <div class="logo">
-                            <a href="index.html"><img src={Logo} alt="logo" /></a>
+                            <a href="index.html"><img src={Logo} alt="logo" className='logosm' /></a>
                         </div>
                     </div>
-                    <div class="col-xl-6 d-none d-xl-block">
+                    <div class="col-xl-6 col-lg-6 col-md-10  d-none d-xl-block d-lg-block d-md-block ">
                         <ul className="menu d-flex justify-content-around">
 
                             <li className="menu-item" onMouseLeave={() => handleMouseLeave(1)} >
@@ -217,28 +226,53 @@ const Header = () => {
                             </li>
                         </ul>
                     </div>
-                    <div class="col-xl-3 d-none d-xl-block">
+                    <div class="col-xl-3 col-lg-3  d-none d-xl-block d-lg-block  d-md-none">
                         <div class="d-flex justify-content-end">
                             <div class="tp-it-header__main-cta">
                                 <p className='mb-0'><span style={{ fontWeight: "300", fontSize: "1rem" }}><HiMailOpen style={{ color: 'red', fontSize: "20px" }} /> SUPPORT EMAIL</span></p>
-                                <p> <a href="mailto:info@gencio.com" style={{ fontWeight: "600", fontSize: "1.3rem" }}>INFO@GENCIO.COM</a></p>
+                                <p> <a href="mailto:info@gencio.com" className="infoo">INFO@GENCIO.COM</a></p>
 
                             </div>
                         </div>
 
                     </div>
-                    <div class="col-9 d-xl-none">
+                    <div class="col-9 d-xl-none d-lg-none d-md-none">
                         <div class="tp-header-search-nav d-flex justify-content-end">
-                            <div class="tp-header-search p-relative">
-                                <form action="#">
-                                    <input type="text" placeholder="Keyword..." />
-                                    <button type="submit"><i class="fal fa-search"></i></button>
-                                </form>
+                            <div>
+                                <GiHamburgerMenu onClick={()=>OpenHandler()}/>
                             </div>
-                            <div class="tp-header-nav">
-                                <span></span>
-                                <span></span>
+                            {
+                                open===true &&
+
+                                <div>
+                                <div class="navbar-collapse collapse show hamburger" id="navbarNavAltMarkup" >
+
+                                    <ul class="navbar-nav ms-auto lefttranslator bg-sc-dark text-white  " id="myDiv">
+                                        <li class="nav-item ">
+                                            <a class="nav-link text-dark hover_data pe-4 ancher  active" href="index.html">Home</a>
+                                        </li>
+
+                                        <li class="nav-item ">
+                                            <a class="nav-link text-dark hover_data pe-4 ancher" aria-current="page" href="about.html">About
+                                                us</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-dark hover_data pe-4 ancher" href="products.html">Portfolio</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-dark hover_data pe-4 ancher" href="career.html">Career</a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a class="nav-link text-dark hover_data ancher " href="contact-us.html">Contact us</a>
+                                        </li>
+
+                                    </ul>
+
+                                </div>
                             </div>
+                            }
+                           
                         </div>
                     </div>
                 </div>

@@ -14,7 +14,7 @@ const FindingHelp = () => {
                         <input type="text" id="search" placeholder="Find your category" className="inputfocus"/><button type="submit"><BiChevronRight style={{fontSize:"29px"}}/>
                         </button></form><p><b>Suggestions:</b> Dashboard, Payments, Refunds, Delivery</p></div></div>
                 <div className="col-lg-6 ps-5"><div className="faq-page-image wow fadeInLeft delay-0-2s pss-2" >
-                    <img src={Faqs} alt="FAQs" />
+                    <img src={Faqs} alt="FAQs" style={{width:"100%"}}/>
                 </div></div></div><hr />
         </div></section>
     )

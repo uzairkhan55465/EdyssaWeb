@@ -9,7 +9,7 @@ const WebsiteDesign = () => {
                         <div class="section-title text-white mb-25 wow fadeInUp delay-0-2s" >
                             <h2 className="text-white">Let’s Design Your New Website</h2>
                             <p>Do you want to have a website that stands out and impresses your clients? Then we are ready to help! Click the button below to contact us and discuss your ideas.</p></div>
-                    </div><div class="col-lg-3 text-lg-end">
+                    </div><div class="col-lg-3 text-lg-end d-flex justify-content-lg-start justify-content-center">
                         <a class="theme-btn style-two mb-30 wow fadeInUp delay-0-4s" href="/contact" >Let’s Get Started
                         <FaAngleDoubleRight className=' ms-2' /></a></div>
                 </div></div></section>

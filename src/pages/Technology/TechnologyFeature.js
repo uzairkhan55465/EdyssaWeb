@@ -16,17 +16,13 @@ const TechnologyFeature = () => {
     return (
         <Container >
             <div style={{ display: 'flex', justifyContent: "center" }} data-aos="fade-right" data-aos-duration="1000" className='pt-4 pt-lg-0'>
-                <div className='ps-2 pe-2'>
-                    <BsThreeDots className='icon-color' />
-                </div>
+               
                 <span className='technology-heading'>Technology Features</span>
-                <div className='ps-2 pe-2'>
-                    <BsThreeDots className='icon-color' />
-                </div>
+               
             </div>
 
-            <div className='pt-3' style={{ display: 'flex', justifyContent: "center" }} data-aos="fade-down" data-aos-duration="1000">
-                <h2 className='pt-2 section-title'>
+            <div className='pt-3 section-title' style={{ display: 'flex', justifyContent: "center" }} data-aos="fade-down" data-aos-duration="1000">
+                <h2 className='pt-2 '>
                     Full Potential Modern Features
                 </h2>
             </div>

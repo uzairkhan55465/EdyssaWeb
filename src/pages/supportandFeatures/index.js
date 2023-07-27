@@ -14,9 +14,7 @@ const Support=()=>{
                 <div className="row">
                   <div className="col-xl-4 col-lg-6 col-md-4 col-sm-6 ">
                     <div className="service-item style-two">
-                      <div className="icon">
-                      <BsThreeDots className='icon-color' />
-                      </div>
+                     
                       <h5>
                    
                           <a>Responsive design</a>

@@ -7,9 +7,9 @@ const AboutPages = () => {
     return (
         <>
             <AboutHead />
-            <DigitalTeam />
+            <DigitalTeam /> 
             <ProjetsDetails />
-            <TeamsMembers/>
+            <TeamsMembers/> 
             <AboutCards />
         </>
     )

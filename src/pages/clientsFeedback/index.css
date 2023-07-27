@@ -225,7 +225,7 @@ header:after, section:after, footer:after {
         margin-bottom: 100px;
     }
     .feedback-shape.one {
-        left: 30px!important;
-        bottom: 6%!important;
+        left: 86px!important;
+        bottom: -4%!important;
     }
 }

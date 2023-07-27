@@ -384,9 +384,7 @@ a.theme-btn:after {
     padding-bottom: 40px;
 }
 
-.footer-width {
-    width: 20%;
-}
+
 
 .footer-width p {
     color: #B3B3B3;
@@ -623,12 +621,12 @@ nav ul li:hover .dropdown-menu ul li a {
 }
 
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
-    .menu-item  .mega-menu {
+    .menu-item .mega-menu {
         width: 1100px;
     }
 }
 
-.menu-item  .mega-menu {
+.menu-item .mega-menu {
     position: absolute;
     top: 178px;
     width: 1100px;
@@ -636,7 +634,7 @@ nav ul li:hover .dropdown-menu ul li a {
     left: 0px;
     z-index: 99;
     margin-left: -635px;
-   padding: 0px 80px 30px 80px;
+    padding: 0px 80px 30px 80px;
 
     border-radius: 0 0 10px 10px;
     display: flex;
@@ -650,20 +648,23 @@ nav ul li:hover .dropdown-menu ul li a {
 .dropdowntwo ul {
     list-style: none;
 }
-.dropdown_menu-7{
+
+.dropdown_menu-7 {
     animation: rotateMenu 600ms ease-in-out forwards;
     transform-origin: top center
 }
-    
+
 @keyframes rotateMenu {
     0% {
         transform: rotateX(-90deg)
     }
+
     70% {
-        transform: rotateX(20deg) 
+        transform: rotateX(20deg)
     }
+
     100% {
-        transform: rotateX(0deg) 
+        transform: rotateX(0deg)
     }
 }
 
@@ -694,13 +695,16 @@ nav ul li:hover .dropdown-menu ul li a {
     margin-left: 5px;
 
 }
-.contact-info-item.style-two .content .title{
+
+.contact-info-item.style-two .content .title {
     font-size: 14px;
     font-weight: 500;
 }
-.contact-info-item.style-two .content .text{
+
+.contact-info-item.style-two .content .text {
     font-size: 22px;
 }
+
 .menu-item .dropdowntwo ul li a {
     padding: 3px 0px !important;
     color: white;
@@ -708,12 +712,14 @@ nav ul li:hover .dropdown-menu ul li a {
     font-size: 14px;
     /* Additional dropdown styles */
 }
-.menu-item .dropdowntwo ul li a:hover{
+
+.menu-item .dropdowntwo ul li a:hover {
     margin-left: 30px;
-    color: #ff3c58;  
+    color: #ff3c58;
 
 
 }
+
 /* .menu-item .dropdowntwo ul li a::before{
     position: absolute;
     top: 50%;
@@ -724,26 +730,96 @@ nav ul li:hover .dropdown-menu ul li a {
   
 } */
 
-.menu-item  .mega-menu ul{
+.menu-item .mega-menu ul {
     padding-left: 0px;
 }
-.menu-item  .mega-menu ul li{
+
+.menu-item .mega-menu ul li {
     list-style: none;
-  
+
 }
-.mega-head{
-    color: #777777!important;
+
+.mega-head {
+    color: #777777 !important;
     font-size: 16px;
-   
-    
+
+
 }
-.mega-head li{
-    list-style: none!important;
+
+.mega-head li {
+    list-style: none !important;
 }
-.menu-item  .mega-menu ul li a {
+
+.menu-item .mega-menu ul li a {
     padding: 3px 0px !important;
     color: white;
     font-weight: 500;
     font-size: 14px;
     /* Additional dropdown styles */
+}
+.infoo{
+    font-weight: 600;
+    font-size: 1.3rem 
+}
+@media (max-width: 1199px) and (min-width: 992px) {
+    .logosm {
+        width: 120px;
+    }
+    .infoo{
+        font-weight: 600;
+        font-size: 1rem!important 
+    }
+    .menu-item a{
+font-size: 13px;
+    }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+    .logosm {
+        width: 70px;
+    }
+    .infoo{
+        font-weight: 600;
+        font-size: 0.8rem!important 
+    }
+    .menu-item a{
+font-size: 11px;
+
+    }
+}
+@media (max-width: 767px) and (min-width: 320px){
+    .hamburger{
+        position: absolute;
+        background: aliceblue;
+        width: 98%;
+        top: 99%;
+        right: 1%;
+        height: fit-content;
+    }
+    .logosm {
+        width: 80px;
+        margin: 30px 0px;
+    }
+}
+@media (max-width: 913px) and (min-width: 768px){
+    .footer-width p {
+        font-size: 14px!important;
+    }
+    .footer-width ul li {
+        font-size: 12px!important;
+    }
+}
+@media (max-width: 767px) and (min-width: 320px){
+    .footer-width p {
+        font-size: 14px!important;
+    }
+    .footer-width ul li {
+        font-size: 12px!important;
+    }
+  
+}
+
+@media only screen and (max-width:575px){
+    .mobile-col{
+        order: 2;
+    }
 }

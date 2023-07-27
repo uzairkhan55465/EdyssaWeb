@@ -18,13 +18,9 @@ const PopularServices = ({title,desc}) => {
                     paddingTop: "40px", display: "flex",
                     justifyContent: "center"
                 }}>
-                    <div className='ps-2 pe-2'>
-                        <BsThreeDots className='icon-color' />
-                    </div>
+                  
                     <span className='Mission-heading'>{title}</span>
-                    <div className='ps-2 pe-2'>
-                        <BsThreeDots className='icon-color' />
-                    </div>
+                   
                 </div>
                 <div data-aos="fade-up" data-aos-duration="1000" className='d-flex justify-content-center pt-4 section-title'>
                     <h2>{desc}

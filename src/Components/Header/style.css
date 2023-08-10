@@ -461,6 +461,9 @@ a.theme-btn:after {
     padding: 43px 0;
     text-transform: uppercase;
 }
+.icon-clr{
+    color:red!important;
+}
 
 .it-menu ul li.has-dropdown>a::after {
     color: var(--tp-theme-orange);
@@ -778,9 +781,12 @@ font-size: 13px;
         width: 70px;
     }
     .infoo{
-        font-weight: 600;
-        font-size: 0.8rem!important 
+        font-weight: 500;
+        font-size: 0.5rem!important 
     }
+    /* .adject__infoone{
+        align-items: center!important;
+    } */
     .menu-item a{
 font-size: 11px;
 

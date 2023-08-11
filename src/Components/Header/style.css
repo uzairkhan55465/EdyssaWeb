@@ -418,8 +418,8 @@ a.theme-btn:after {
 
 .tp-it-header__main {
     border-radius: 10px;
-    /* margin-left: 120px;
-    margin-right: 120px; */
+    margin-left: 120px;
+    margin-right: 120px;
     padding-left: 25px;
     padding-right: 25px;
     box-shadow: inset 0px 8px 16px 0px rgba(101, 101, 101, 0.2);
@@ -831,4 +831,10 @@ font-size: 11px;
 }
 
 
+@media screen and (max-width: 479px) and (min-width: 320px) {
+    .tp-it-header__main {
+        margin-left: 0px!important; /* Update left margin for small screens */
+        margin-right: 0px!important; /* Update right margin for small screens */
+    }
+}
 

@@ -49,7 +49,7 @@ const Header = () => {
         setMenu2(false);
         break;
       case 3:
-        setMenu3(false);
+        setMenu3(false);;
         break;
       case 4:
         setMenu4(false);
@@ -58,6 +58,13 @@ const Header = () => {
         break;
     }
   };
+
+  // const handleMouseLeave = () => {
+  //   setMenu1(false);
+  //   setMenu2(false);
+  //   setMenu3(false);
+  //   setMenu4(false);
+  // };
 
   const iconStyle = {
     color: "blue !important",
@@ -190,20 +197,23 @@ const Header = () => {
                       </a>
                       <ul>
                         <li>
-                          <a href="about-me.html">About Me</a>
+                          <a onClick={()=> naviagte("/about")} href="about-me.html">About Me</a>
                         </li>
                         <li>
-                          <a href="about.html">About Us v.1 </a>
+                          <a onClick={()=> naviagte("/faqs")} href="about.html">FAQS </a>
                         </li>
                         <li>
-                          <a href="about-2.html">About Us v.2</a>
+                          <a onClick={()=> naviagte("/services")} href="about-2.html">Services</a>
                         </li>
                         <li>
-                          <a href="about-3.html">About Us v.3</a>
+                          <a onClick={()=> naviagte("/pricing")} href="about-3.html">Pricing</a>
+                        </li>
+                        <li>
+                          <a onClick={()=> naviagte("/projects-details")} href="about-3.html">Project Details</a>
                         </li>
                       </ul>
                     </li>
-                    <li>
+                    {/* <li>
                       <a href="#" className="mega-head">
                         Layout 2
                       </a>
@@ -309,7 +319,7 @@ const Header = () => {
                           <a href="shop-details.html">Shop Details</a>
                         </li>
                       </ul>
-                    </li>
+                    </li> */}
                   </ul>
                 )}
               </li>

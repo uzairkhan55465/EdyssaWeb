@@ -97,6 +97,9 @@ a:hover, a:focus, a:visited {
     .banner-shapes .circle{
             width: 0px!important;
     }
+    .maintain-div{
+        width: 124%!important;
+    }
     .banner-inner h1:after {
         margin-left: 99px!important;
        width: 71%!important;

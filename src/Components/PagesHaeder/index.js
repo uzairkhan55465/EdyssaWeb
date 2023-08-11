@@ -3,7 +3,7 @@ import Shape1 from "../../assets/images/shapes/hero-shape1.png"
 import Shape2 from "../../assets/images/shapes/hero-shape2.png"
 const PageHeader = ({Title,page}) => {
     return (
-        <section className="page-banner-area pt-245 rpt-150 pb-170 rpb-100 rel z-1 bgc-lighter text-center">
+        <section className="page-banner-area pt-245 rpt-150 pb-170 rpb-100 rel z-1 bgc-lighter text-center maintain-div">
             <div className="container">
                 <div className="banner-inner rpt-10">
                     <h1

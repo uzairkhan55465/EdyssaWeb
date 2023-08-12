@@ -815,18 +815,50 @@ nav ul li:hover .dropdown-menu ul li a {
   }
 }
 
-@media (max-width: 767px) and (min-width: 381px){
+/* @media (max-width: 767px) and (min-width: 381px){
     .tp-it-header__main {
         margin-left: 25px !important;
         margin-right: 27px !important;
         margin-top: 4px !important;
     }
-}
-@media (max-width: 389px) and (min-width: 320px){
+} */
+/* @media (max-width: 389px) and (min-width: 320px){
     .tp-it-header__main {
         margin-left: 25px !important;
         margin-right: -27px !important;
         margin-top: 4px !important;
     }
+} */
+
+@media (max-width: 479px) and (min-width: 320px){
+  .tp-it-header__main {
+    margin-left: 40px !important;
+    margin-right: 84px !important;
+    margin-top: 4px !important;
+}
+}
+
+@media (max-width: 567px) and (min-width: 480px) { 
+  .tp-it-header__main {
+    margin-left: 110px !important;
+    margin-right: 26px !important;
+    margin-top: 4px !important;
+}
+}
+
+@media (max-width: 684px) and (min-width: 568px) { 
+  .tp-it-header__main {
+    margin-left: 89px !important;
+    margin-right: 99px !important;
+    margin-top: 1px !important;
+}
+} 
+
+@media (max-width: 767px) and (min-width: 685px) { 
+  .tp-it-header__main {
+    margin-left: 113px !important;
+    margin-right: 109px !important;
+    margin-top: 2px !important;
+}
 }
 

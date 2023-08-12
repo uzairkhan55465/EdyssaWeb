@@ -233,16 +233,28 @@ const Header = () => {
                           </a>
                         </li>
                         <li>
-                          <a onClick={() => navigate("/faqs")}>FAQS</a>
+                          <a onClick={() => {
+                            navigate("/faqs");
+                            setMenu3(false);
+                          }}>FAQS</a>
                         </li>
                         <li>
-                          <a onClick={() => navigate("/services")}>Services</a>
+                          <a onClick={() => {
+                            navigate("/services");
+                            setMenu3(false);
+                          }}>Services</a>
                         </li>
                         <li>
-                          <a onClick={() => navigate("/pricing")}>Pricing</a>
+                          <a onClick={() => {
+                            navigate("/pricing");
+                            setMenu3(false);
+                          }}>Pricing</a>
                         </li>
                         <li>
-                          <a onClick={() => navigate("/projects-details")}>
+                          <a onClick={() => {
+                            navigate("/projects-details");
+                            setMenu3(false);
+                          }}>
                             Project Details
                           </a>
                         </li>

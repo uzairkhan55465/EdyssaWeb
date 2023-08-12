@@ -96,7 +96,7 @@ body {
     border-left: 3px solid #01c9f5;
 }
 
-    {
+    /* {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -105,7 +105,7 @@ body {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-}
+} */
 
 .video-play-text {
     display: -webkit-box;

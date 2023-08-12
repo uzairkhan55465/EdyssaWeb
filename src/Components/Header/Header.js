@@ -71,7 +71,9 @@ const Header = () => {
   };
 
   return (
-    <div id="header-sticky" class="tp-it-header__main p-relative">
+
+      <div className="small-center">
+      <div id="header-sticky" className="tp-it-header__main p-relative">
       <div class="container-fluid">
         <div class="row align-items-center">
           <div class="col-lg-3 col-md-2 col-3">
@@ -364,7 +366,7 @@ const Header = () => {
               </li>
             </ul>
           </div>
-          <div class="col-xl-3 col-lg-3 col-md-2  d-none d-xl-block d-lg-block  d-md-block">
+          <div class="col-xl-3 col-lg-3 col-md-2  d-none d-xl-block d-lg-block  d-md-block align-items-center">
             <div class="d-flex justify-content-end adject__infoone">
               <div class="tp-it-header__main-cta">
                 <p className="mb-0">
@@ -388,7 +390,7 @@ const Header = () => {
                 <GiHamburgerMenu onClick={() => OpenHandler()} />
               </div>
               {open === true && (
-                <div>
+                <div className="d-flex justify-content-center">
                   <div
                     class="navbar-collapse collapse show hamburger"
                     id="navbarNavAltMarkup"
@@ -425,6 +427,8 @@ const Header = () => {
         </div>
       </div>
     </div>
+      </div>
+   
   );
 };
 

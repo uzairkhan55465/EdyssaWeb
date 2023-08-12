@@ -7,18 +7,41 @@ import { HiMailOpen } from "react-icons/hi";
 import { useNavigate } from "react-router-dom";
 import { AiFillDownCircle } from "react-icons/ai";
 const Header = () => {
-  const naviagte = useNavigate();
-  const [menu1, setMenu1] = useState(false);
-  const [menu2, setMenu2] = useState(false);
-  const [menu3, setMenu3] = useState(false);
-  const [menu4, setMenu4] = useState(false);
-  const [open, setOpen] = useState(false);
+  const navigate = useNavigate();
+  const [menu1, setMenu1] = useState(0);
+  const [menu2, setMenu2] = useState(0);
+  const [menu3, setMenu3] = useState(0);
+  const [menu4, setMenu4] = useState(0);
+  const [open, setOpen] = useState(0);
 
   const OpenHandler = () => {
     if (open === false) {
       setOpen(true);
     } else {
       setOpen(false);
+    }
+  };
+
+  const OpenSubMenu = (value) => {
+    if (menu1 === 0) {
+      setMenu1(value);
+    } else {
+      setMenu1(0);
+    }
+    if (menu2 === 0) {
+      setMenu2(value);
+    } else {
+      setMenu2(0);
+    }
+    if (menu3 === 0) {
+      setMenu3(value);
+    } else {
+      setMenu3(0);
+    }
+    if (menu4 === 0) {
+      setMenu4(value);
+    } else {
+      setMenu4(0);
     }
   };
   const handleMouseEnter = (menunumber) => {
@@ -49,7 +72,7 @@ const Header = () => {
         setMenu2(false);
         break;
       case 3:
-        setMenu3(false);;
+        setMenu3(false);
         break;
       case 4:
         setMenu4(false);
@@ -71,364 +94,273 @@ const Header = () => {
   };
 
   return (
-
-      <div className="small-center">
+    <div className="small-center">
       <div id="header-sticky" className="tp-it-header__main p-relative">
-      <div class="container-fluid">
-        <div class="row align-items-center">
-          <div class="col-lg-3 col-md-2 col-3">
-            <div class="logo">
-              <a href="index.html">
-                <img src={Logo} alt="logo" className="logosm" />
-              </a>
-            </div>
-          </div>
-          <div class="col-xl-6 col-lg-6 col-md-8  d-none d-xl-block d-lg-block d-md-block ">
-            <ul className="menu d-flex justify-content-around">
-              <li
-                className="menu-item"
-                onMouseLeave={() => handleMouseLeave(1)}
-              >
-                <a href="#" onMouseEnter={() => handleMouseEnter(1)}>
-                  HOME
+        <div class="container-fluid">
+          <div class="row align-items-center">
+            <div class="col-lg-3 col-md-2 col-3">
+              <div class="logo">
+                <a href="index.html">
+                  <img src={Logo} alt="logo" className="logosm" />
                 </a>
-                {menu1 === true ? (
-                  <AiOutlineMinus style={{ color: "red", fontWeight: "100" }} />
-                ) : (
-                  <AiOutlinePlus style={{ color: "red", fontWeight: "100" }} />
-                )}
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-8  d-none d-xl-block d-lg-block d-md-block ">
+              <ul className="menu d-flex justify-content-around">
+                <li className="menu-item" onClick={() => OpenSubMenu(1)}>
+                  <a href="#">HOME</a>
+                  {menu1 === 1 ? (
+                    <AiOutlineMinus
+                      style={{ color: "red", fontWeight: "100" }}
+                    />
+                  ) : (
+                    <AiOutlinePlus
+                      style={{ color: "red", fontWeight: "100" }}
+                    />
+                  )}
 
-                {menu1 && (
-                  <div
-                    className="dropdowntwo dropdown_menu dropdown_menu--animated dropdown_menu-7 px-4"
-                    style={{ backgroundColor: "#070707" }}
-                  >
-                    <ul>
-                      <li>
-                        <a href="index.html">Main Home</a>
-                      </li>
-                      <li>
-                        <a href="index-2.html">It Solutions</a>
-                      </li>
-                      <li>
-                        <a href="index-3.html">Digital Agency</a>
-                      </li>
-                      <li>
-                        <a href="index-4.html">Home Saas</a>
-                      </li>
-                      <li>
-                        <a href="index-5.html">Photography</a>
-                      </li>
-                      <li>
-                        <a href="index-6.html">Minimal Portfolio</a>
-                      </li>
-                      <li>
-                        <a href="index-7.html">Law Firm</a>
-                      </li>
-                      <li>
-                        <a href="index-8.html">Creative Agency</a>
-                      </li>
-                      <li>
-                        <a href="index-9.html">Architecture</a>
-                      </li>
-                      <li>
-                        <a href="index-10.html">Seo Agency</a>
-                      </li>
-                    </ul>
-                  </div>
-                )}
-              </li>
+                  {menu1 === 1 && (
+                    <div
+                      className="dropdowntwo dropdown_menu dropdown_menu--animated dropdown_menu-7 px-4"
+                      style={{ backgroundColor: "#070707" }}
+                    >
+                      <ul>
+                        <li>
+                          <a href="index.html">Main Home</a>
+                        </li>
+                        <li>
+                          <a href="index-2.html">It Solutions</a>
+                        </li>
+                        <li>
+                          <a href="index-3.html">Digital Agency</a>
+                        </li>
+                        <li>
+                          <a href="index-4.html">Home Saas</a>
+                        </li>
+                        <li>
+                          <a href="index-5.html">Photography</a>
+                        </li>
+                        <li>
+                          <a href="index-6.html">Minimal Portfolio</a>
+                        </li>
+                        <li>
+                          <a href="index-7.html">Law Firm</a>
+                        </li>
+                        <li>
+                          <a href="index-8.html">Creative Agency</a>
+                        </li>
+                        <li>
+                          <a href="index-9.html">Architecture</a>
+                        </li>
+                        <li>
+                          <a href="index-10.html">Seo Agency</a>
+                        </li>
+                      </ul>
+                    </div>
+                  )}
+                </li>
 
-              <li className="menu-item" onClick={() => naviagte("/about")}>
-                <a>ABOUT</a>
+                <li className="menu-item" onClick={() => navigate("/about")}>
+                  <a>ABOUT</a>
 
-                {/* <div className="dropdown" style={{ backgroundColor: '#070707' }}>
+                  {/* <div className="dropdown" style={{ backgroundColor: '#070707' }}>
                                  
                                     sadasdasdas
                                 </div> */}
-              </li>
-              <li
-                className="menu-item"
-                onMouseLeave={() => handleMouseLeave(2)}
-              >
-                <a href="#" onMouseEnter={() => handleMouseEnter(2)}>
-                  SHOP
-                </a>
-                {menu2 === true ? (
-                  <AiOutlineMinus style={{ color: "red", fontWeight: "100" }} />
-                ) : (
-                  <AiOutlinePlus style={{ color: "red", fontWeight: "100" }} />
-                )}
-                {menu2 && (
-                  <div
-                    className="dropdowntwo dropdown_menu dropdown_menu--animated dropdown_menu-7 px-4"
-                    style={{ backgroundColor: "#070707" }}
-                  >
-                    <ul>
-                      <li>
-                        <a href="index.html">Shop</a>
-                      </li>
-                      <li>
-                        <a href="index-2.html">Shop Details</a>
-                      </li>
-                      <li>
-                        <a href="index-3.html">Checkout Page</a>
-                      </li>
-                    </ul>
-                  </div>
-                )}
-              </li>
-              <li
-                className="menu-item"
-                onMouseLeave={() => handleMouseLeave(3)}
-              >
-                <a href="#" onMouseEnter={() => handleMouseEnter(3)}>
-                  PAGES
-                </a>
-
-                {menu3 === true ? (
-                  <AiOutlineMinus style={{ color: "red", fontWeight: "100" }} />
-                ) : (
-                  <AiOutlinePlus style={{ color: "red", fontWeight: "100" }} />
-                )}
-                {menu3 && (
-                  <ul class="mega-menu dropdown_menu dropdown_menu--animated dropdown_menu-7">
-                    <li>
-                      <a className="mega-head" href="#">
-                        Layout 1
-                      </a>
+                </li>
+                <li className="menu-item" onClick={() => OpenSubMenu(2)}>
+                  <a href="#">SHOP</a>
+                  {menu2 === true ? (
+                    <AiOutlineMinus
+                      style={{ color: "red", fontWeight: "100" }}
+                    />
+                  ) : (
+                    <AiOutlinePlus
+                      style={{ color: "red", fontWeight: "100" }}
+                    />
+                  )}
+                  {menu2 === 2 && (
+                    <div
+                      className="dropdowntwo dropdown_menu dropdown_menu--animated dropdown_menu-7 px-4"
+                      style={{ backgroundColor: "#070707" }}
+                    >
                       <ul>
                         <li>
-                          <a onClick={()=> naviagte("/about")} href="about-me.html">About Me</a>
+                          <a href="index.html">Shop</a>
                         </li>
                         <li>
-                          <a onClick={()=> naviagte("/faqs")} href="about.html">FAQS </a>
+                          <a href="index-2.html">Shop Details</a>
                         </li>
                         <li>
-                          <a onClick={()=> naviagte("/services")} href="about-2.html">Services</a>
-                        </li>
-                        <li>
-                          <a onClick={()=> naviagte("/pricing")} href="about-3.html">Pricing</a>
-                        </li>
-                        <li>
-                          <a onClick={()=> naviagte("/projects-details")} href="about-3.html">Project Details</a>
+                          <a href="index-3.html">Checkout Page</a>
                         </li>
                       </ul>
-                    </li>
-                    {/* <li>
-                      <a href="#" className="mega-head">
-                        Layout 2
-                      </a>
-                      <ul>
-                        <li>
-                          <a href="service.html">Service v.1</a>
-                        </li>
-                        <li>
-                          <a href="service-2.html">Service v.2</a>
-                        </li>
-                        <li>
-                          <a href="service-3.html">Service v.3</a>
-                        </li>
-                        <li>
-                          <a href="service-details.html">Service Details</a>
-                        </li>
-                        <li>
-                          <a href="faq.html">Faq Page</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a href="#" className="mega-head">
-                        Layout 3
-                      </a>
-                      <ul>
-                        <li>
-                          <a href="portfolio.html">Portfolio v.1</a>
-                        </li>
-                        <li>
-                          <a href="portfolio-2.html">portfolio v.2</a>
-                        </li>
-                        <li>
-                          <a href="portfolio-3.html">portfolio v.3</a>
-                        </li>
-                        <li>
-                          <a href="portfolio-4.html">portfolio v.4</a>
-                        </li>
-                        <li>
-                          <a href="portfolio-5.html">portfolio v.5</a>
-                        </li>
-                        <li>
-                          <a href="portfolio-details.html">portfolio details</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a href="#" className="mega-head">
-                        Layout 4
-                      </a>
-                      <ul>
-                        <li>
-                          <a href="team.html">Team</a>
-                        </li>
-                        <li>
-                          <a href="team-2.html">Team v.1</a>
-                        </li>
-                        <li>
-                          <a href="team-details.html">Team Details</a>
-                        </li>
-                        <li>
-                          <a href="job.html">Job</a>
-                        </li>
-                        <li>
-                          <a href="job-details.html">Job Details</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a href="#" className="mega-head">
-                        Layout 5
-                      </a>
-                      <ul>
-                        <li>
-                          <a href="price.html">Price &amp; Plans</a>
-                        </li>
-                        <li>
-                          <a href="privacy-policy.html">privacy policy</a>
-                        </li>
-                        <li>
-                          <a href="terms.html">Terms &amp; Condition</a>
-                        </li>
-                        <li>
-                          <a href="help.html">Help Center</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a href="#" className="mega-head">
-                        Layout 6
-                      </a>
-                      <ul>
-                        <li>
-                          <a href="search.html">Search Results</a>
-                        </li>
-                        <li>
-                          <a href="contact.html">Contact</a>
-                        </li>
-                        <li>
-                          <a href="shop.html">Shop</a>
-                        </li>
-                        <li>
-                          <a href="shop-details.html">Shop Details</a>
-                        </li>
-                      </ul>
-                    </li> */}
-                  </ul>
-                )}
-              </li>
-              <li
-                className="menu-item"
-                onMouseLeave={() => handleMouseLeave(4)}
-              >
-                <a href="#" onMouseEnter={() => handleMouseEnter(4)}>
-                  BLOG
-                </a>
-                {menu4 === true ? (
-                  <AiOutlineMinus style={{ color: "red", fontWeight: "100" }} />
-                ) : (
-                  <AiOutlinePlus style={{ color: "red", fontWeight: "100" }} />
-                )}
-                {menu4 && (
-                  <div
-                    className="dropdowntwo dropdown_menu dropdown_menu--animated dropdown_menu-7 px-4"
-                    style={{ backgroundColor: "#070707" }}
-                  >
-                    <ul>
-                      <li>
-                        <a href="index.html">Blog</a>
-                      </li>
-                      <li>
-                        <a href="index-2.html">Blog List</a>
-                      </li>
-                      <li>
-                        <a href="index-3.html">Blog Details</a>
-                      </li>
-                    </ul>
-                  </div>
-                )}
-              </li>
-
-              {/* Repeat the same pattern for other menu items */}
-            </ul>
-
-            <ul className="text-center">
-              <li className="menu-item" onClick={() => naviagte("/contactus")}>
-                <a>Contact</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-xl-3 col-lg-3 col-md-2  d-none d-xl-block d-lg-block  d-md-block align-items-center">
-            <div class="d-flex justify-content-end adject__infoone">
-              <div class="tp-it-header__main-cta">
-                <p className="mb-0">
-                  <span style={{ fontWeight: "300", fontSize: "1rem" }}>
-                    <HiMailOpen style={{ color: "red", fontSize: "20px" }} />{" "}
-                    SUPPORT EMAIL
-                  </span>
-                </p>
-                <p>
-                  {" "}
-                  <a href="mailto:info@gencio.com" className="infoo">
-                    INFO@GENCIO.COM
+                    </div>
+                  )}
+                </li>
+                <li className="menu-item">
+                  <a href="#" onClick={() => OpenSubMenu(3)}>
+                    PAGES
                   </a>
-                </p>
+
+                  {menu3 === true ? (
+                    <AiOutlineMinus
+                      style={{ color: "red", fontWeight: "100" }}
+                    />
+                  ) : (
+                    <AiOutlinePlus
+                      style={{ color: "red", fontWeight: "100" }}
+                    />
+                  )}
+
+                  {menu3 === 3 && (
+                    <div className="mega-menu dropdowntwo dropdown_menu dropdown_menu--animated dropdown_menu-7">
+                      <ul>
+                        <li>
+                          <a className="mega-head" href="#">
+                            Layout 1
+                          </a>
+                        </li>
+
+                        <li>
+                          <a
+                            onClick={() => {
+                              navigate("/about");
+                              setMenu3(false);
+                            }}
+                          >
+                            About Me
+                          </a>
+                        </li>
+                        <li>
+                          <a onClick={() => navigate("/faqs")}>FAQS</a>
+                        </li>
+                        <li>
+                          <a onClick={() => navigate("/services")}>Services</a>
+                        </li>
+                        <li>
+                          <a onClick={() => navigate("/pricing")}>Pricing</a>
+                        </li>
+                        <li>
+                          <a onClick={() => navigate("/projects-details")}>
+                            Project Details
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  )}
+                </li>
+                <li className="menu-item">
+                  <a href="#" onClick={() => OpenSubMenu(4)}>
+                    BLOG
+                  </a>
+                  {menu4 === true ? (
+                    <AiOutlineMinus
+                      style={{ color: "red", fontWeight: "100" }}
+                    />
+                  ) : (
+                    <AiOutlinePlus
+                      style={{ color: "red", fontWeight: "100" }}
+                    />
+                  )}
+                  {menu4 === 4 && (
+                    <div
+                      className="dropdowntwo dropdown_menu dropdown_menu--animated dropdown_menu-7 px-4"
+                      style={{ backgroundColor: "#070707" }}
+                    >
+                      <ul>
+                        <li>
+                          <a href="index.html">Blog</a>
+                        </li>
+                        <li>
+                          <a href="index-2.html">Blog List</a>
+                        </li>
+                        <li>
+                          <a href="index-3.html">Blog Details</a>
+                        </li>
+                      </ul>
+                    </div>
+                  )}
+                </li>
+
+                {/* Repeat the same pattern for other menu items */}
+              </ul>
+
+              <ul className="text-center">
+                <li
+                  className="menu-item"
+                  onClick={() => navigate("/contactus")}
+                >
+                  <a>Contact</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-2  d-none d-xl-block d-lg-block  d-md-block align-items-center">
+              <div class="d-flex justify-content-end adject__infoone">
+                <div class="tp-it-header__main-cta">
+                  <p className="mb-0">
+                    <span style={{ fontWeight: "300", fontSize: "1rem" }}>
+                      <HiMailOpen style={{ color: "red", fontSize: "20px" }} />{" "}
+                      SUPPORT EMAIL
+                    </span>
+                  </p>
+                  <p>
+                    {" "}
+                    <a href="mailto:info@gencio.com" className="infoo">
+                      INFO@GENCIO.COM
+                    </a>
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-9 d-xl-none d-lg-none d-md-none">
-            <div class="tp-header-search-nav d-flex justify-content-end">
-              <div>
-                <GiHamburgerMenu onClick={() => OpenHandler()} />
-              </div>
-              {open === true && (
-                <div className="d-flex justify-content-center">
-                  <div
-                    class="navbar-collapse collapse show hamburger"
-                    id="navbarNavAltMarkup"
-                  >
-                    <div className="d-flex justify-content-between ms-3 me-3 pt-2">
-                      <a href="#">HOME</a>
-                      <AiFillDownCircle />
-                    </div>
-                    <div className="d-flex justify-content-between ms-3 me-3 pt-2">
-                    <a href="#" onClick={() => naviagte("/about")}>ABOUT</a>
-                      <AiFillDownCircle />
-                    </div>
-                    <div className="d-flex justify-content-between ms-3 me-3 pt-2">
-                    <a href="#">SHOPS</a>
-                      <AiFillDownCircle />
-                    </div>
-                    <div className="d-flex justify-content-between ms-3 me-3 pt-2">
-                    <a href="#">PAGES</a>
-                      <AiFillDownCircle />
-                    </div>
-                    <div className="d-flex justify-content-between ms-3 me-3 pt-2">
-                    <a href="#">BLOGS</a>
-                      <AiFillDownCircle />
-                    </div>
-                    <div className="d-flex justify-content-between ms-3 me-3 pt-2">
-                    <a href="#" onClick={() => naviagte("/contactus")}>CONTACT US</a>
-                      <AiFillDownCircle />
+            <div class="col-9 d-xl-none d-lg-none d-md-none">
+              <div class="tp-header-search-nav d-flex justify-content-end">
+                <div>
+                  <GiHamburgerMenu onClick={() => OpenHandler()} />
+                </div>
+                {open === true && (
+                  <div className="d-flex justify-content-center">
+                    <div
+                      class="navbar-collapse collapse show hamburger"
+                      id="navbarNavAltMarkup"
+                    >
+                      <div className="d-flex justify-content-between ms-3 me-3 pt-2">
+                        <a href="#">HOME</a>
+                        <AiFillDownCircle />
+                      </div>
+                      <div className="d-flex justify-content-between ms-3 me-3 pt-2">
+                        <a href="#" onClick={() => navigate("/about")}>
+                          ABOUT
+                        </a>
+                        <AiFillDownCircle />
+                      </div>
+                      <div className="d-flex justify-content-between ms-3 me-3 pt-2">
+                        <a href="#">SHOPS</a>
+                        <AiFillDownCircle />
+                      </div>
+                      <div className="d-flex justify-content-between ms-3 me-3 pt-2">
+                        <a href="#">PAGES</a>
+                        <AiFillDownCircle />
+                      </div>
+                      <div className="d-flex justify-content-between ms-3 me-3 pt-2">
+                        <a href="#">BLOGS</a>
+                        <AiFillDownCircle />
+                      </div>
+                      <div className="d-flex justify-content-between ms-3 me-3 pt-2">
+                        <a href="#" onClick={() => navigate("/contactus")}>
+                          CONTACT US
+                        </a>
+                        <AiFillDownCircle />
+                      </div>
                     </div>
                   </div>
-                </div>
-              )}
+                )}
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-      </div>
-   
   );
 };
 

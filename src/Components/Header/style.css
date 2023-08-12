@@ -644,9 +644,9 @@ nav ul li:hover .dropdown-menu ul li a {
   list-style: none;
 }
 
-.dropdown_menu-7 {
-  animation: rotateMenu 600ms ease-in-out forwards;
-  transform-origin: top center;
+.dropdown_menu-7 ul li a {
+  animation: rotateMenu 600ms ease-in-out forwards !important;
+  transform-origin: top center !important;
 }
 
 @keyframes rotateMenu {

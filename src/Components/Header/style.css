@@ -862,3 +862,23 @@ nav ul li:hover .dropdown-menu ul li a {
 }
 }
 
+.submenu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.submenu-item a {
+  text-decoration: none;
+  color: #333;
+}
+
+.submenu-item a:hover {
+  color: #007bff;
+}
+
+.submenu-item svg {
+  cursor: pointer;
+}

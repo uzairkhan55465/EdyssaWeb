@@ -107,7 +107,7 @@ a:hover, a:focus, a:visited {
     }
 }
 
-@media (max-width: 479px) and (min-width: 320px) {
+/* @media (max-width: 479px) and (min-width: 320px) {
     
     .maintain-div {
       width: 100%!important;
@@ -135,4 +135,4 @@ a:hover, a:focus, a:visited {
     .maintain-div{
         width: 103%!important;
     }
- }
+ } */

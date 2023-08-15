@@ -7,6 +7,16 @@ import { HiMailOpen } from "react-icons/hi";
 import { useNavigate } from "react-router-dom";
 import { AiFillDownCircle } from "react-icons/ai";
 const Header = () => {
+  const [opendata, setOpendata] = useState(false);
+
+  const toggleMenu = () => {
+    setOpendata(!open);
+
+  };
+  console.log("data", setOpendata)
+
+
+
   const navigate = useNavigate();
   const [menu1, setMenu1] = useState(0);
   const [menu2, setMenu2] = useState(0);
@@ -327,9 +337,46 @@ const Header = () => {
             </div>
             <div class="col-9 d-xl-none d-lg-none d-md-none">
               <div class="tp-header-search-nav d-flex justify-content-end">
-                <div>
-                  <GiHamburgerMenu onClick={() => OpenHandler()} />
+                {/* <div>
+                <GiHamburgerMenu onClick={() => { OpenHandler(); toggleMenu(); }} />
                 </div>
+                {open && (
+        <div className="d-flex justify-content-center hamburger">
+          <div className="d-flex justify-content-between ms-3 me-3 pt-2">
+  <a href="#">HOME</a>
+  <AiFillDownCircle onClick={toggleMenu} />
+</div>
+<div className="d-flex justify-content-between ms-3 me-3 pt-2">
+  <a href="#" onClick={() => navigate("/about")}>
+    ABOUT
+  </a>
+  <AiFillDownCircle onClick={toggleMenu} />
+</div>
+
+        </div>
+      )} */}
+
+<div>
+      <div>
+        <GiHamburgerMenu onClick={() => { OpenHandler(); toggleMenu(); }} />
+      </div>
+      {open && (
+        <div className="d-flex justify-content-center hamburger">
+          <div className="submenu-item">
+            <a href="#">HOME</a>
+            <AiFillDownCircle onClick={toggleMenu} />
+          </div>
+          <div className="submenu-item">
+            <a href="#" onClick={() => navigate("/about")}>
+              ABOUT
+            </a>
+            <AiFillDownCircle onClick={toggleMenu} />
+          </div>
+          {/* ... Repeat for other submenu items */}
+        </div>
+      )}
+    </div>
+
                 {open === true && (
                   <div className="d-flex justify-content-center">
                     <div
@@ -338,7 +385,7 @@ const Header = () => {
                     >
                       <div className="d-flex justify-content-between ms-3 me-3 pt-2">
                         <a href="#">HOME</a>
-                        <AiFillDownCircle />
+                        <AiFillDownCircle onClick={toggleMenu} />
                       </div>
                       <div className="d-flex justify-content-between ms-3 me-3 pt-2">
                         <a href="#" onClick={() => navigate("/about")}>

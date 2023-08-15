@@ -3,7 +3,7 @@ import ProjectsAnimations from "./Projects3dAnimations";
 import RelatedProjects from "./relatedProjects";
 const ProjectDetailsPages = () => {
     return (
-        <div>
+        <div className="overflow-auto">
             <ProjectHead />
             <ProjectsAnimations />
             <RelatedProjects />

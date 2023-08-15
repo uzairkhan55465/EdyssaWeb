@@ -6,11 +6,13 @@ import PricingPlan from "./pricingPlan"
 const ServicesPages = () => {
     return (
         <>
+        <div  style={{ overflow: 'auto' }}>
             <ServicesHead />
             <CompanyStatistics />
             <WorkingProcess />
             <ServicesWEProvide />
             <PricingPlan/>
+            </div>
         </>
 
     )

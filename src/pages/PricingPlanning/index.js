@@ -4,11 +4,11 @@ import PricingTwo from "./pricingTwo";
 import PricingThree from "./pricingThree"
 const PricingPages = () => {
     return (
-        <div>
+        <div  className="overflow-auto">
             <PricingHead />
             <PricingOne />
             <PricingTwo />
-            <PricingThree/>
+            <PricingThree />
         </div>
     )
 }

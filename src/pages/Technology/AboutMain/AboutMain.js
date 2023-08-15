@@ -19,7 +19,7 @@ const AboutMain = () => {
                         <div className="col-lg-7 col-md-12 col-sm-12 col-xs-12 align-self-center">
                             <div className="hero-content text-white my-120 rmb-0 wow fadeInLeft delay-0-2s">
                                 <span className="sub-title mb-35 mb-1">
-                                    25 Years of Experience in web design solutions
+                                Elevate Your Online Presence
                                 </span>
                                 <h1 className='pt-4 head-web pb-2'>Web Development Service Provider</h1>
                                 <p className='my-4 '>

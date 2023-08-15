@@ -59,50 +59,64 @@ export const ServicesCards=[
     {
         id:1,
         icon:<FaReact/>,
-        title:"React js Development",
-        desc:"Focus provide beautiful layout client look make import"
+        title:"Web Development",
+        desc:"Crafting immersive digital experiences that seamlessly blend aesthetics and functionality, tailored to your unique requirements."
     },
     {
         id:2,
         icon:<FaReact/>,
-        title:"React Native Development",
-        desc:"Focus provide beautiful layout client look make import"
+        title:"WordPress",
+        desc:"Harness the power of the most versatile content management system to create dynamic websites that reflect your brand's essence."
     },
     {
         id:3,
         icon:<FaReact/>,
-        title:"Jamstack Development",
-        desc:"Focus provide beautiful layout client look make import"
+        title:"Shopify",
+        desc:"Elevate your online store with Shopify's robust e-commerce solutions, combining design and performance for a seamless shopping experience."
     },
     {
         id:4,
         icon:<FaReact/>,
-        title:"Front-end development",
-        desc:"Focus provide beautiful layout client look make import"
+        title:"Ecwid",
+        desc:"Empower your business with Ecwid's flexible platform, creating a customized online store that caters to your product and customer needs."
     },
     {
         id:5,
         icon:<FaReact/>,
-        title:"MVP Development",
-        desc:"Focus provide beautiful layout client look make import"
+        title:"Wix",
+        desc:"Turn your vision into reality with Wix's user-friendly interface, designing websites that stand out with creativity and innovation."
     },  {
         id:6,
         icon:<FaReact/>,
-        title:"Web app Development",
-        desc:"Focus provide beautiful layout client look make import"
+        title:"Webflow",
+        desc:"Create visually stunning websites that are equally powerful under the hood, utilizing Webflow's tools for a unique online presence."
     },
     {
         id:7,
         icon:<FaReact/>,
-        title:"Mobile app Development",
-        desc:"Focus provide beautiful layout client look make import"
+        title:"Squarespace",
+        desc:"Craft elegant websites with Squarespace's all-in-one platform, focusing on aesthetics and usability to engage your audience."
     },
     {
         id:8,
         icon:<FaReact/>,
-        title:"Team Agumentation",
-        desc:"Focus provide beautiful layout client look make import"
-    }
+        title:"Google",
+        desc:"Leverage Google's suite of tools for enhanced online presence, ensuring your website ranks high and delivers a seamless user experience."
+    },
+    { id:9,
+        icon:<FaReact/>,
+        title:"C++",
+        desc:"Unleash the potential of high-performance applications with C++, a versatile programming language known for its efficiency and power."},
+    { 
+        id:10,
+        icon:<FaReact/>,
+        title:"Python",
+        desc:"Embark on coding endeavors with Python, a user-friendly language ideal for creating anything from web applications to data analysis tools."},
+    { id:8,
+        id:8,
+        icon:<FaReact/>,
+        title:"Graphic Designing",
+        desc:"Weave compelling visual narratives through expertly designed logos, graphics, and materials that resonate with your target audience."}
 ]
 
 export const ProjectsCards=[

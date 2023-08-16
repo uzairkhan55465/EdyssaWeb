@@ -104,6 +104,7 @@ a:hover, a:focus, a:visited {
     }
     .banner-inner h1 {
         font-size: 50px!important;
+        margin-top: 92px!important;
     }
 }
 

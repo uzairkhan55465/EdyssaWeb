@@ -32,6 +32,10 @@ const Header = () => {
     }
   };
 
+  const handleLinkClick = () => {
+    setOpen(false); 
+  };
+
   const OpenSubMenu = (value) => {
     if (menu1 === 0) {
       setMenu1(value);
@@ -236,7 +240,7 @@ const Header = () => {
                           <a
                             onClick={() => {
                               navigate("/about");
-                              setMenu3(false);
+                              setOpen(false);
                             }}
                           >
                             About Me
@@ -386,29 +390,47 @@ const Header = () => {
                       <div className="d-flex justify-content-between ms-3 me-3 pt-2">
                         <a href="#">HOME</a>
                         <AiFillDownCircle onClick={toggleMenu} />
+                        <a href="#" onClick={()=> {handleLinkClick()}}>HOME</a> 
+                        <AiFillDownCircle />
                       </div>
                       <div className="d-flex justify-content-between ms-3 me-3 pt-2">
-                        <a href="#" onClick={() => navigate("/about")}>
+                        <a href="#" onClick={() => {navigate("/about"); handleLinkClick(); }}>
                           ABOUT
                         </a>
                         <AiFillDownCircle />
                       </div>
                       <div className="d-flex justify-content-between ms-3 me-3 pt-2">
-                        <a href="#">SHOPS</a>
+                      <a onClick={() => {
+                            navigate("/faqs");
+                            handleLinkClick();
+                          }}>FAQS</a>
                         <AiFillDownCircle />
                       </div>
                       <div className="d-flex justify-content-between ms-3 me-3 pt-2">
-                        <a href="#">PAGES</a>
+                      <a onClick={() => {
+                            navigate("/services");
+                            handleLinkClick();
+                          }}>Services</a>
                         <AiFillDownCircle />
                       </div>
                       <div className="d-flex justify-content-between ms-3 me-3 pt-2">
-                        <a href="#">BLOGS</a>
+                      <a onClick={() => {
+                            navigate("/pricing");
+                            setMenu3(false);
+                          }}>Pricing</a>
                         <AiFillDownCircle />
                       </div>
                       <div className="d-flex justify-content-between ms-3 me-3 pt-2">
                         <a href="#" onClick={() => navigate("/contactus")}>
                           CONTACT US
                         </a>
+                        <AiFillDownCircle />
+                      </div>
+                      <div className="d-flex justify-content-between ms-3 me-3 pt-2">
+                      <a onClick={() => {
+                navigate("/projects-details");
+                handleLinkClick(); // Close menu on link click
+              }}>Project Details</a>
                         <AiFillDownCircle />
                       </div>
                     </div>

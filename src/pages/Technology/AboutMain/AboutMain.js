@@ -23,21 +23,19 @@ const AboutMain = () => {
                 <h1 className="pt-3 head-web pb-1">
                   Embrace the Digital Future Crafting Experiences That Inspire
                 </h1>
-                <p className="my-4 ">
-                  Welcome to a world where creativity knows no bounds. We
+                <p className="my-4">Welcome to a world where creativity knows no bounds. We
                   specialize in transforming your ideas into captivating digital
                   experiences. Our team of experts is dedicated to weaving
                   innovation and design to help your brand stand out in the
                   digital landscape. From stunning websites to seamless user
-                  interfaces, we're here to elevate your online presence.
-                </p>
+                  interfaces, we're here to elevate your online presence.</p>
                 <div className="hero-btns pt-3 mt-2 d-flex">
                   <div>
                     <a className="theme-btn mt-15">
                     Explore Our Services <FaAngleDoubleRight className="mt-1 ms-2" />
                     </a>
                   </div>
-                  <div>
+                  {/* <div>
                     <a
                       href="https://www.youtube.com/watch?v=9Y7ma241N8k"
                       className="mfp-iframe video-play-text mt-15"
@@ -50,6 +48,11 @@ const AboutMain = () => {
                           <span>Contact Us Today</span>
                         </div>
                       </div>
+                    </a>
+                  </div> */}
+                  <div>
+                    <a className="theme-btn mt-15">
+                    Contact Us Today <FaAngleDoubleRight className="mt-1 ms-2" />
                     </a>
                   </div>
                 </div>

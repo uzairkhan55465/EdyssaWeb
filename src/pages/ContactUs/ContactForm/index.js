@@ -83,6 +83,10 @@ const ContactUsForm=()=>{
                           <option value="Design">Design</option>
                           <option value="Development">Development</option>
                           <option value="SEO">SEO</option>
+                          <option value="SEO">General Queries</option>
+                          <option value="SEO">Maintenance and Support</option>
+                          <option value="SEO">Graphic Design Services</option>
+                          <option value="SEO">Consultation Request</option>
                         </select>
                       </div>
                     </div>

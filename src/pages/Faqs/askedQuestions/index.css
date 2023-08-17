@@ -55,3 +55,41 @@
     overflow-anchor: none;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease;
 }
+
+
+
+/* Adjust the accordion container layout */
+.accordion-container {
+    display: flex;
+    justify-content: space-between; /* Distribute items evenly between the left and right sides */
+    gap: 20px;
+  }
+  
+  /* Style for the left accordion container */
+  .accordion-left {
+    flex: 3; /* Take up 4/7 of the available space on the left */
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  /* Style for the right accordion container */
+  .accordion-right {
+    flex: 3; /* Take up 3/7 of the available space on the right */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    /* Adjust the layout for smaller devices */
+    .accordion-container {
+      flex-direction: column; /* Stack the accordions vertically on smaller screens */
+    }
+  
+    /* Reset flex values for responsiveness */
+    .accordion-left,
+    .accordion-right {
+      flex: 1; /* Take up equal space on smaller screens */
+    }
+  }

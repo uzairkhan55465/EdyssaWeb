@@ -240,7 +240,7 @@ const Header = () => {
                           <a
                             onClick={() => {
                               navigate("/about");
-                              setOpen(false);
+                              setMenu3(false);
                             }}
                           >
                             About Me

@@ -10,17 +10,20 @@ const CompanyStatistics = () => {
               <div className="statistics-five-content mb-30 rmb-65 wow fadeInRight delay-0-2s">
                 <div className="section-title mb-25">
                   <span className="sub-title style-two mb-15">
-                    Company Statistics
+                    Elevate Your Online Store with Expert Ecwid Solutions
                   </span>
                   <h2>
-                    Discover Extraordinary projects brought to life on Oxence.
+                    Elevate your e-commerce journey with our Ecwid service at
+                    Edyssa.
                   </h2>
                 </div>
                 <p className="pb-2">
-                  Start building your first prototype in no time. Ogency
-                  intuitive, drag &amp; drop interface gives you all the
-                  building blocks that you need to get started! No skills
-                  required.
+                  Description: At Edyssa, our Ecwid service is designed to take
+                  your online store to the next level. Whether you're starting
+                  from scratch or looking to migrate your existing store, our
+                  expertise in Ecwid ensures that your e-commerce venture is not
+                  only visually captivating but also efficient, user-friendly,
+                  and poised for growth.
                 </p>
                 <a className="theme-btn mt-15" href="/about">
                   Learn More <i className="fas fa-angle-double-right"></i>

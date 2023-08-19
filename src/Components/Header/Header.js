@@ -266,7 +266,7 @@ const Header = () => {
                         </li>
                         <li>
                           <a onClick={() => {
-                            navigate("/projects-details");
+                            navigate("/project-details-page");
                             setMenu3(false);
                           }}>
                             Project Details

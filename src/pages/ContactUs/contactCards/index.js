@@ -32,7 +32,7 @@ const ContactCards = () => {
                                             support@gmail.com
                                         </li>
                                         <li>
-                                            < MdCall style={{ color: "#0066ff", fontSize: "20px", marginRight: '10px' }} /> +000 (123) 456 88
+                                            < MdCall style={{ color: "#0066ff", fontSize: "20px", marginRight: '10px' }} /> +000 (123) 456 88 
                                         </li>
                                     </ul>
                                 </div>

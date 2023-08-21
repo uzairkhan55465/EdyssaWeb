@@ -13,12 +13,12 @@ const CompanyStatistics=()=>{
             <div className="section-title text-center mb-55 d-flex justify-content-center">
                    
                    
-                    <span className='Mission-heading'>Company Statistics</span>
+                    <span className='Mission-heading link-primary'>Company Statistics</span>
                   
                 </div>
                 <div className='text-center  mb-15 pt-2'>
                 <h2 className="whiteHead">
-                  {`We're`} the best web development <br/>agency much more
+                  {`We're`} the best web development <br/>agency more
                   achievement
                 </h2>
                 </div>
@@ -30,16 +30,16 @@ const CompanyStatistics=()=>{
               <div className="counter-item counter-text-wrap wow fadeInUp delay-0-2s">
                 <i className="flaticon-startup" />
 
-                <Counter end={2365} className="text-white"/>
-                <span className="counter-title">Projects complete</span>
+                <Counter  end={2365} className="text-white"/>
+                <span className="counter-title" style={{ fontSize: '31px' }}>Projects complete</span>
               </div>
             </div>
             <div className="col-xl-3 col-lg-4 col-6 col-small d-flex flex-column align-items-center">
               <div className="counter-item counter-text-wrap wow fadeInUp delay-0-4s">
                 <i className="flaticon-global" />
 
-                <Counter end={9632} />
-                <span className="counter-title">Trusted Global Clients</span>
+                <Counter end={9632} style={{ fontSize: '15px' }} />
+                <span className="counter-title" style={{ fontSize: '25px' }}>Trusted Global <br/> Clients</span>
               </div>
             </div>
             <div className="col-xl-3 col-lg-4 col-6 col-small d-flex flex-column align-items-center">
@@ -47,7 +47,7 @@ const CompanyStatistics=()=>{
                 <i className="flaticon-rating" />
 
                 <Counter end={8504} />
-                <span className="counter-title">Expert Team Member</span>
+                <span className="counter-title" style={{ fontSize: '25px' }}>Expert Team <br/> Member</span>
               </div>
             </div>
             <div className="col-xl-3 col-lg-4 col-6 col-small d-flex flex-column align-items-center">
@@ -55,7 +55,7 @@ const CompanyStatistics=()=>{
                 <i className="flaticon-trophy" />
 
                 <Counter end={6763} />
-                <span className="counter-title">Projects complete</span>
+                <span className="counter-title" style={{ fontSize: '25px' }}>Projects complete</span>
               </div>
             </div>
           </div>

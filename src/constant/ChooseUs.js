@@ -18,12 +18,12 @@ export const ChooseUs = [{
     para: " From web development on various platforms to coding in C++, Python, and more, and creating captivating graphic designs, our comprehensive skills cover every aspect of your digital journey.",
     img: images.thick,
 },
-{
-    id: 4,
-    heading: "Long-Term Partnership",
-    para: "We're not just here for one project; we're your digital partners for the long haul, dedicated to evolving your brand's digital presence as your business grows.",
-    img: images.thick,
-}
+// {
+//     id: 4,
+//     heading: "Long-Term Partnership",
+//     para: "We're not just here for one project; we're your digital partners for the long haul, dedicated to evolving your brand's digital presence as your business grows.",
+//     img: images.thick,
+// }
 
 
 ]

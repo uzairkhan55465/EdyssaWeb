@@ -671,6 +671,11 @@ nav ul li:hover .dropdown-menu ul li a {
 .menu-item:hover a {
   color: red;
 }
+.about-hover:hover{
+  color: red;}
+.menu-item li a:hover{
+  color: red;
+}
 
 .menu-item:hover svg {
   color: red;

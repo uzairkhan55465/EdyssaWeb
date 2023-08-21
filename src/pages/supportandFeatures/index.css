@@ -28,6 +28,7 @@
     background: #0066ff;
     -webkit-box-shadow: 10px 0 60px rgba(0, 102, 254, 0.25);
     box-shadow: 10px 0 60px rgba(0, 102, 254, 0.25);
+    color: white;
 }
 .service-item.style-two {
     padding: 35px 25px;

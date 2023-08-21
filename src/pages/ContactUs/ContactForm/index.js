@@ -276,7 +276,7 @@ const ContactUsForm=()=>{
             </div>
           </div>
         </div>
-      </div>
+      
     </section>
   );
 };

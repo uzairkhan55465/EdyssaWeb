@@ -175,7 +175,7 @@ const Header = () => {
                 </li>
 
                 <li className="menu-item" onClick={() => navigate("/about")}>
-                  <a>ABOUT</a>
+                  <a className="about-hover">ABOUT</a>
 
                   {/* <div className="dropdown" style={{ backgroundColor: '#070707' }}>
                                  

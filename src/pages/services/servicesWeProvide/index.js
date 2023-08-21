@@ -11,7 +11,7 @@ const ServicesWEProvide = () => {
               <span className="sub-title style-two mb-20 ">
                 Services We Provide
               </span>
-              <h2 classNameName="text-white">Popular Web Services</h2>
+              <h2 className="text-white">Popular Web Services</h2>
             </div>
           </div>
         </div>

@@ -11,7 +11,7 @@ const ProjetsDetails = () => {
           <div class="statistics-four-counters bgs-cover bgc-lighter projectsBack">
             <div class="row medium-gap">
               <div class="col-xl-3 col-sm-6">
-                <div class="counter-item mt-30 counter-text-wrap wow fadeInLeft delay-0-2s">
+                <div class="counter-item mt-30 counter-text-wrap wow fadeInLeft delay-0-2s size-adjust">
                   <i class="flaticon-startup"></i>
                   <Counter end={150} />
                   <span class="counter-title">Projects complete</span>

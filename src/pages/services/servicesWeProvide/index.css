@@ -72,3 +72,11 @@
     text-transform: capitalize;
     background: #0066ff;
 }
+
+.theme-btn.style-three, a.theme-btn.style-three {
+    color: #293043;
+    background: transparent;
+    border: 1px solid rgba(0, 102, 255, 0.2);
+    background-color: blue;
+    color: white;
+}

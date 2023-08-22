@@ -7,7 +7,7 @@ const Support = () => {
       <div className="container">
         <div className="row align-items-center justify-content-between">
           <div className="col-xl-6 col-lg-7">
-            <div className="support-features-wrap rmb-65 wow fadeInUp delay-0-2s">
+            <div className="support-features-wrap rmb-65 wow fadeInUp delay-0-2s gap-2">
               <div className="row">
                 <div className="col-xl-4 col-lg-6 col-md-4 col-sm-6 ">
                   <div className="service-item style-two">
@@ -56,6 +56,14 @@ const Support = () => {
                       <i className="flaticon-search-location" />
                     </div>
                     <h5>Innovative Ideas</h5>
+                  </div>
+                </div>
+                <div className="col-xl-4 col-lg-6 col-md-4 col-sm-6">
+                  <div className="service-item style-two">
+                    <div className="icon">
+                      <i className="flaticon-settings" />
+                    </div>
+                    <h5>Client-Centric  &amp; Approach</h5>
                   </div>
                 </div>
                 <div className="col-xl-4 col-lg-6 col-md-4 col-sm-6">

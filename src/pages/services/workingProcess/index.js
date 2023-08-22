@@ -7,7 +7,7 @@ const WorkingProcess = () => {
         <div className="row justify-content-center">
           <div className="col-lg-10">
             <div className="section-title text-center mb-55 wow fadeInUp delay-0-2s">
-              <span className="sub-title style-two mb-15">Working Process</span>
+              <span className="sub-title style-two mb-15 text-decoration-underline weight-one">Working Process</span>
               <h2>How does we works</h2>
             </div>
           </div>

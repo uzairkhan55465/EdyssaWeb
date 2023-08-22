@@ -43,6 +43,7 @@
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
+    
 }
 .text-white *, .text-white a, .text-white .count-text, .text-white .footer-newsletter-content .sub-title {
     color: white;

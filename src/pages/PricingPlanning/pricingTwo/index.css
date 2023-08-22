@@ -39,6 +39,27 @@ color: white;
     border-color: #52cecc;
     background-color: #52cecc ;
 }
+.price-and-btn .theme-btn.style-three {
+    border-color: #0066ff;
+    background-color: blue;
+    color: white;
+}
+/* .pricing-plan-three.style-two .price-and-btn .save {
+    color: white;
+    background-color: blue;
+    font-weight: 500;
+} */
+/* .theme-btn style-three{
+background-color: blue;
+color: white;
+} */
+
+.pricing-plan-three.style-two .price-and-btn .theme-btn.style-three {
+    border-color: #52cecc;
+    background-color: blue; /* Change to blue background color */
+    color: white; /* Set text color to white */
+}
+
 .pricing-plan-three.style-two:hover .theme-btn:after, a.theme-btn:after {
     content: '';
     width: 100%;

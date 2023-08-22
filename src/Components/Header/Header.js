@@ -321,7 +321,7 @@ const Header = () => {
                     >
                       <div className="d-flex justify-content-between ms-3 me-3 pt-2">
                         <a href="#">HOME</a>
-                        <AiFillDownCircle onClick={toggleMenu} />
+                        <AiFillDownCircle  />
                         <a href="#" onClick={() => { handleLinkClick() }}>HOME</a>
                         <AiFillDownCircle />
                       </div>

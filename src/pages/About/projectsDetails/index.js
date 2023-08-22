@@ -2,6 +2,7 @@ import "./index.css";
 import Counter from "../../../modules/Counter";
 import VideoImg from "../../../assets/images/video-bg.jpg";
 import TeamMembers from "../../TeamMembers/TeamMembers";
+import { FaPlay } from "react-icons/fa";
 const ProjetsDetails = () => {
   return (
     <>
@@ -12,28 +13,28 @@ const ProjetsDetails = () => {
               <div class="col-xl-3 col-sm-6">
                 <div class="counter-item mt-30 counter-text-wrap wow fadeInLeft delay-0-2s">
                   <i class="flaticon-startup"></i>
-                  <Counter end={2365} />
+                  <Counter end={150} />
                   <span class="counter-title">Projects complete</span>
                 </div>
               </div>
               <div class="col-xl-3 col-sm-6">
                 <div class="counter-item for-margin counter-text-wrap wow fadeInLeft delay-0-4s">
                   <i class="flaticon-global"></i>
-                  <Counter end={9632} />
+                  <Counter end={1002} />
                   <span class="counter-title">Trusted Global Clients</span>
                 </div>
               </div>
               <div class="col-xl-3 col-sm-6">
                 <div class="counter-item mt-20 counter-text-wrap wow fadeInLeft delay-0-6s">
                   <i class="flaticon-rating"></i>
-                  <Counter end={2365} />
+                  <Counter end={25} />
                   <span class="counter-title">Expert Team Member</span>
                 </div>
               </div>
               <div class="col-xl-3 col-sm-6">
                 <div class="counter-item for-margin counter-text-wrap wow fadeInLeft delay-0-8s">
                   <i class="flaticon-trophy"></i>
-                  <Counter end={6763} />
+                  <Counter end={50} />
                   <span class="counter-title">Projects complete</span>
                 </div>
               </div>
@@ -53,7 +54,11 @@ const ProjetsDetails = () => {
                   class="mfp-iframe video-play"
                   tabindex="-1"
                 >
-                  <i class="fas fa-play"></i>
+                  <div className="d-flex jusitfy-content-center align-items-center mt-2 ms-3">
+                    <div className="play">
+                      <FaPlay className="play-icon" />
+                    </div>
+                  </div>
                 </a>
               </div>
             </div>

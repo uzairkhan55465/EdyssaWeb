@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Logo from "../../assets/images/logo-orange.webp";
+import Logo from "../../assets/images/edyssa.png";
 import "./style.css";
 import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
 import { GiHamburgerMenu } from "react-icons/gi";
@@ -33,7 +33,7 @@ const Header = () => {
   };
 
   const handleLinkClick = () => {
-    setOpen(false); 
+    setOpen(false);
   };
 
   const OpenSubMenu = (value) => {
@@ -121,57 +121,8 @@ const Header = () => {
             </div>
             <div class="col-xl-6 col-lg-6 col-md-8  d-none d-xl-block d-lg-block d-md-block ">
               <ul className="menu d-flex justify-content-around">
-                <li className="menu-item" onClick={() => OpenSubMenu(1)}>
-                  <a href="#">HOME</a>
-                  {menu1 === 1 ? (
-                    <AiOutlineMinus
-                      style={{ color: "red", fontWeight: "100" }}
-                    />
-                  ) : (
-                    <AiOutlinePlus
-                      style={{ color: "red", fontWeight: "100" }}
-                    />
-                  )}
-
-                  {menu1 === 1 && (
-                    <div
-                      className="dropdowntwo dropdown_menu dropdown_menu--animated dropdown_menu-7 px-4"
-                      style={{ backgroundColor: "#070707" }}
-                    >
-                      <ul>
-                        <li>
-                          <a href="index.html">Main Home</a>
-                        </li>
-                        <li>
-                          <a href="index-2.html">It Solutions</a>
-                        </li>
-                        <li>
-                          <a href="index-3.html">Digital Agency</a>
-                        </li>
-                        <li>
-                          <a href="index-4.html">Home Saas</a>
-                        </li>
-                        <li>
-                          <a href="index-5.html">Photography</a>
-                        </li>
-                        <li>
-                          <a href="index-6.html">Minimal Portfolio</a>
-                        </li>
-                        <li>
-                          <a href="index-7.html">Law Firm</a>
-                        </li>
-                        <li>
-                          <a href="index-8.html">Creative Agency</a>
-                        </li>
-                        <li>
-                          <a href="index-9.html">Architecture</a>
-                        </li>
-                        <li>
-                          <a href="index-10.html">Seo Agency</a>
-                        </li>
-                      </ul>
-                    </div>
-                  )}
+                <li className="menu-item" onClick={() => { OpenSubMenu(1); navigate("/") }}>
+                  <a >HOME</a>
                 </li>
 
                 <li className="menu-item" onClick={() => navigate("/about")}>
@@ -360,26 +311,26 @@ const Header = () => {
         </div>
       )} */}
 
-<div>
-      <div>
-        <GiHamburgerMenu onClick={() => { OpenHandler(); toggleMenu(); }} />
-      </div>
-      {open && (
-        <div className="d-flex justify-content-center hamburger">
-          <div className="submenu-item">
-            <a href="#">HOME</a>
-            <AiFillDownCircle onClick={toggleMenu} />
-          </div>
-          <div className="submenu-item">
-            <a href="#" onClick={() => navigate("/about")}>
-              ABOUT
-            </a>
-            <AiFillDownCircle onClick={toggleMenu} />
-          </div>
-          {/* ... Repeat for other submenu items */}
-        </div>
-      )}
-    </div>
+                <div>
+                  <div>
+                    <GiHamburgerMenu onClick={() => { OpenHandler(); toggleMenu(); }} />
+                  </div>
+                  {open && (
+                    <div className="d-flex justify-content-center hamburger">
+                      <div className="submenu-item">
+                        <a href="#">HOME</a>
+                        <AiFillDownCircle onClick={toggleMenu} />
+                      </div>
+                      <div className="submenu-item">
+                        <a href="#" onClick={() => navigate("/about")}>
+                          ABOUT
+                        </a>
+                        <AiFillDownCircle onClick={toggleMenu} />
+                      </div>
+                      {/* ... Repeat for other submenu items */}
+                    </div>
+                  )}
+                </div>
 
                 {open === true && (
                   <div className="d-flex justify-content-center">
@@ -390,34 +341,34 @@ const Header = () => {
                       <div className="d-flex justify-content-between ms-3 me-3 pt-2">
                         <a href="#">HOME</a>
                         <AiFillDownCircle onClick={toggleMenu} />
-                        <a href="#" onClick={()=> {handleLinkClick()}}>HOME</a> 
+                        <a href="#" onClick={() => { handleLinkClick() }}>HOME</a>
                         <AiFillDownCircle />
                       </div>
                       <div className="d-flex justify-content-between ms-3 me-3 pt-2">
-                        <a href="#" onClick={() => {navigate("/about"); handleLinkClick(); }}>
+                        <a href="#" onClick={() => { navigate("/about"); handleLinkClick(); }}>
                           ABOUT
                         </a>
                         <AiFillDownCircle />
                       </div>
                       <div className="d-flex justify-content-between ms-3 me-3 pt-2">
-                      <a onClick={() => {
-                            navigate("/faqs");
-                            handleLinkClick();
-                          }}>FAQS</a>
+                        <a onClick={() => {
+                          navigate("/faqs");
+                          handleLinkClick();
+                        }}>FAQS</a>
                         <AiFillDownCircle />
                       </div>
                       <div className="d-flex justify-content-between ms-3 me-3 pt-2">
-                      <a onClick={() => {
-                            navigate("/services");
-                            handleLinkClick();
-                          }}>Services</a>
+                        <a onClick={() => {
+                          navigate("/services");
+                          handleLinkClick();
+                        }}>Services</a>
                         <AiFillDownCircle />
                       </div>
                       <div className="d-flex justify-content-between ms-3 me-3 pt-2">
-                      <a onClick={() => {
-                            navigate("/pricing");
-                            setMenu3(false);
-                          }}>Pricing</a>
+                        <a onClick={() => {
+                          navigate("/pricing");
+                          setMenu3(false);
+                        }}>Pricing</a>
                         <AiFillDownCircle />
                       </div>
                       <div className="d-flex justify-content-between ms-3 me-3 pt-2">
@@ -427,10 +378,10 @@ const Header = () => {
                         <AiFillDownCircle />
                       </div>
                       <div className="d-flex justify-content-between ms-3 me-3 pt-2">
-                      <a onClick={() => {
-                navigate("/projects-details");
-                handleLinkClick(); // Close menu on link click
-              }}>Project Details</a>
+                        <a onClick={() => {
+                          navigate("/projects-details");
+                          handleLinkClick(); // Close menu on link click
+                        }}>Project Details</a>
                         <AiFillDownCircle />
                       </div>
                     </div>

@@ -8,7 +8,6 @@ url("./flaticon.svg?9507e3ce13618401d529b3527b45235b#flaticon") format("svg");
 }
 
 i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
-    font-family: flaticon !important;
     font-style: normal;
     font-weight: normal !important;
     font-variant: normal;

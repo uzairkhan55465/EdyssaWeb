@@ -12,13 +12,17 @@ const WhatWeOffer = () => {
               <span className="sub-title style-two mb-20">
                 Why Choose Our Ecwid Service
               </span>
-              <h2>
-                We combine design, functionality, and user experience to create
-                an online store that captures your brand's essence while
-                providing a seamless shopping experience. Reach out to us today
-                to explore how our Ecwid solutions can empower your brand's
-                online presence and drive e-commerce success.
-              </h2>
+              <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
+                <p style={{ fontWeight: "400", margin: "0px 5px" }}>
+                  We combine design, functionality, and user experience to create
+                  an online store that captures your brand's essence while
+                  providing a seamless shopping experience.
+                </p>
+                <p style={{ fontWeight: "400", margin: "0px 5px"  }}>
+                  Reach out to us today to explore how our Ecwid solutions can empower your brand's
+                  online presence and drive e-commerce success.
+                </p>
+              </div>
             </div>
           </div>
         </div>

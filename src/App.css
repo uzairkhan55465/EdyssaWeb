@@ -18,7 +18,6 @@
   margin-bottom: 25px;
   font-weight: 700;
   color: #293043;
-  font-family: "Merriweather", serif;
   font-size: 45px;
 }
 
@@ -63,8 +62,6 @@
 
 }
 i[class*=" flaticon-"]:before, i[class^=flaticon-]:before {
-  font-family: flaticon!important;
-  font-style: normal;
   font-weight: 400!important;
   font-variant: normal;
   text-transform: none;

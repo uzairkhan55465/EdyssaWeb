@@ -4,7 +4,7 @@ import { Button, Container } from "react-bootstrap";
 import Image1 from "../../../assets/images/hero-two.png";
 import Hero1 from "../../../assets/images/shapes/hero1.png";
 import Hero2 from "../../../assets/images/shapes/hero2.png";
-import { FaPlay, FaAngleDoubleRight } from "react-icons/fa";
+import { FaAngleDoubleRight } from "react-icons/fa";
 import Aos from "aos";
 const AboutMain = () => {
   useEffect(() => {
@@ -32,7 +32,7 @@ const AboutMain = () => {
                 <div className="hero-btns pt-3 mt-2 d-flex">
                   <div>
                     <a className="theme-btn mt-15">
-                    Explore Our Services <FaAngleDoubleRight className="mt-1 ms-2" />
+                      Explore Our Services <FaAngleDoubleRight className="mt-1 ms-2" />
                     </a>
                   </div>
                   {/* <div>
@@ -52,7 +52,7 @@ const AboutMain = () => {
                   </div> */}
                   <div>
                     <a className="theme-btn mt-15">
-                    Contact Us Today <FaAngleDoubleRight className="mt-1 ms-2" />
+                      Contact Us Today <FaAngleDoubleRight className="mt-1 ms-2" />
                     </a>
                   </div>
                 </div>

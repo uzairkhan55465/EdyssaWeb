@@ -53,6 +53,14 @@ const Support = () => {
                 <div className="col-xl-4 col-lg-6 col-md-4 col-sm-6">
                   <div className="service-item style-two">
                     <div className="icon">
+                      <i className="flaticon-search-location" />
+                    </div>
+                    <h5>Innovative Ideas</h5>
+                  </div>
+                </div>
+                <div className="col-xl-4 col-lg-6 col-md-4 col-sm-6">
+                  <div className="service-item style-two">
+                    <div className="icon">
                       <i className="flaticon-settings" />
                     </div>
                     <h5>Client-Centric  &amp; Approach</h5>

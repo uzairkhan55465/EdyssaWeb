@@ -23,7 +23,7 @@ const WhyChooseUs = () => {
 
             <div data-aos="fade-up" data-aos-duration="1000" className='pt-3 pb-3'>
                 <h1 className='design'>
-                Your Path to  <br />Exceptional Digital Solutions
+                Your Path to  Exceptional<br /> Digital Solutions
                 </h1>
             </div>
             <div className='row'>

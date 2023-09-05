@@ -5,8 +5,8 @@ const TeamsMembers = () => {
 
     return (
         <div>
-            <PopularServices title="Amazing Team" desc="We Have Well Experience Team Member"/>
-        
+            <PopularServices title="Our Team Members" desc="Exclusive Team Member" />
+
         </div>
     )
 }

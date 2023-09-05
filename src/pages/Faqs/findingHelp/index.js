@@ -14,9 +14,12 @@ const FindingHelp = () => {
                 <h2>How Can We Help</h2>
               </div>
               <p classNameName="pb-4">
-                Start building your first prototype in no time. Ogency intuitive
+                Start building your first prototype in no time. Ogency's intuitive
                 drag &amp; drop interface gives you all the building blocks that
                 you need to get started! No skills required.
+
+                Explore a wide range of templates and design options to
+                customize your project exactly how you envision it.
               </p>
               <form action="#" className="faq-search-form mt-40 mb-20">
                 <label for="search">

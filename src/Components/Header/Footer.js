@@ -18,43 +18,43 @@ const Foooter = () => {
                         <Col lg="8 mobile-col">
                             <Row>
                                 <Col lg="4" sm="4" xs="6"> <div className='footer-width'>
-                                    <p className='m-0' style={{ color: "white" }}>Categories</p>
+                                    <p className='m-0' style={{ color: "white",padding:"8px 0px" }}>Categories</p>
                                     <ul>
-                                        <li>Graphics &amp; Design</li>
-                                        <li>Digital Marketing</li>
-                                        <li>Writing &amp; Translation</li>
-                                        <li>Video &amp; Animation</li>
-                                        <li>Mobile App</li>
-                                        <li>Programming &amp; Tech</li>
-                                        <li>Data</li>
-                                        <li>Business</li>
-                                        <li>Lifestyle</li>
-                                        <li>Sitemap</li>
+                                        <li style={{fontSize:"13px"}}>Graphics &amp; Design</li>
+                                        <li style={{fontSize:"13px"}}>Digital Marketing</li>
+                                        <li style={{fontSize:"13px"}}>Writing &amp; Translation</li>
+                                        <li style={{fontSize:"13px"}}>Video &amp; Animation</li>
+                                        <li style={{fontSize:"13px"}}>Mobile App</li>
+                                        <li style={{fontSize:"13px"}}>Programming &amp; Tech</li>
+                                        <li style={{fontSize:"13px"}}>Data</li>
+                                        <li style={{fontSize:"13px"}}>Business</li>
+                                        <li style={{fontSize:"13px"}}>Lifestyle</li>
+                                        <li style={{fontSize:"13px"}}>Sitemap</li>
                                     </ul>
                                 </div></Col>
                                 <Col lg="4 " sm="4" xs="6">
                                     <div className='footer-width'>
-                                        <p className='m-0' style={{ color: "white" }}>About</p>
+                                        <p className='m-0' style={{ color: "white",padding:"8px 0px" }}>About</p>
                                         <ul>
-                                            <li>Careers</li>
-                                            <li>Press &amp; News</li>
-                                            <li>Partnerships</li>
-                                            <li>Privacy Policy</li>
-                                            <li>Terms of Service</li>
-                                            <li>Intellectual Property Claims</li>
-                                            <li>Investor Relations</li>
+                                            <li style={{fontSize:"13px"}}>Careers</li>
+                                            <li style={{fontSize:"13px"}}>Press &amp; News</li>
+                                            <li style={{fontSize:"13px"}}>Partnerships</li>
+                                            <li style={{fontSize:"13px"}}>Privacy Policy</li>
+                                            <li style={{fontSize:"13px"}}>Terms of Service</li>
+                                            <li style={{fontSize:"13px"}}>Intellectual Property Claims</li>
+                                            <li style={{fontSize:"13px"}}>Investor Relations</li>
                                         </ul>
                                     </div>
                                 </Col>
 
                                 <Col lg="4 " sm="4" xs="6">
                                     <div className='footer-width'>
-                                        <p className='m-0' style={{ color: "white" }}>Support</p>
+                                        <p className='m-0' style={{ color: "white",padding:"8px 0px" }}>Support</p>
                                         <ul>
-                                            <li>Help &amp; Support</li>
-                                            <li>Trust &amp; Safety</li>
-                                            <li>General Questions</li>
-                                            <li>Buying on Edyssa</li>
+                                            <li style={{fontSize:"13px"}}>Help &amp; Support</li>
+                                            <li style={{fontSize:"13px"}}>Trust &amp; Safety</li>
+                                            <li style={{fontSize:"13px"}}>General Questions</li>
+                                            <li style={{fontSize:"13px"}}>Buying on Edyssa</li>
                                         </ul>
                                     </div>
                                 </Col>
@@ -67,31 +67,31 @@ const Foooter = () => {
                         <Col lg="4 ">
                             <Row>
                                 <Col lg="6 " sm="6" xs="6"><div className='footer-width'>
-                                    <p className='m-0' style={{ color: "white" }}>Community</p>
+                                    <p className='m-0' style={{ color: "white",padding:"8px 0px" }}>Community</p>
                                     <ul>
-                                        <li>Events</li>
-                                        <li>Blog</li>
-                                        <li>Forum</li>
-                                        <li>Community Standards</li>
-                                        <li>Podcast</li>
-                                        <li>Affiliates</li>
-                                        <li>Invite a Friend</li>
-                                        <li>Become a Seller</li>
+                                        <li style={{fontSize:"13px"}}>Events</li>
+                                        <li style={{fontSize:"13px"}}>Blog</li>
+                                        <li style={{fontSize:"13px"}}>Forum</li>
+                                        <li style={{fontSize:"13px"}}>Community Standards</li>
+                                        <li style={{fontSize:"13px"}}>Podcast</li>
+                                        <li style={{fontSize:"13px"}}>Affiliates</li>
+                                        <li style={{fontSize:"13px"}}>Invite a Friend</li>
+                                        <li style={{fontSize:"13px"}}>Become a Seller</li>
                                     </ul>
                                 </div></Col>
                                 <Col lg="6 " sm="6" xs="6"> <div className='footer-width'>
-                                    <p className='m-0 ' style={{ color: "white" }}>More From Edyssa</p>
+                                    <p className='m-0 ' style={{ color: "white",padding:"8px 0px" }}>More From Edyssa</p>
                                     <ul>
-                                        <li>Edyssa Pro</li>
-                                        <li>Edyssa Studios</li>
-                                        <li>Edyssa Logo Maker</li>
-                                        <li>Edyssa Guides</li>
-                                        <li>Get Inspired</li>
-                                        <li>Edyssa Select</li>
-                                        <li>Clear Voice</li>
-                                        <li>Edyssa Workspace</li>
-                                        <li>Learn</li>
-                                        <li>Working Not Working</li>
+                                        <li style={{fontSize:"13px"}}>Edyssa Pro</li>
+                                        <li style={{fontSize:"13px"}}>Edyssa Studios</li>
+                                        <li style={{fontSize:"13px"}}>Edyssa Logo Maker</li>
+                                        <li style={{fontSize:"13px"}}>Edyssa Guides</li>
+                                        <li style={{fontSize:"13px"}}>Get Inspired</li>
+                                        <li style={{fontSize:"13px"}}>Edyssa Select</li>
+                                        <li style={{fontSize:"13px"}}>Clear Voice</li>
+                                        <li style={{fontSize:"13px"}}>Edyssa Workspace</li>
+                                        <li style={{fontSize:"13px"}}>Learn</li>
+                                        <li style={{fontSize:"13px"}}>Working Not Working</li>
                                     </ul>
                                 </div></Col>
                             </Row>
@@ -110,11 +110,11 @@ const Foooter = () => {
                 <Col lg={9} md={10} sm={10} xs={11} className='mx-auto'>
                     <div className='footerMenu py-1'>
                         <div className='d-flex ps-4 ms-2 pt-3'>
-                            <p className='pe-2 text-white'>Privacy Policy</p>
-                            <p className='text-white'>Terms & Conditions</p>
+                            <p className='pe-2 text-white' style={{fontSize:"12px"}}>Privacy Policy</p>
+                            <p className='text-white' style={{fontSize:"12px"}}>Terms & Conditions</p>
                         </div>
                         <div>
-                            <p className='pt-3 text-white'>Copyright 2022 © Edyssa. All Rights Reserved.</p>
+                            <p className='pt-3 text-white' style={{fontSize:"12px"}}>Copyright 2022 © Edyssa. All Rights Reserved.</p>
                         </div>
                         <div className='pt-2'>
                             <img src={Footer} alt='' className='footerImg' />

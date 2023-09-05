@@ -17,7 +17,7 @@ const TechnologyFeature = () => {
         <Container >
             <div style={{ display: 'flex', justifyContent: "center" }} data-aos="fade-right" data-aos-duration="1000" className='pt-4 pt-lg-0'>
                
-                <span className='technology-heading'>Technology Features</span>
+            <span className='technology-heading'>Technology Features</span>
                
             </div>
 

@@ -32,7 +32,7 @@ const App = () => {
   }, []);
 
   return (
-    <>
+    <div style={{ overflow: "hidden" }}>
       {isLoading ? <>
         <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "100vh" }}>
           <Loader />
@@ -52,7 +52,7 @@ const App = () => {
         </Routes>
         <Foooter /></>}
 
-    </>
+    </div>
 
   )
 }

@@ -108,8 +108,8 @@ const Header = () => {
   };
 
   return (
-    <div className="small-center">
-      <div id="header-sticky" className="tp-it-header__main p-relative">
+    <div className="small-center ">
+      <div id="header-sticky" className="tp-it-header__main p-relative pt-4 pb-4">
         <div class="container-fluid">
           <div class="row align-items-center">
             <div class="col-lg-3 col-md-2 col-3">
@@ -122,47 +122,13 @@ const Header = () => {
             <div class="col-xl-6 col-lg-6 col-md-8  d-none d-xl-block d-lg-block d-md-block ">
               <ul className="menu d-flex justify-content-around">
                 <li className="menu-item" onClick={() => { OpenSubMenu(1); navigate("/") }}>
-                  <a >HOME</a>
+                  <a className="about-hover">HOME</a>
                 </li>
 
                 <li className="menu-item" onClick={() => navigate("/about")}>
                   <a className="about-hover">ABOUT</a>
+                </li>
 
-                  {/* <div className="dropdown" style={{ backgroundColor: '#070707' }}>
-                                 
-                                    sadasdasdas
-                                </div> */}
-                </li>
-                <li className="menu-item" onClick={() => OpenSubMenu(2)}>
-                  <a href="#">SHOP</a>
-                  {menu2 === true ? (
-                    <AiOutlineMinus
-                      style={{ color: "red", fontWeight: "100" }}
-                    />
-                  ) : (
-                    <AiOutlinePlus
-                      style={{ color: "red", fontWeight: "100" }}
-                    />
-                  )}
-                  {menu2 === 2 && (
-                    <div
-                      className="dropdowntwo dropdown_menu dropdown_menu--animated dropdown_menu-7 px-4"
-                      style={{ backgroundColor: "#070707" }}
-                    >
-                      <ul>
-                        <li>
-                          <a href="index.html">Shop</a>
-                        </li>
-                        <li>
-                          <a href="index-2.html">Shop Details</a>
-                        </li>
-                        <li>
-                          <a href="index-3.html">Checkout Page</a>
-                        </li>
-                      </ul>
-                    </div>
-                  )}
-                </li>
                 <li className="menu-item">
                   <a href="#" onClick={() => OpenSubMenu(3)}>
                     PAGES
@@ -231,15 +197,7 @@ const Header = () => {
                   <a href="#" onClick={() => OpenSubMenu(4)}>
                     BLOG
                   </a>
-                  {menu4 === true ? (
-                    <AiOutlineMinus
-                      style={{ color: "red", fontWeight: "100" }}
-                    />
-                  ) : (
-                    <AiOutlinePlus
-                      style={{ color: "red", fontWeight: "100" }}
-                    />
-                  )}
+
                   {menu4 === 4 && (
                     <div
                       className="dropdowntwo dropdown_menu dropdown_menu--animated dropdown_menu-7 px-4"
@@ -255,21 +213,23 @@ const Header = () => {
                         <li>
                           <a href="index-3.html">Blog Details</a>
                         </li>
+
                       </ul>
                     </div>
                   )}
                 </li>
 
-                {/* Repeat the same pattern for other menu items */}
-              </ul>
-
-              <ul className="text-center">
                 <li
                   className="menu-item"
                   onClick={() => navigate("/contactus")}
                 >
-                  <a>Contact</a>
+                  <a className="about-hover">Contact</a>
                 </li>
+                {/* Repeat the same pattern for other menu items */}
+              </ul>
+
+              <ul className="text-center">
+
               </ul>
             </div>
             <div class="col-xl-3 col-lg-3 col-md-2  d-none d-xl-block d-lg-block  d-md-block align-items-center">
@@ -277,14 +237,14 @@ const Header = () => {
                 <div class="tp-it-header__main-cta">
                   <p className="mb-0">
                     <span style={{ fontWeight: "300", fontSize: "1rem" }}>
-                      <HiMailOpen style={{ color: "red", fontSize: "20px" }} />{" "}
+                      <HiMailOpen style={{ color: "#01c9f5", fontSize: "20px" }} />{" "}
                       SUPPORT EMAIL
                     </span>
                   </p>
                   <p>
                     {" "}
                     <a href="mailto:info@gencio.com" className="infoo">
-                      INFO@GENCIO.COM
+                      info@edyssa.com
                     </a>
                   </p>
                 </div>
@@ -293,23 +253,23 @@ const Header = () => {
             <div class="col-9 d-xl-none d-lg-none d-md-none">
               <div class="tp-header-search-nav d-flex justify-content-end">
                 <div>
-                <GiHamburgerMenu onClick={() => OpenHandler() } />
+                  <GiHamburgerMenu onClick={() => OpenHandler()} />
                 </div>
                 {open && (
-        <div className="d-flex justify-content-center hamburger">
-          <div className="d-flex justify-content-between ms-3 me-3 pt-2">
-  <a href="#">HOME</a>
-  <AiFillDownCircle />
-</div>
-<div className="d-flex justify-content-between ms-3 me-3 pt-2">
-  <a href="#" onClick={() => navigate("/about")}>
-    ABOUT
-  </a>
-  <AiFillDownCircle />
-</div>
+                  <div className="d-flex justify-content-center hamburger">
+                    <div className="d-flex justify-content-between ms-3 me-3 pt-2">
+                      <a href="#">HOME</a>
+                      <AiFillDownCircle />
+                    </div>
+                    <div className="d-flex justify-content-between ms-3 me-3 pt-2">
+                      <a href="#" onClick={() => navigate("/about")}>
+                        ABOUT
+                      </a>
+                      <AiFillDownCircle />
+                    </div>
 
-        </div>
-      )}
+                  </div>
+                )}
 
 
 
@@ -321,7 +281,7 @@ const Header = () => {
                     >
                       <div className="d-flex justify-content-between ms-3 me-3 pt-2">
                         <a href="#">HOME</a>
-                        <AiFillDownCircle  />
+                        <AiFillDownCircle />
                         <a href="#" onClick={() => { handleLinkClick() }}>HOME</a>
                         <AiFillDownCircle />
                       </div>

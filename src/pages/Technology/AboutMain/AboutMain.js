@@ -29,31 +29,16 @@ const AboutMain = () => {
                   innovation and design to help your brand stand out in the
                   digital landscape. From stunning websites to seamless user
                   interfaces, we're here to elevate your online presence.</p>
-                <div className="hero-btns pt-3 mt-2 d-flex">
+                <div className="hero-btns pt-3 mt-2 d-flex align-items-center">
                   <div>
-                    <a className="theme-btn mt-15">
-                      Explore Our Services <FaAngleDoubleRight className="mt-1 ms-2" />
+                    <a className="theme-btn mt-15" >
+                      Explore Now <FaAngleDoubleRight className="mt-1 ms-2" />
                     </a>
                   </div>
-                  {/* <div>
-                    <a
-                      href="https://www.youtube.com/watch?v=9Y7ma241N8k"
-                      className="mfp-iframe video-play-text mt-15"
-                    >
-                      <div className="d-flex">
-                        <div className="play">
-                          <FaPlay className="play-icon" />
-                        </div>
-                        <div className="d-flex align-items-center">
-                          <span>Contact Us Today</span>
-                        </div>
-                      </div>
-                    </a>
-                  </div> */}
-                  <div>
-                    <a className="theme-btn mt-15">
-                      Contact Us Today <FaAngleDoubleRight className="mt-1 ms-2" />
-                    </a>
+                  <div style={{paddingTop:"10px"}}>
+                    <Button className="theme-btn" variant="outlined" style={{ border: "1px solid white", padding: "15px 35px", display: "flex", alignItems: "center" }}>
+                      Contact Us  <FaAngleDoubleRight className="mt-1 ms-2" />
+                    </Button>
                   </div>
                 </div>
               </div>

@@ -16,8 +16,10 @@ import Member2 from "./../assets/images/member2.jpg"
 import Member3 from "./../assets/images/member3.jpg"
 import Member4 from "./../assets/images/member4.jpg"
 import thick from "./../assets/images/thick.png"
+import Avatar from "./../assets/images/avatar.jpg"
 
 const ExportObject = {
+    Avatar,
     Image1,
     Image2,
     Image3,

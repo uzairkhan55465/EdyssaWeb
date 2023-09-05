@@ -19,17 +19,24 @@
     font-size: 16px;
     font-family: "Roboto", sans-serif;
 }
-@media only screen and (min-width: 576px){}
-.theme-btn.style-three, a.theme-btn.style-three {
+
+@media only screen and (min-width: 576px) {}
+
+.theme-btn.style-three,
+a.theme-btn.style-three {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.theme-btn.style-three, a.theme-btn.style-three {
+
+.theme-btn.style-three,
+a.theme-btn.style-three {
     color: #293043;
     background: transparent;
     border: 1px solid rgba(0, 102, 255, 0.2);
 }
-.theme-btn, a.theme-btn {
+
+.theme-btn,
+a.theme-btn {
     z-index: 1;
     color: white;
     cursor: pointer;
@@ -52,8 +59,9 @@
     -ms-flex-pack: center;
     justify-content: center;
     text-transform: capitalize;
-    background: #0066ff;
+    background: #0A2449 !important;
 }
+
 a {
     color: #696e7b;
     cursor: pointer;
@@ -63,6 +71,7 @@ a {
     transition: 0.5s;
     text-decoration: none;
 }
+
 .wave-shapes {
     position: absolute;
     z-index: -1;
@@ -71,6 +80,7 @@ a {
     width: calc(100% + 100px);
     height: 100%;
 }
+
 .wave-shapes .shape {
     position: absolute;
     bottom: 0;
@@ -79,6 +89,7 @@ a {
     -webkit-animation: leftRightOne 6s infinite;
     animation: leftRightOne 6s infinite;
 }
+
 .wave-shapes .shape img {
     max-width: 100%;
     display: inline-block;
@@ -88,6 +99,7 @@ a {
     -webkit-animation-delay: 3s;
     animation-delay: 3s;
 }
+
 .wave-shapes .shape {
     position: absolute;
     bottom: 0;
@@ -96,16 +108,19 @@ a {
     -webkit-animation: leftRightOne 6s infinite;
     animation: leftRightOne 6s infinite;
 }
-@media (max-width: 991px) and (min-width: 320px){
-    .paddings{
-        padding-top: 5px!important;
-        padding-bottom: 10px!important;
+
+@media (max-width: 991px) and (min-width: 320px) {
+    .paddings {
+        padding-top: 5px !important;
+        padding-bottom: 10px !important;
     }
-    .smallcenter{
+
+    .smallcenter {
         display: flex;
         justify-content: center;
     }
-    .text-style{
+
+    .text-style {
         text-align: center;
     }
 }

@@ -16,13 +16,13 @@ const PopularServices = ({ title, desc }) => {
   }, []);
 
   return (
-    <div>
+    <div style={{padding:"30px 0px 0px 0px "}}>
       <Container>
         <div
           data-aos="fade-up"
           data-aos-duration="1000"
           style={{
-            paddingTop: "40px",
+            paddingTop: "60px",
             display: "flex",
             justifyContent: "center",
           }}
@@ -48,7 +48,10 @@ const PopularServices = ({ title, desc }) => {
                 <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6" key={id}>
                   <div className="team-member wow fadeInUp delay-0-2s">
                     <div className="image">
-                      <img src={items?.img} alt="Member" />
+                      <img style={{
+                        width: " 100%",
+                        height: "160px"
+                      }} src={items?.img} alt="Member" />
                     </div>
                     <div className="content d-flex flex-column align-items-center">
                       <h5>{items?.name}</h5>

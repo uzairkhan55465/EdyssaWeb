@@ -1,9 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .App {
   text-align: center;
 }
-.icon-color-mobile{
-  color:red !important;
+
+.icon-color-mobile {
+  color: red !important;
 }
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -14,6 +20,7 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
 .section-title {
   margin-bottom: 25px;
   font-weight: 700;
@@ -22,9 +29,10 @@
 }
 
 .icon-color {
-  color: #01c9f5!important;
-  font-size: 18px!important;
+  color: #01c9f5 !important;
+  font-size: 18px !important;
 }
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -44,41 +52,51 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
+
 @media screen and (max-width: 768px) {
   [data-aos="fade-left"] {
-      transform: none !important;
-      transition: none !important;
+    transform: none !important;
+    transition: none !important;
   }
+
   [data-aos="fade-right"] {
-      transform: none !important;
-      transition: none !important;
+    transform: none !important;
+    transition: none !important;
   }
- 
+
 
 
 }
-i[class*=" flaticon-"]:before, i[class^=flaticon-]:before {
-  font-weight: 400!important;
+
+i[class*=" flaticon-"]:before,
+i[class^=flaticon-]:before {
+  font-weight: 400 !important;
   font-variant: normal;
   text-transform: none;
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 .flaticon-data-transfer:before {
   content: "\f119";
 }
-*, ::after, ::before {
+
+*,
+::after,
+::before {
   box-sizing: border-box;
 }
-user agent stylesheet
-i {
+
+user agent stylesheet i {
   font-style: italic;
 }
+
 .service-item .icon {
   font-size: 65px;
   -webkit-transition: 0.5s;

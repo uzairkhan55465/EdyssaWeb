@@ -31,7 +31,7 @@ const Clients = () => {
                     <div className="col-xl-5 col-lg-6 col-md-12 col-sm-12 col-xs-12">
                         <div className="about-content wow fadeInUp delay-0-4s">
                             <div className="section-title mb-30">
-                                <span className="sub-title mb-15">
+                            <span className="sub-title mb-15">
                                     About digital solutions
                                 </span>
                                 <h2>We’re Award-winning web design studio</h2>

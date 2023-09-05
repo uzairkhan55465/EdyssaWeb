@@ -17,14 +17,7 @@ const CompanyStatistics = () => {
                     Edyssa.
                   </h2>
                 </div>
-                <p className="pb-2">
-                  Description: At Edyssa, our Ecwid service is designed to take
-                  your online store to the next level. Whether you're starting
-                  from scratch or looking to migrate your existing store, our
-                  expertise in Ecwid ensures that your e-commerce venture is not
-                  only visually captivating but also efficient, user-friendly,
-                  and poised for growth.
-                </p>
+    
                 <a className="theme-btn mt-15" href="/about">
                   Learn More <i className="fas fa-angle-double-right"></i>
                 </a>

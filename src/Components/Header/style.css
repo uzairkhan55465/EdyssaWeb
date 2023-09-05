@@ -609,8 +609,8 @@ nav ul li:hover .dropdown-menu ul li a {
   padding: 32px 0px;
   position: absolute;
   width: 254px;
-  top: 100px;
-  left: 0;
+  top: 117px;
+  left: 100px;
   z-index: 9;
 }
 
@@ -622,10 +622,10 @@ nav ul li:hover .dropdown-menu ul li a {
 
 .menu-item .mega-menu {
   position: absolute;
-  top: 178px;
+  top: 117px;
   width: 1100px;
   background-color: black;
-  left: 0px;
+  left: 100px;
   z-index: 99;
   margin-left: -635px;
   padding: 0px 80px 30px 80px;
@@ -668,16 +668,16 @@ nav ul li:hover .dropdown-menu ul li a {
   } */
 
 .menu-item:hover a {
-  color: red;
+  color: #01c9f5;
 }
 .about-hover:hover{
-  color: red;}
+  color: #01c9f5;}
 .menu-item li a:hover{
-  color: red;
+  color: #01c9f5;
 }
 
 .menu-item:hover svg {
-  color: red;
+  color: #01c9f5;
 }
 
 .menu-item a {
@@ -713,7 +713,7 @@ nav ul li:hover .dropdown-menu ul li a {
 
 .menu-item .dropdowntwo ul li a:hover {
   margin-left: 30px;
-  color: #ff3c58;
+  color: #01c9f5;
 }
 
 /* .menu-item .dropdowntwo ul li a::before{

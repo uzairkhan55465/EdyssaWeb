@@ -4,12 +4,12 @@ import { FaAngleDoubleRight, FaReact } from 'react-icons/fa';
 import { ServicesCards } from "../../constant/Skills"
 const PopularServices = () => {
     return (
-        <section className="services-area pt-130 pb-100 rel z-1">
+        <section style={{padding:"30px 0px"}} className="services-area  rel z-1">
             <div className="container">
-                <div className="section-title text-center mb-55 d-flex justify-content-center">
-                    
+                <div style={{paddingBottom:"5px"}} className="section-title text-center d-flex justify-content-center">
+
                     <span className='Mission-heading'>Our Popular Services</span>
-                  
+
                 </div>
                 <div className='text-center  mb-15 pt-2 section-title'>
                     <h2 >Amazing Web Design Service</h2>

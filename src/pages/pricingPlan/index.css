@@ -241,7 +241,7 @@
     -ms-flex-pack: center;
     justify-content: center;
     text-transform: capitalize;
-    background: #0066ff;
+    background: #0A2449 !important;
 }
 @media (max-width: 991px) and (min-width: 320px){
     .pricing-plan-item .price-features .list-style-two {

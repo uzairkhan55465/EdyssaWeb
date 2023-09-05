@@ -84,7 +84,7 @@ textarea.form-control {
     justify-content: center;
     border: transparent;
     text-transform: capitalize;
-    background: #0066ff;
+    background: #0A2449 !important;
 }
 .contact-info-item.style-two {
     padding: 35px 40px;

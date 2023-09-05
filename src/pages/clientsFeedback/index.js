@@ -13,12 +13,12 @@ import Man2 from "../../assets/images/feedback/man2.jpg"
 const ClientsFeedback=()=>{
     return(
         <Container fluid className="px-0">
-   <section className="feedback-area py-130 rel z-1">
+   {/* <section className="feedback-area py-130 rel z-1">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-6 col-lg-8">
               <div className="section-title text-center mb-40 wow fadeInUp delay-0-2s cardBottom">
-                <span className="Mission-heading mb-20">Clients Feedback</span>
+              <span className="Mission-heading mb-20">Clients Feedback</span>
                 <h2>3,000+ Positive reviews by our satisfied clients</h2>
               </div>
             </div>
@@ -140,7 +140,7 @@ const ClientsFeedback=()=>{
         <div className="feedback-shape two">
           <img src={Man2} alt="Man Shape" />
         </div>
-      </section>
+      </section> */}
         </Container>
      
     )

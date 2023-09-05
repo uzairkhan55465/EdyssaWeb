@@ -22,7 +22,7 @@ const ContactFooter = () => {
                             <button class="theme-btn">Subscribe Now <i class="fas fa-angle-double-right"></i></button>
                         </form></div></div></div></div><div class="footer-bottom mt-30 pt-25 pb-10"><div class="container">
                             <div class="row align-items-center"><div class="col-lg-6"><div class="copyright-text text-center text-lg-start">
-                                <p>© Copyright 2022 Oxence. All right reserved</p></div></div>
+                                <p style={{fontSize:"14px"}}>© Copyright 2022 Oxence. All right reserved</p></div></div>
                                 <div class="col-lg-6"><div class="footer-bottom-menu mb-10 text-center text-lg-end"><ul>
                                     <li><a href="#">Setting &amp; Privacy</a></li><li><a href="#">About</a></li><li><a href="#">Faqs</a></li></ul></div></div></div></div></div></footer>
     )

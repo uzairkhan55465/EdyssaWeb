@@ -15,8 +15,8 @@ const AboutCards = () => {
                   <div className="content">
                     <h4>Customize your site</h4>
                     <p>
-                      Sit amet consectetur adipiscing sed eiusmod tempor
-                      incididunt labore et dolore magnaes epsums
+                      Tailor your website to perfection with our expert customization services. Achieve your unique online vision effortlessly.
+
                     </p>
                   </div>
                 </div>
@@ -27,8 +27,7 @@ const AboutCards = () => {
                   <div className="content">
                     <h4>Edit your mobile view</h4>
                     <p>
-                      Sit amet consectetur adipiscing sed eiusmod tempor
-                      incididunt labore et dolore magnaes epsums
+                      Enhance mobile user experiences with our tailored design adjustments. Seamlessly optimize your site for on-the-go browsing.
                     </p>
                   </div>
                 </div>
@@ -39,8 +38,7 @@ const AboutCards = () => {
                   <div className="content">
                     <h4>Add advanced features</h4>
                     <p>
-                      Sit amet consectetur adipiscing sed eiusmod tempor
-                      incididunt labore et dolore magnaes epsums
+                      Elevate your website's functionality with advanced features. Unlock new capabilities to engage and impress your online audience.
                     </p>
                   </div>
                 </div>
@@ -51,8 +49,7 @@ const AboutCards = () => {
                   <div className="content">
                     <h4>Optimize for search engines</h4>
                     <p>
-                      Sit amet consectetur adipiscing sed eiusmod tempor
-                      incididunt labore et dolore magnaes epsums
+                      Boost your online visibility and traffic. Let us optimize your website for search engines and get noticed by your target audience.
                     </p>
                   </div>
                 </div>

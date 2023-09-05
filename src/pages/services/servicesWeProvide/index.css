@@ -70,7 +70,7 @@
     -ms-flex-pack: center;
     justify-content: center;
     text-transform: capitalize;
-    background: #0066ff;
+    background: #0A2449 !important;
 }
 
 .theme-btn.style-three, a.theme-btn.style-three {

@@ -4,6 +4,7 @@ import { BsPlayFill } from "react-icons/bs";
 import Women from "../../../assets/images/about/ww-do-two1.jpg";
 import Img2 from "../../../assets/images/about/ww-do-two2.jpg";
 import Img3 from "../../../assets/images/about/ww-do-two3.jpg";
+import { FaPlay } from "react-icons/fa";
 const DigitalTeam = () => {
   return (
     <section class="ww-do-two-area py-130 rel z-1">
@@ -52,12 +53,12 @@ const DigitalTeam = () => {
                   Create Your Website
                   <i class="fas fa-angle-double-right"></i>
                 </a>
-                <a
-                  href="https://www.youtube.com/watch?v=9Y7ma241N8k"
-                  class="mfp-iframe video-play-text mt-15"
-                >
-                  <i class="fas fa-play"></i> <span>Watch Videos</span>
+                <a href="https://www.youtube.com/watch?v=9Y7ma241N8k" class="mfp-iframe video-play-text mt-15">
+                  <div className="play">
+                    <FaPlay className="play-icon" />
+                  </div> <span>Watch Videos</span>
                 </a>
+
               </div>
             </div>
           </div>

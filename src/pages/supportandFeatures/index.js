@@ -96,7 +96,7 @@ const Support = () => {
           <div className="col-lg-5">
             <div className="support-features-content mb-30 wow fadeInUp delay-0-4s">
               <div className="section-title mb-30">
-                <span className="Mission-heading mb-15">
+              <span className="Mission-heading mb-15">
                   Support &amp; Features
                 </span>
                 <h2>Empowering Your Journey with Unparalleled Support</h2>

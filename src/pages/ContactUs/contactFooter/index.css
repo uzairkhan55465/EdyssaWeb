@@ -1,27 +1,38 @@
-.pt-80, .py-80 {
+.pt-80,
+.py-80 {
     padding-top: 80px;
 }
+
 .footer-bottom {
     position: relative;
     border-top: 1px solid rgba(0, 102, 255, 0.1);
 }
 
-.mt-30, .my-30 {
+.mt-30,
+.my-30 {
     margin-top: 30px;
 }
-.pb-10, .py-10 {
+
+.pb-10,
+.py-10 {
     padding-bottom: 10px;
 }
-.pt-25, .py-25 {
+
+.pt-25,
+.py-25 {
     padding-top: 25px;
 }
+
 .footer-bottom .copyright-text {
     font-size: 18px;
     color: #293043;
 }
-.mb-10, .my-10 {
+
+.mb-10,
+.my-10 {
     margin-bottom: 10px;
 }
+
 .footer-bottom-menu ul {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
@@ -35,16 +46,19 @@
     margin: 0 15px 5px;
     list-style: none;
 }
+
 .social-style-two a:hover {
     color: white;
     background: #0066ff;
 }
+
 .widget_nav_menu .list-style-two li:before {
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
     background: #afafaf;
 }
+
 .list-style-two li:before {
     width: 5px;
     height: 5px;
@@ -57,7 +71,8 @@
     border-radius: 50%;
     background: #01c9f5;
 }
-@media only screen and (min-width: 376px){
+
+@media only screen and (min-width: 376px) {
     .widget_nav_menu .list-style-two {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -66,14 +81,17 @@
         flex-wrap: wrap;
     }
 }
-@media only screen and (min-width: 376px){
+
+@media only screen and (min-width: 376px) {
     .widget_nav_menu .list-style-two li:nth-child(odd) {
         width: 55%;
     }
 }
+
 .footer-widget {
     margin-bottom: 50px;
 }
+
 .widget_newsletter .footer-title {
     margin-bottom: 2px;
     margin-bottom: 25px;
@@ -84,13 +102,16 @@
 .widget_nav_menu .list-style-two li {
     margin-bottom: 8px;
 }
+
 .widget_newsletter form input {
     border: none;
     margin-top: 10px;
     padding: 14px 30px;
     margin-bottom: 15px;
 }
-.theme-btn, a.theme-btn {
+
+.theme-btn,
+a.theme-btn {
     z-index: 1;
     color: white;
     cursor: pointer;
@@ -113,12 +134,14 @@
     -ms-flex-pack: center;
     justify-content: center;
     text-transform: capitalize;
-    background: #0066ff;
+    background: #0A2449 !important;
 }
+
 .widget_newsletter {
     padding: 35px 40px 45px;
     background: url(../../../assets/images/newslette-widget-bg.png) no-repeat center/cover;
 }
+
 .banner-inner h1:after {
     position: absolute;
     content: '';

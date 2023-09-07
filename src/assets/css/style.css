@@ -9711,7 +9711,7 @@ h6,
 
 /* Our Location */
 .our-location-address-area {
-  margin-top: -250px;
+  margin-top: -50px;
   -webkit-transform: translateY(250px);
   -ms-transform: translateY(250px);
   transform: translateY(250px);
@@ -9768,7 +9768,8 @@ h6,
 
 /* Google Map */
 .our-location {
-  margin-bottom: -15px;
+  width: 50% !important;
+  margin-bottom: -155px;
 }
 
 .our-location iframe {

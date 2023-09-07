@@ -112,7 +112,7 @@ const Header = () => {
       <div id="header-sticky" className="tp-it-header__main p-relative pt-4 pb-4">
         <div class="container-fluid">
           <div class="row align-items-center">
-            <div class="col-lg-3 col-md-2 col-3">
+            <div class="col-lg-3 col-md-2 col-3 ps-4 pe-4">
               <div class="logo">
                 <a href="index.html">
                   <img src={Logo} alt="logo" className="logosm" />
@@ -147,11 +147,6 @@ const Header = () => {
                   {menu3 === 3 && (
                     <div className="mega-menu dropdowntwo dropdown_menu dropdown_menu--animated dropdown_menu-7">
                       <ul>
-                        <li>
-                          <a className="mega-head" href="#">
-                            Layout 1
-                          </a>
-                        </li>
 
                         <li>
                           <a
@@ -189,31 +184,6 @@ const Header = () => {
                             Project Details
                           </a>
                         </li>
-                      </ul>
-                    </div>
-                  )}
-                </li>
-                <li className="menu-item">
-                  <a href="#" onClick={() => OpenSubMenu(4)}>
-                    BLOG
-                  </a>
-
-                  {menu4 === 4 && (
-                    <div
-                      className="dropdowntwo dropdown_menu dropdown_menu--animated dropdown_menu-7 px-4"
-                      style={{ backgroundColor: "#070707" }}
-                    >
-                      <ul>
-                        <li>
-                          <a href="index.html">Blog</a>
-                        </li>
-                        <li>
-                          <a href="index-2.html">Blog List</a>
-                        </li>
-                        <li>
-                          <a href="index-3.html">Blog Details</a>
-                        </li>
-
                       </ul>
                     </div>
                   )}

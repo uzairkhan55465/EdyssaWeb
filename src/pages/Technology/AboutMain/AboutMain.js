@@ -36,7 +36,7 @@ const AboutMain = () => {
                     </a>
                   </div>
                   <div style={{paddingTop:"10px"}}>
-                    <Button className="theme-btn" variant="outlined" style={{ border: "1px solid white", padding: "15px 35px", display: "flex", alignItems: "center" }}>
+                    <Button  variant="outlined" style={{ border: "1px solid white", padding: "15px 35px", display: "flex", alignItems: "center" }}>
                       Contact Us  <FaAngleDoubleRight className="mt-1 ms-2" />
                     </Button>
                   </div>

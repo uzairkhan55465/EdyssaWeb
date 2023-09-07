@@ -9,10 +9,10 @@ const AskedQuestions = () => {
           <div class="col-xl-6 col-lg-8 wow fadeInUp delay-0-2s">
             <div class="section-title mb-35">
               <span class="sub-title style-two mb-15">Faqs</span>
-              <h2>Asked Questions about Website Design</h2>
+              <h2 style={{fontSize:"28px"}}>Asked Questions about Website Design</h2>
             </div>
           </div>
-          <div class="col-lg-4 text-lg-end wow fadeInUp delay-0-4s d-flex justify-content-center justify-content-lg-start">
+          <div class="col-lg-4 text-lg-end wow fadeInUp pt-4 delay-0-4s d-flex justify-content-center justify-content-lg-start">
             <a class="theme-btn style-three mb-55" href="/contact">
               Add Questions <i class="fas fa-angle-double-right"></i>
             </a>

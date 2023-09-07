@@ -6,7 +6,7 @@ import PricingPlan from "./pricingPlan"
 const ServicesPages = () => {
     return (
         <>
-        <div  style={{ overflow: 'auto' }}>
+        <div  style={{ overflow: 'hidden' }}>
             <ServicesHead />
             <CompanyStatistics />
             <WorkingProcess />

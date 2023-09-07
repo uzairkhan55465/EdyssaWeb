@@ -21,7 +21,8 @@ const WorkingProcess = () => {
                   <i className="flaticon-optimization"></i>
                 </div>
                 <h4>Info Gathering</h4>
-                <p>Sit amet consectetur adipiscing elit sed eiusmod tempor</p>
+                <p>This is the initial phase where you collect all the necessary information related to your project.
+                  It involves research, data gathering, and understanding the context.</p>
               </div>
             </div>
             <div className="col-xl-3 col-lg-5 col-sm-6">
@@ -31,7 +32,8 @@ const WorkingProcess = () => {
                   <i className="flaticon-link"></i>
                 </div>
                 <h4>Idea Planning</h4>
-                <p>Sit amet consectetur adipiscing elit sed eiusmod tempor</p>
+                <p>Once you have gathered sufficient information, the next step is to
+                  brainstorm and generate ideas for your project.</p>
               </div>
             </div>
             <div className="col-xl-3 col-lg-5 col-sm-6">
@@ -41,7 +43,8 @@ const WorkingProcess = () => {
                   <i className="flaticon-data"></i>
                 </div>
                 <h4>Design Analysis</h4>
-                <p>Sit amet consectetur adipiscing elit sed eiusmod tempor</p>
+                <p>After you've generated ideas, it's important to analyze and refine them.
+                  This is where you start shaping your project.</p>
               </div>
             </div>
             <div className="col-xl-3 col-lg-5 col-sm-6">
@@ -51,7 +54,8 @@ const WorkingProcess = () => {
                   <i className="flaticon-star"></i>
                 </div>
                 <h4>Testing &amp; Lunch</h4>
-                <p>Sit amet consectetur adipiscing elit sed eiusmod tempor</p>
+                <p>Testing is a critical step to ensure that your project works as
+                  intended and meets quality standards.</p>
               </div>
             </div>
           </div>

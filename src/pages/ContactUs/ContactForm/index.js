@@ -18,9 +18,9 @@ const ContactUsForm = () => {
                   </h2>
                 </div>
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque lauda tiumes totam rem aperiam, eaque
-                  ipsa quae ab illo inventore veritatis et quasi architecto
+
+                  Embark on a new project or join forces with us to bring your ideas to life. Contact us today to explore
+                  exciting opportunities and creative endeavors. We look forward to working together!
                 </p>
                 <form
                   onSubmit={(e) => e.preventDefault()}
@@ -30,7 +30,6 @@ const ContactUsForm = () => {
                   <div className="row pt-15 mt-4">
                     <div className="col-md-6">
                       <div className="form-group">
-                        <label htmlFor="name">Full Name</label>
                         <input
                           type="text"
                           id="name"
@@ -46,7 +45,6 @@ const ContactUsForm = () => {
                     </div>
                     <div className="col-md-6">
                       <div className="form-group">
-                        <label htmlFor="email">Email Address</label>
                         <input
                           type="email"
                           id="email"
@@ -62,7 +60,6 @@ const ContactUsForm = () => {
                     </div>
                     <div className="col-md-6">
                       <div className="form-group">
-                        <label htmlFor="phone_number">Phone Number</label>
                         <input
                           type="text"
                           id="phone_number"
@@ -75,9 +72,7 @@ const ContactUsForm = () => {
                     </div>
                     <div className="col-md-6">
                       <div className="form-group">
-                        <label htmlFor="select_subject">
-                          Select Requirments
-                        </label>
+
                         <select name="select_subject" id="select_subject">
                           <option value="default" selected="">
                             Website customize
@@ -94,7 +89,6 @@ const ContactUsForm = () => {
                     </div>
                     <div className="col-md-12">
                       <div className="form-group">
-                        <label htmlFor="message">Write Message</label>
                         <textarea
                           name="message"
                           id="message"
@@ -132,7 +126,7 @@ const ContactUsForm = () => {
                   <div className="content">
                     <span className="title">LOCATION</span>
                     <span className="text">
-                      55 Main Street, 2nd Floor, E-Block, New York
+                      Islamabad, Pakistan
                     </span>
                   </div>
                 </div>

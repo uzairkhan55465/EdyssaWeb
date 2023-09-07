@@ -14,9 +14,8 @@ const FindingHelp = () => {
                 <h2>How Can We Help</h2>
               </div>
               <p classNameName="pb-4">
-                Start building your first prototype in no time. Ogency's intuitive
-                drag &amp; drop interface gives you all the building blocks that
-                you need to get started! No skills required.
+                Begin your first business website with Edyssa and 
+                elevate it to a professional standard.
 
                 Explore a wide range of templates and design options to
                 customize your project exactly how you envision it.

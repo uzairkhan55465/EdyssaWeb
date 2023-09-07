@@ -33,10 +33,10 @@ const WhyChooseUs = () => {
                                 <div key={items?.id} className='mb-4'>
                                     <div className='d-flex'>
                                         <div className='tick mt-2'>
-                                            <img src={items?.img} alt='thick' />
+                                            <img style={{height:"25px" ,width:"25px"}} src={items?.img} alt='thick' />
                                         </div>
 
-                                        <div className='ps-2'>
+                                        <div className='ps-6 pt-2'>
                                             <div>
                                                 <span className='chosse-us-text'>{items?.heading}</span>
                                             </div>
